@@ -26,6 +26,42 @@ window.PORTFOLIO_PROJECTS = [
         "caption": "Night-canopy concept visualisation. Atmospheric proposal, not a built project or a CAD-accurate Arch54 model."
       },
       {
+        "file": "assets/sculpta-slide-why-s-unit.jpg",
+        "caption": "Why an S-shaped unit: a mirrored hyperbolic-paraboloid surface gives depth, a cavity and four ports."
+      },
+      {
+        "file": "assets/sculpta-slide-final-unit.jpg",
+        "caption": "Final digital unit: shoulders, light-transmitting wall, paired fluid passages and canopy assembly."
+      },
+      {
+        "file": "assets/sculpta-slide-aggregation.jpg",
+        "caption": "From one unit to a cluster to an architectural field."
+      },
+      {
+        "file": "assets/sculpta-slide-join.jpg",
+        "caption": "JOIN connector: PETG body, proposed TPU seals and M3 fasteners for removal."
+      },
+      {
+        "file": "assets/sculpta-slide-print-revision.jpg",
+        "caption": "Printing feedback: 1.0 mm faces broke in handling; R2 moved to a 1.2 mm face and smoother shoulder."
+      },
+      {
+        "file": "assets/sculpta-slide-unit-to-field.jpg",
+        "caption": "Physical PETG prototype: repeated units assembled into a field."
+      },
+      {
+        "file": "assets/sculpta-slide-barrel-vault.jpg",
+        "caption": "Application study: barrel vault with ground-level reservoir and service bench (proposal)."
+      },
+      {
+        "file": "assets/sculpta-slide-arch54-landscape.jpg",
+        "caption": "Application study: Arch54 landscape canopy and circulation concept (proposal)."
+      },
+      {
+        "file": "assets/sculpta-slide-structural-check.jpg",
+        "caption": "Design-stage linear FE screening of frame options. Indicative only, not structural validation."
+      },
+      {
         "file": "assets/sculpta-unit-cutout.png",
         "caption": "S-shaped PETG unit / CAD render."
       },
@@ -230,10 +266,12 @@ window.PORTFOLIO_PROJECTS = [
     "videoLinks": [],
     "videos": [
       {
-        "src": "https://blog.iaac.net/wp-content/uploads/2025/04/terraweave_stu.mov",
+        "src": "media/iaac-terraweave-studio-ii.mp4",
+        "poster": "media/iaac-terraweave-studio-ii.jpg",
+        "originalSource": "https://blog.iaac.net/wp-content/uploads/",
         "label": "Related film / Terraweave Studio II",
         "caption": "Earlier team material/deposition study. This is not a film of the final Studio III prototype.",
-        "remote": true,
+        "remote": false,
         "source": "https://blog.iaac.net/terraweave-innovative-structures-for-a-changing-world/"
       }
     ]
@@ -632,10 +670,12 @@ window.PORTFOLIO_PROJECTS = [
     ],
     "videos": [
       {
-        "src": "https://blog.iaac.net/wp-content/uploads/2025/03/WhatsApp-Video-2025-02-26-at-7.57.07-AM.mp4",
+        "src": "media/iaac-scan-to-print.mp4",
+        "poster": "media/iaac-scan-to-print.jpg",
+        "originalSource": "https://blog.iaac.net/wp-content/uploads/",
         "label": "Robotic scanning process",
         "caption": "Team UR10e scan-to-print study.",
-        "remote": true,
+        "remote": false,
         "source": "https://blog.iaac.net/scanning-for-reconstruction-non-planar-3d-printing/"
       }
     ]
@@ -920,10 +960,12 @@ window.PORTFOLIO_PROJECTS = [
     ],
     "videos": [
       {
-        "src": "https://blog.iaac.net/wp-content/uploads/2024/11/autonomous.mp4",
+        "src": "media/iaac-breathing-curtain.mp4",
+        "poster": "media/iaac-breathing-curtain.jpg",
+        "originalSource": "https://blog.iaac.net/wp-content/uploads/",
         "label": "Robotic willow assembly",
         "caption": "Physical module fabrication; not a validated kinetic façade.",
-        "remote": true,
+        "remote": false,
         "source": "https://blog.iaac.net/weaving-natural-materials-breathin-curtain-wall/"
       }
     ]
@@ -1333,10 +1375,12 @@ window.PORTFOLIO_PROJECTS = [
     ],
     "videos": [
       {
-        "src": "https://blog.iaac.net/wp-content/uploads/2024/11/Splatter-01-Made-with-Clipchamp.mp4",
+        "src": "media/iaac-spill-splatter.mp4",
+        "poster": "media/iaac-spill-splatter.jpg",
+        "originalSource": "https://blog.iaac.net/wp-content/uploads/",
         "label": "Balloon Gun / pigment-release experiment",
         "caption": "Team film shared with the related Spill study.",
-        "remote": true,
+        "remote": false,
         "source": "https://blog.iaac.net/pressurized-balloon-spill-tool/"
       }
     ]
@@ -1466,17 +1510,21 @@ window.PORTFOLIO_PROJECTS = [
     ],
     "videos": [
       {
-        "src": "https://blog.iaac.net/wp-content/uploads/2025/02/ezgif-68a05281d8d82-ezgif.com-gif-to-mp4-converter.mp4",
+        "src": "media/iaac-emotion-reader-a.mp4",
+        "poster": "media/iaac-emotion-reader-a.jpg",
+        "originalSource": "https://blog.iaac.net/wp-content/uploads/",
         "label": "Responsive installation / 1",
         "caption": "Team proof of concept, not a validated measure of internal emotion.",
-        "remote": true,
+        "remote": false,
         "source": "https://blog.iaac.net/emotion-reader-responsive-art-installation/"
       },
       {
-        "src": "https://blog.iaac.net/wp-content/uploads/2025/02/ezgif-6ecf3eaeaa756-ezgif.com-gif-to-mp4-converter.mp4",
+        "src": "media/iaac-emotion-reader-b.mp4",
+        "poster": "media/iaac-emotion-reader-b.jpg",
+        "originalSource": "https://blog.iaac.net/wp-content/uploads/",
         "label": "Responsive installation / 2",
         "caption": "Team proof of concept, not a validated measure of internal emotion.",
-        "remote": true,
+        "remote": false,
         "source": "https://blog.iaac.net/emotion-reader-responsive-art-installation/"
       }
     ]
@@ -1616,17 +1664,21 @@ window.PORTFOLIO_PROJECTS = [
     ],
     "videos": [
       {
-        "src": "https://blog.iaac.net/wp-content/uploads/2025/05/matrix_palpilot.mov",
+        "src": "media/iaac-palmpilot-matrix.mp4",
+        "poster": "media/iaac-palmpilot-matrix.jpg",
+        "originalSource": "https://blog.iaac.net/wp-content/uploads/",
         "label": "PalmPilot / interaction demonstration / 1",
         "caption": "Team gesture-and-projection interface prototype.",
-        "remote": true,
+        "remote": false,
         "source": "https://blog.iaac.net/palmpilot-2000/"
       },
       {
-        "src": "https://blog.iaac.net/wp-content/uploads/2025/05/forgif.mov",
+        "src": "media/iaac-palmpilot-loop.mp4",
+        "poster": "media/iaac-palmpilot-loop.jpg",
+        "originalSource": "https://blog.iaac.net/wp-content/uploads/",
         "label": "PalmPilot / interaction demonstration / 2",
         "caption": "Team gesture-and-projection interface prototype.",
-        "remote": true,
+        "remote": false,
         "source": "https://blog.iaac.net/palmpilot-2000/"
       }
     ]
@@ -1864,10 +1916,12 @@ window.PORTFOLIO_PROJECTS = [
     ],
     "videos": [
       {
-        "src": "https://blog.iaac.net/wp-content/uploads/2024/11/Splatter-01-Made-with-Clipchamp.mp4",
+        "src": "media/iaac-spill-splatter.mp4",
+        "poster": "media/iaac-spill-splatter.jpg",
+        "originalSource": "https://blog.iaac.net/wp-content/uploads/",
         "label": "Spill / material and release tests",
         "caption": "Team film shared with the Balloon Gun hardware study.",
-        "remote": true,
+        "remote": false,
         "source": "https://blog.iaac.net/studio-i_pressurized-balloon-spill-tool/"
       }
     ]
@@ -1996,10 +2050,12 @@ window.PORTFOLIO_PROJECTS = [
     ],
     "videos": [
       {
-        "src": "https://blog.iaac.net/wp-content/uploads/2024/12/SHAPE-STUDIO-VIDEO.mp4",
+        "src": "media/iaac-shape.mp4",
+        "poster": "media/iaac-shape.jpg",
+        "originalSource": "https://blog.iaac.net/wp-content/uploads/",
         "label": "Material shaping / process film",
         "caption": "Team material and custom-tool experiments.",
-        "remote": true,
+        "remote": false,
         "source": "https://blog.iaac.net/anatomy-of-a-machine-shape/"
       }
     ]
@@ -2386,10 +2442,12 @@ window.PORTFOLIO_PROJECTS = [
     ],
     "videos": [
       {
-        "src": "https://blog.iaac.net/wp-content/uploads/2025/04/terraweave_stu.mov",
+        "src": "media/iaac-terraweave-studio-ii.mp4",
+        "poster": "media/iaac-terraweave-studio-ii.jpg",
+        "originalSource": "https://blog.iaac.net/wp-content/uploads/",
         "label": "Terraweave / Studio II process",
         "caption": "Earlier clay-deposition and material tests, not the final Studio III prototype.",
-        "remote": true,
+        "remote": false,
         "source": "https://blog.iaac.net/terraweave-innovative-structures-for-a-changing-world/"
       }
     ]
@@ -2546,10 +2604,12 @@ window.PORTFOLIO_PROJECTS = [
     ],
     "videos": [
       {
-        "src": "https://blog.iaac.net/wp-content/uploads/2025/06/ATIII_Chi.mp4",
+        "src": "media/iaac-multi-agent.mp4",
+        "poster": "media/iaac-multi-agent.jpg",
+        "originalSource": "https://blog.iaac.net/wp-content/uploads/",
         "label": "Multi-agent workflow / animation",
         "caption": "Proposed/simulated coordination, not autonomous physical construction.",
-        "remote": true,
+        "remote": false,
         "source": "https://blog.iaac.net/terraweave-multi-agent-system/"
       }
     ]
@@ -2685,10 +2745,12 @@ window.PORTFOLIO_PROJECTS = [
     ],
     "videos": [
       {
-        "src": "https://blog.iaac.net/wp-content/uploads/2025/03/apply-commercial-2.mov",
+        "src": "media/iaac-startup-pitch.mp4",
+        "poster": "media/iaac-startup-pitch.jpg",
+        "originalSource": "https://blog.iaac.net/wp-content/uploads/",
         "label": "Terraweave / academic pitch film",
         "caption": "A venture proposition, not evidence of commercial deployment.",
-        "remote": true,
+        "remote": false,
         "source": "https://blog.iaac.net/terraweave-startup-pitch/"
       }
     ]

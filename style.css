@@ -159,3 +159,11 @@
 .sc-clean .sc-header{padding-top:38px;padding-bottom:28px}.sc-clean .case-header h2{font-size:clamp(64px,8vw,104px);line-height:.96;margin:25px 0 23px}.sc-clean .case-subtitle{font-size:clamp(22px,2.5vw,32px)}@media(max-width:560px){.sc-clean .sc-header{padding-top:27px;padding-bottom:22px}.sc-clean .case-header h2{font-size:65px;margin:22px 0 18px}}
 
 @media(max-width:560px){.sc-photo-pair{grid-template-columns:1fr;gap:24px}.sc-photo-pair figure img{height:370px}.sc-photo-pair figcaption{font-size:11px}}
+
+/* v8: Canva thesis slides, image-led */
+.sc-slides{display:grid;grid-template-columns:1fr;gap:28px;margin-top:36px}
+.sc-slides figure{margin:0}
+.sc-slides img{width:100%;height:auto;border-radius:6px;background:#f3f0e8}
+.sc-slides figcaption{font-size:14px;line-height:1.45;margin-top:8px;opacity:.8}
+@media(min-width:1100px){.sc-slides{grid-template-columns:1fr 1fr}}
+
