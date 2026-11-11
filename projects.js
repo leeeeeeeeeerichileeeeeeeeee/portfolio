@@ -27,39 +27,39 @@ window.PORTFOLIO_PROJECTS = [
       },
       {
         "file": "assets/sculpta-slide-why-s-unit.jpg",
-        "caption": "Why an S-shaped unit: a mirrored hyperbolic-paraboloid surface gives depth, a cavity and four ports."
+        "caption": "Mirrored hypar surface → depth, cavity, four ports."
       },
       {
         "file": "assets/sculpta-slide-final-unit.jpg",
-        "caption": "Final digital unit: shoulders, light-transmitting wall, paired fluid passages and canopy assembly."
+        "caption": "Final unit: shoulders, thin light wall, fluid passages."
       },
       {
         "file": "assets/sculpta-slide-aggregation.jpg",
-        "caption": "From one unit to a cluster to an architectural field."
+        "caption": "Unit → cluster → field."
       },
       {
         "file": "assets/sculpta-slide-join.jpg",
-        "caption": "JOIN connector: PETG body, proposed TPU seals and M3 fasteners for removal."
+        "caption": "JOIN: PETG body, TPU seals, removable fasteners."
       },
       {
         "file": "assets/sculpta-slide-print-revision.jpg",
-        "caption": "Printing feedback: 1.0 mm faces broke in handling; R2 moved to a 1.2 mm face and smoother shoulder."
+        "caption": "1.0 mm faces broke; revised to 1.2 mm."
       },
       {
         "file": "assets/sculpta-slide-unit-to-field.jpg",
-        "caption": "Physical PETG prototype: repeated units assembled into a field."
+        "caption": "Printed PETG field prototype."
       },
       {
         "file": "assets/sculpta-slide-barrel-vault.jpg",
-        "caption": "Application study: barrel vault with ground-level reservoir and service bench (proposal)."
+        "caption": "Barrel-vault proposal."
       },
       {
         "file": "assets/sculpta-slide-arch54-landscape.jpg",
-        "caption": "Application study: Arch54 landscape canopy and circulation concept (proposal)."
+        "caption": "Arch54 landscape proposal."
       },
       {
         "file": "assets/sculpta-slide-structural-check.jpg",
-        "caption": "Design-stage linear FE screening of frame options. Indicative only, not structural validation."
+        "caption": "Indicative linear FE screening, not validation."
       },
       {
         "file": "assets/sculpta-unit-cutout.png",
@@ -83,11 +83,11 @@ window.PORTFOLIO_PROJECTS = [
       },
       {
         "file": "assets/sculpta-prototype-front.jpg",
-        "caption": "Printed sample wall / front view."
+        "caption": "Printed wall, front."
       },
       {
         "file": "assets/sculpta-prototype-edge.jpg",
-        "caption": "Printed sample wall / edge and transmitted light."
+        "caption": "Edge and transmitted light."
       },
       {
         "file": "assets/sculpta-handling-samples.jpg",
@@ -99,7 +99,7 @@ window.PORTFOLIO_PROJECTS = [
       },
       {
         "file": "assets/sculpta-system-render.jpg",
-        "caption": "Whole-system CAD proposal: frame, component skin and proposed pipework. Unbuilt."
+        "caption": "Whole-system proposal (unbuilt)."
       }
     ],
     "pages": "2–5",
