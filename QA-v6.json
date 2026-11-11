@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-11-11T11:41:51.122Z",
+  "changedProjects": [
+    "sculpta"
+  ],
+  "totalProjects": 28,
+  "other27RecordsUnchanged": true,
+  "homepageHTMLUnchanged": true,
+  "layout": {
+    "filmCount": 1,
+    "firstMedia": "VIDEO",
+    "coverInBody": false,
+    "sections": [
+      "case-films",
+      "case-overview",
+      "case-design",
+      "case-prototype",
+      "case-application",
+      "case-credits"
+    ]
+  },
+  "decodedContentImages": 10,
+  "cover": {
+    "source": "Original source collage, night-canopy concept tile",
+    "width": 730,
+    "height": 449,
+    "objectFit": "contain",
+    "conceptNotBuilt": true
+  },
+  "film": {
+    "duration": 74.5,
+    "playedThroughSeconds": 9.856065,
+    "autoplay": false,
+    "audio": "Original audio retained; Chi confirmed public use on 2026-11-11; track title not recorded.",
+    "pausesOnProjectChange": true
+  },
+  "mobile": {
+    "width": 390,
+    "dialogClient": 375,
+    "dialogScroll": 375,
+    "horizontalOverflow": false,
+    "prototypePhotosStacked": true
+  },
+  "imageViewer": {
+    "opened": true,
+    "zoomToggled": true
+  },
+  "adjacentProjectNavigation": true,
+  "browserMethod": "Final source renderer/data/CSS in an isolated Chrome preview with exact source assets as Blob URLs. Still captures disable CSS animations. Local file navigation was not enabled or bypassed.",
+  "publicDeployment": false
+}
