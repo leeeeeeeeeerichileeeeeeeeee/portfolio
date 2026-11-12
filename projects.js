@@ -163,6 +163,58 @@ window.PORTFOLIO_PROJECTS = [
       {
         "file": "assets/tw_comp.jpg",
         "caption": "Comparison of deposition approaches."
+      },
+      {
+        "file": "assets/ig/Dfpfco3lDQ6_07.jpg",
+        "caption": "Prototype overview sheet: woven willow scaffold, earth injection and wall configurations. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/Dfpfco3lDQ6_01.jpg",
+        "caption": "Weaving and injection-printing process diagram. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/Dfpfco3lDQ6_03.jpg",
+        "caption": "Fabrication strategy: from woven scaffold to injected module. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/Dfpfco3lDQ6_06.jpg",
+        "caption": "Weaving catalogue comparing pattern, density and willow use. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/DfQtnP0DvtD_06.jpg",
+        "caption": "Fabrication set-up: ABB robot, earth pump and the woven scaffold. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/DfQtnP0DvtD_08.jpg",
+        "caption": "ABB robot with the injection nozzle during the final prototype. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/DfRPAvbFeHa_03.jpg",
+        "caption": "Grasshopper toolpaths beside the robot during set-up. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/DfRPAvbFeHa_04.jpg",
+        "caption": "Teach pendant during robot calibration. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/DfXkaHzlCWN_02.jpg",
+        "caption": "Nozzle entering the scaffold between willow poles. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/DfXkaHzlCWN_04.jpg",
+        "caption": "Earth injected inside the woven willow layers. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/DfXkaHzlCWN_13.jpg",
+        "caption": "Finished willow-and-earth prototype. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/Dffot8fFEyl_05.jpg",
+        "caption": "Final MRAC Studio III presentation at IAAC. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/Dffot8fFEyl_02.jpg",
+        "caption": "Team at the final presentation: Krystyne Kontos, Elizabeth Frias and Chi Lee. Photo: Elizabeth Frias (@elicolds)."
       }
     ],
     "source": "https://blog.iaac.net/terraweave/",
@@ -265,6 +317,33 @@ window.PORTFOLIO_PROJECTS = [
     },
     "videoLinks": [],
     "videos": [
+      {
+        "src": "media/ig/DfQtnP0DvtD_07.mp4",
+        "poster": "media/ig/DfQtnP0DvtD_07.jpg",
+        "label": "Final prototype / robotic injection",
+        "caption": "ABB robot working on the woven willow scaffold during the final Studio III prototype.",
+        "credits": "Video: Elizabeth Frias (@elicolds) · shared with permission via Chi Lee",
+        "remote": false,
+        "source": "https://www.instagram.com/p/DfQtnP0DvtD/"
+      },
+      {
+        "src": "media/ig/DfiXWVKpYkW_00.mp4",
+        "poster": "media/ig/DfiXWVKpYkW_00.jpg",
+        "label": "Façade possibilities",
+        "caption": "Digital study of weaving patterns, openings for ventilation and planting pockets.",
+        "credits": "Video: Elizabeth Frias (@elicolds) · shared with permission via Chi Lee",
+        "remote": false,
+        "source": "https://www.instagram.com/reel/DfiXWVKpYkW/"
+      },
+      {
+        "src": "media/ig/DfXkaHzlCWN_12.mp4",
+        "poster": "media/ig/DfXkaHzlCWN_12.jpg",
+        "label": "Preparing the earth mixture",
+        "caption": "Mixing earth for injection during prototype making.",
+        "credits": "Video: Elizabeth Frias (@elicolds) · shared with permission via Chi Lee",
+        "remote": false,
+        "source": "https://www.instagram.com/p/DfXkaHzlCWN/"
+      },
       {
         "src": "media/iaac-terraweave-studio-ii.mp4",
         "poster": "media/iaac-terraweave-studio-ii.jpg",
@@ -441,6 +520,18 @@ window.PORTFOLIO_PROJECTS = [
       {
         "file": "assets/fan_10.jpg",
         "caption": "Further pattern / surface tests from the original workshop record."
+      },
+      {
+        "file": "assets/ig/DbXKIC-jnMt_04.jpg",
+        "caption": "ABB robot glazing tiles with a single brush. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/DbXKIC-jnMt_09.jpg",
+        "caption": "Robot-painted tile patterns. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/DbXKIC-jnMt_07.jpg",
+        "caption": "Exhibition of the glazed tile catalogue at IAAC. Photo: Elizabeth Frias (@elicolds)."
       }
     ],
     "source": "https://blog.iaac.net/fan-only-a-cataloguing-approach-to-glazing/",
@@ -528,7 +619,17 @@ window.PORTFOLIO_PROJECTS = [
       "Greig Thomas",
       "Krystyne Kontos"
     ],
-    "videos": []
+    "videos": [
+      {
+        "src": "media/ig/DbXKIC-jnMt_01.mp4",
+        "poster": "media/ig/DbXKIC-jnMt_01.jpg",
+        "label": "Robotic glazing",
+        "caption": "ABB robot replicating a captured brush movement on a tile.",
+        "credits": "Video: Elizabeth Frias (@elicolds) · shared with permission via Chi Lee",
+        "remote": false,
+        "source": "https://www.instagram.com/p/DbXKIC-jnMt/"
+      }
+    ]
   },
   {
     "id": "scan-to-print",
@@ -558,6 +659,14 @@ window.PORTFOLIO_PROJECTS = [
       {
         "file": "assets/scan06.jpg",
         "caption": "Scanning-to-reconstruction toolchain."
+      },
+      {
+        "file": "assets/ig/Dbv-m5hFCco_03.jpg",
+        "caption": "ROS code and robot simulation for the automated scanning workflow. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/Dbv-m5hFCco_04.jpg",
+        "caption": "ROS / MoveIt terminal during scanning tests. Photo: Elizabeth Frias (@elicolds)."
       }
     ],
     "source": "https://blog.iaac.net/scanning-for-reconstruction-non-planar-3d-printing/",
@@ -669,6 +778,15 @@ window.PORTFOLIO_PROJECTS = [
       }
     ],
     "videos": [
+      {
+        "src": "media/ig/Dbv-m5hFCco_00.mp4",
+        "poster": "media/ig/Dbv-m5hFCco_00.jpg",
+        "label": "Automated scanning with ROS",
+        "caption": "Collaborative robot moving a camera around the object during the ROS scanning exercise.",
+        "credits": "Video: Elizabeth Frias (@elicolds) · shared with permission via Chi Lee",
+        "remote": false,
+        "source": "https://www.instagram.com/p/Dbv-m5hFCco/"
+      },
       {
         "src": "media/iaac-scan-to-print.mp4",
         "poster": "media/iaac-scan-to-print.jpg",
@@ -847,6 +965,26 @@ window.PORTFOLIO_PROJECTS = [
       {
         "file": "assets/weave.jpg",
         "caption": "Physical willow-weaving module · team work."
+      },
+      {
+        "file": "assets/ig/DaqKSYHioPh_03.jpg",
+        "caption": "ABB robot placing willow between vertical poles. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/DaqKSYHioPh_10.jpg",
+        "caption": "Robotic weaving in progress on the module base. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/DaqKSYHioPh_12.jpg",
+        "caption": "Woven willow module after robotic placement. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/DaqKSYHioPh_07.jpg",
+        "caption": "Sequence of weaving tests. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/DascqrCircy_05.jpg",
+        "caption": "Weaving paths prepared in Grasshopper. Photo: Elizabeth Frias (@elicolds)."
       }
     ],
     "source": "https://blog.iaac.net/weaving-natural-materials-breathin-curtain-wall/",
@@ -959,6 +1097,15 @@ window.PORTFOLIO_PROJECTS = [
       }
     ],
     "videos": [
+      {
+        "src": "media/ig/DaqKSYHioPh_00.mp4",
+        "poster": "media/ig/DaqKSYHioPh_00.jpg",
+        "label": "Robotic willow weaving",
+        "caption": "ABB robot weaving willow during the robotic weaving workshop with DDF KIT.",
+        "credits": "Video: Elizabeth Frias (@elicolds) · shared with permission via Chi Lee",
+        "remote": false,
+        "source": "https://www.instagram.com/p/DaqKSYHioPh/"
+      },
       {
         "src": "media/iaac-breathing-curtain.mp4",
         "poster": "media/iaac-breathing-curtain.jpg",
@@ -2329,6 +2476,26 @@ window.PORTFOLIO_PROJECTS = [
       {
         "file": "assets/tw_comp.jpg",
         "caption": "Comparison of deposition approaches."
+      },
+      {
+        "file": "assets/ig/DcCg7S-DpUC_01.jpg",
+        "caption": "ABB robot depositing clay over the woven willow bed. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/DcCg7S-DpUC_04.jpg",
+        "caption": "Close-up of clay deposition on the willow surface. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/DcCg7S-DpUC_05.jpg",
+        "caption": "Deposited clay layer following the woven geometry. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/DcCg7S-DpUC_07.jpg",
+        "caption": "Extrusion end effector mounted on the ABB robot. Photo: Elizabeth Frias (@elicolds)."
+      },
+      {
+        "file": "assets/ig/DcCg7S-DpUC_08.jpg",
+        "caption": "Scanned willow bed converted to points and toolpaths in Grasshopper. Photo: Elizabeth Frias (@elicolds)."
       }
     ],
     "source": "https://blog.iaac.net/terraweave-innovative-structures-for-a-changing-world/",
@@ -2441,6 +2608,24 @@ window.PORTFOLIO_PROJECTS = [
       }
     ],
     "videos": [
+      {
+        "src": "media/ig/DcCwFYouP-c_00.mp4",
+        "poster": "media/ig/DcCwFYouP-c_00.jpg",
+        "label": "Robotic clay injection over woven willow",
+        "caption": "ABB robot depositing clay over a woven willow structure.",
+        "credits": "Video: Elizabeth Frias (@elicolds) · shared with permission via Chi Lee",
+        "remote": false,
+        "source": "https://www.instagram.com/reel/DcCwFYouP-c/"
+      },
+      {
+        "src": "media/ig/DcCg7S-DpUC_03.mp4",
+        "poster": "media/ig/DcCg7S-DpUC_03.jpg",
+        "label": "Robotic printing over a woven willow bed",
+        "caption": "Clay printed on a scanned willow bed using Grasshopper-generated toolpaths.",
+        "credits": "Video: Elizabeth Frias (@elicolds) · shared with permission via Chi Lee",
+        "remote": false,
+        "source": "https://www.instagram.com/p/DcCg7S-DpUC/"
+      },
       {
         "src": "media/iaac-terraweave-studio-ii.mp4",
         "poster": "media/iaac-terraweave-studio-ii.jpg",
