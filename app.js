@@ -6,6 +6,15 @@ const escapeHTML = (value = '') => String(value).replace(/[&<>"']/g, ch => ({'&'
 const number = (n) => String(n).padStart(2, '0');
 const dialog = $('#project-dialog');
 let selectedFilter = 'All';
+const ROBOTICS_PATH=['terraweave','anomaly-detection','scan-to-print','sculpta','so101'];
+const ROBOTICS_NOTES={
+ 'terraweave':['Team project with Elizabeth Frias and Krystyne Kontos: design development, Grasshopper-based robot toolpath programming, prototype fabrication and project film.','Turning design intent into ABB robot motion, then iterating with real material.'],
+ 'anomaly-detection':['Team project: operated the robot, processed LiDAR point clouds and analysed roof anomalies.','Sensing and model-to-reality checks, the core of deploying a robot on site.'],
+ 'scan-to-print':['Team member in a UR10e depth-camera scanning to non-planar 3D-printing toolpath workflow (Grasshopper / ROS / Python).','Closing the loop from scanning a real object to generating robot toolpaths.'],
+ 'sculpta':['Individual thesis: parametric design, full-scale PETG FDM prototyping and design revision after testing.','A design–print–test–revise loop, the same habit used in commissioning.'],
+ 'so101':['Personal study, AI-assisted, simulation only: kinematic simulation, path comparison and workspace study.','Understanding how robot motion planning behaves before running hardware.']
+};
+function roboticsNoteHTML(id){const n=ROBOTICS_NOTES[id];if(!n)return '';return '<div class="robotics-note"><p><span class="mono">MY ROLE</span>'+escapeHTML(n[0])+'</p><p><span class="mono">WHY IT MATTERS</span>'+escapeHTML(n[1])+'</p></div>';}
 let activeProjectId = null;
 let returnFocus = null;
 let previousHash = '#work';
@@ -16,7 +25,8 @@ function card(project) {
 }
 function renderArchive() {
  const query = $('#project-search').value.trim().toLowerCase();
- const visible = projects.filter(project => (selectedFilter === 'All' || project.category === selectedFilter) && [project.title,project.subtitle,project.summary,project.institution,project.kind,project.year,...project.tools].join(' ').toLowerCase().includes(query));
+ const matchesQuery = project => [project.title,project.subtitle,project.summary,project.institution,project.kind,project.year,...project.tools].join(' ').toLowerCase().includes(query);
+ const visible = selectedFilter === 'RoboticsPath' ? ROBOTICS_PATH.map(id => projects.find(project => project.id === id)).filter(project => project && matchesQuery(project)) : projects.filter(project => (selectedFilter === 'All' || project.category === selectedFilter) && matchesQuery(project));
  $('#archive-grid').innerHTML = visible.map(card).join('');
  $('#result-count').textContent = `${number(visible.length)} / ${projects.length} PROJECTS`;
  $('#empty-state').hidden = visible.length > 0;
@@ -59,7 +69,7 @@ function sculptaCleanHTML(project, downloadLink, next) {
  const grid = files => '<div class="sc-slides">'+files.map(f=>image(f)).join('')+'</div>';
  return '<div class="sc-clean">'+
  '<header class="case-header sc-header"><div class="case-meta"><span class="scope-badge">Individual thesis</span><span>'+escapeHTML(project.year)+'</span><span>MADE · ETSAV–UPC</span></div><h2 id="dialog-title">SCULPTA</h2><p class="case-subtitle">'+escapeHTML(project.subtitle)+'</p></header>'+
- '<nav class="case-chapters" aria-label="Case-study sections">'+chapters.map(([id,label])=>'<button type="button" data-case-jump="'+id+'">'+label+'</button>').join('')+'</nav>'+
+ '<nav class="case-chapters" aria-label="Case-study sections">'+chapters.map(([id,label])=>'<button type="button" data-case-jump="'+id+'">'+label+'</button>').join('')+'</nav>'+roboticsNoteHTML('sculpta')+
  '<section class="sc-film" id="case-films" tabindex="-1" aria-label="SCULPTA project film"><video controls playsinline preload="metadata" poster="'+escapeHTML(assetURL(film.poster))+'" aria-label="'+escapeHTML(film.label)+'"><source src="'+escapeHTML(assetURL(film.src))+'" type="video/mp4">Your browser cannot play this film.</video><div class="sc-film-caption"><span>PROJECT FILM / 74.5 SEC</span><a href="'+escapeHTML(assetURL(film.src))+'" target="_blank" rel="noopener">Open film ↗</a></div></section>'+
  '<section class="sc-block sc-overview" id="case-overview" tabindex="-1"><div><span class="sc-kicker">01 / THE IDEA</span><h3>A living skin.<br>Designed for care.</h3></div><div><p class="sc-lead">A façade of 3D-printed PETG vessels for microalgae. Each unit is designed to be printed, connected and replaced.</p><p class="sc-small">Individual master’s thesis · computational design, prototyping · PETG FDM</p></div></section>'+
  '<section class="sc-block" id="case-design" tabindex="-1"><div class="sc-section-heading"><span class="sc-kicker">02 / DESIGN</span><h3>From one unit to a field.</h3></div>'+grid(['assets/sculpta-slide-why-s-unit.jpg','assets/sculpta-slide-final-unit.jpg','assets/sculpta-slide-aggregation.jpg','assets/sculpta-slide-join.jpg'])+'</section>'+
@@ -85,7 +95,7 @@ function caseStudyHTML(project, sourceLink, downloadLink, next, index) {
  const archiveLink=project.archiveDownload ? '<a class="text-link" href="'+escapeHTML(assetURL(project.archiveDownload))+'" download="so101-workspace-study.zip">Download reproducible study <span aria-hidden="true">↓</span></a>' : '';
  const extraMedia=(project.videoLinks || []).map(v=>'<a class="text-link" href="'+escapeHTML(v.url)+'" target="_blank" rel="noopener noreferrer">'+escapeHTML(v.label || 'Watch project film')+' <span aria-hidden="true">↗</span></a>').join('');
  const imageCredit=project.mediaCredit || project.imageCredit || (project.source && project.institution.startsWith('IAAC') ? 'Credited IAAC project documentation and existing portfolio.' : project.id.startsWith('so101') ? 'AI-assisted simulation outputs and technical communication.' : 'Existing portfolio drawings, visualisations and photographs.');
- return '<header class="case-header"><div class="case-meta"><span class="scope-badge">'+escapeHTML(project.kind)+'</span><span>'+escapeHTML(project.year)+'</span><span>'+escapeHTML(project.institution)+'</span><span class="case-readtime">'+Math.max(2,Math.ceil(readingWords/180))+' MIN READ</span></div><h2 id="dialog-title">'+escapeHTML(project.title)+'</h2><p class="case-subtitle">'+escapeHTML(project.subtitle)+'</p></header><nav class="case-chapters" aria-label="Case-study sections">'+quickNav+'</nav>'+figure(project.images[0],true)+projectVideosHTML(project)+
+ return '<header class="case-header"><div class="case-meta"><span class="scope-badge">'+escapeHTML(project.kind)+'</span><span>'+escapeHTML(project.year)+'</span><span>'+escapeHTML(project.institution)+'</span><span class="case-readtime">'+Math.max(2,Math.ceil(readingWords/180))+' MIN READ</span></div><h2 id="dialog-title">'+escapeHTML(project.title)+'</h2><p class="case-subtitle">'+escapeHTML(project.subtitle)+'</p></header><nav class="case-chapters" aria-label="Case-study sections">'+quickNav+'</nav>'+figure(project.images[0],true)+roboticsNoteHTML(project.id)+projectVideosHTML(project)+
  '<section class="case-section case-overview" id="case-overview" tabindex="-1"><div class="case-section-label"><span class="mono">01 / OVERVIEW</span><h3>The task.<br>The context.</h3></div><div class="case-section-content"><p class="case-intro">'+escapeHTML(study.context || project.brief)+'</p><div class="case-application"><span class="mono">APPLICATION LENS</span><p>'+escapeHTML(study.application || project.brief)+'</p></div><div class="case-deliverable"><span class="mono">DOCUMENTED OUTPUT</span><p>'+escapeHTML(study.outcomeSummary || project.summary)+'</p></div><div class="method-tags">'+project.tools.map(t=>'<span>'+escapeHTML(t)+'</span>').join('')+'</div></div></section>'+metricsHTML+
  '<section class="case-section" id="case-decisions" tabindex="-1"><div class="case-section-label"><span class="mono">02 / DESIGN DECISIONS</span><h3>Why this<br>approach?</h3></div><div class="decision-grid">'+decisionsHTML+'</div></section>'+
  '<section class="case-section" id="case-process" tabindex="-1"><div class="case-section-label"><span class="mono">03 / PROCESS</span><h3>From question<br>to experiment.</h3><p class="case-section-note">'+escapeHTML(project.kind.includes('Team') || project.institution.startsWith('IAAC') ? 'The workflow below describes the team project. Individual responsibilities are stated in the credits.' : 'The workflow follows the documented study. Proposed next actions are separated from completed work.')+'</p></div><div class="process-list">'+stepsHTML+'</div></section>'+
@@ -191,7 +201,14 @@ dialog.addEventListener('keydown', event => {
  if (event.key === 'ArrowRight') {event.preventDefault(); adjacentProject(1);}
  if (event.key === 'ArrowLeft') {event.preventDefault(); adjacentProject(-1);}
 });
+function applyHashFilter() {
+ if (location.hash === '#robotics') {
+  const btn = document.querySelector('[data-filter="RoboticsPath"]');
+  if (btn) { selectedFilter = 'RoboticsPath'; document.querySelectorAll('[data-filter]').forEach(button => button.setAttribute('aria-pressed', String(button === btn))); renderArchive(); const work = document.getElementById('work'); if (work) work.scrollIntoView({block:'start'}); }
+ }
+}
 function syncHash() {
+ applyHashFilter();
  if (location.hash.startsWith('#project/')) {
   const id = decodeURIComponent(location.hash.replace('#project/', ''));
   if (projects.some(project => project.id === id)) openProject(id, false);
