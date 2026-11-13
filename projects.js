@@ -286,6 +286,10 @@ window.PORTFOLIO_PROJECTS = [
     ],
     "images": [
       {
+        "file": "media/ig/Dbv-m5hFCco_00.jpg",
+        "caption": "UR robot with wrist-mounted depth camera scanning the physical model."
+      },
+      {
         "file": "assets/scan_robot.jpg",
         "caption": "Robotic scanning setup."
       },
@@ -578,6 +582,130 @@ window.PORTFOLIO_PROJECTS = [
     "featured": true
   },
   {
+    "id": "anomaly-detection",
+    "title": "Reading the unseen",
+    "subtitle": "Robotic scanning for building anomaly detection.",
+    "year": "2025",
+    "category": "Sensing",
+    "kind": "Team project",
+    "institution": "IAAC · MRAC Workshop 2.2",
+    "featured": true,
+    "summary": "LiDAR point clouds reveal roof openings and inform repair planning.",
+    "brief": "Can robotic scanning locate roof anomalies and support repair planning without direct physical access to the roof?",
+    "method": "The team compared scanning approaches including drone photogrammetry and Husky A200 LiDAR. The resulting point clouds were used to locate roof openings and estimate repair-material quantities.",
+    "role": "My contribution: operating the robot for LiDAR scanning, processing point clouds and analysing roof anomalies.",
+    "limits": "A workshop-scale diagnostic workflow. No numerical accuracy or certified inspection claim is made here.",
+    "team": "Elizabeth Frias · Lauren Deming · Chi Lee · Krystyne Kontos. Tutors: Marita Georganta and Huanyu Li.",
+    "tools": [
+      "Husky A200",
+      "LiDAR",
+      "Point clouds",
+      "Metashape"
+    ],
+    "images": [
+      {
+        "file": "assets/an_cloud.jpg",
+        "caption": "LiDAR point cloud of the building interior."
+      },
+      {
+        "file": "assets/an_holes.jpg",
+        "caption": "Roof-opening analysis from point-cloud geometry."
+      },
+      {
+        "file": "assets/an_hw.jpg",
+        "caption": "Scanning hardware compared by the team."
+      },
+      {
+        "file": "assets/an_cloud2.jpg",
+        "caption": "Additional LiDAR point-cloud view from the team inspection study."
+      },
+      {
+        "file": "assets/an_data.jpg",
+        "caption": "Roof geometry and data-extraction study."
+      }
+    ],
+    "source": "https://blog.iaac.net/robotics-solutions-for-building-anomaly-detection/",
+    "pages": "9",
+    "caseStudy": {
+      "context": "A team study of roof inspection through robotic scanning, motivated by the difficulty of assessing buildings after climate-related disasters. The project compared drone photogrammetry with ground-based LiDAR to locate roof openings without physically accessing the roof. Chi Lee’s confirmed scope was robot operation, LiDAR point-cloud work, and roof anomaly analysis; other responsibilities remain team-level.",
+      "decisions": [
+        {
+          "title": "Choose the sensor for the inspection question",
+          "text": "Initial comparisons considered photogrammetry, Husky A200, and Unitree GO2. The team concentrated its project tests on drone capture and Husky scanning. Drone data was easier to synthesize, but the Husky’s MID-360 LiDAR produced the detail the team preferred for roof anomalies and openings."
+        },
+        {
+          "title": "Separate visualization from anomaly analysis",
+          "text": "Drone imagery was reconstructed in Metashape for overall building context. The source describes photogrammetry as useful for visualizing the structure and setting the LiDAR cloud to scale, rather than as the strongest method for detecting holes."
+        }
+      ],
+      "workflow": [
+        {
+          "title": "Compare capture approaches",
+          "text": "The team first tested different scanning methodologies, weighing mobility, environmental access, and the differences between image-based reconstruction and laser-derived point clouds.",
+          "image": "assets/an_hw.jpg"
+        },
+        {
+          "title": "Scan and reconstruct",
+          "text": "Drone photographs and the LiDAR-equipped Husky were used to collect building information. After digital reconstruction, attention shifted from general mapping to extracting roof anomaly data.",
+          "image": "assets/an_cloud.jpg"
+        },
+        {
+          "title": "Interpret repair requirements",
+          "text": "The team used the resulting roof information to assess condition and determine the size and quantity of material needed for repairs. This was an assessment workflow, not a demonstrated robotic repair operation.",
+          "image": "assets/an_holes.jpg"
+        }
+      ],
+      "findings": [
+        {
+          "title": "Complementary datasets",
+          "text": "The team favored Husky LiDAR for this roof-opening study and proposed combining both methods for a fuller assessment. This is a qualitative conclusion within the project, not a universal accuracy ranking."
+        },
+        {
+          "title": "Automation remained a next step",
+          "text": "AI damage analysis, fully autonomous navigation, faster real-time processing, and alternative thermal or radar sensors are listed as potential improvements. They should not be presented as completed or validated functions."
+        }
+      ],
+      "unknowns": [
+        "No numerical hole-detection accuracy, ground-truth comparison, error distribution, or measured time saving is reported in the readable article.",
+        "The source does not document a completed disaster-response deployment or repair operation."
+      ],
+      "sourceUrl": "https://blog.iaac.net/robotics-solutions-for-building-anomaly-detection/",
+      "sourceEvidence": [
+        {
+          "url": "https://blog.iaac.net/robotics-solutions-for-building-anomaly-detection/",
+          "note": "Full official original: sensor comparison, Metashape reconstruction, MID-360 Husky capture, roof analysis, conclusions and explicitly future AI/autonomy work. Chi-specific role is supplied by the commissioning brief, not individually assigned in the article."
+        }
+      ],
+      "teamIfExplicit": [
+        "Elizabeth Frias",
+        "Lauren Deming",
+        "Chi Lee",
+        "Krystyne Kontos"
+      ],
+      "extraImages": [
+        {
+          "url": "https://blog.iaac.net/wp-content/uploads/2025/03/04-1.jpg",
+          "caption": "Official project documentation, source image 1."
+        },
+        {
+          "url": "https://blog.iaac.net/wp-content/uploads/2025/03/24-2.jpg",
+          "caption": "Official project documentation, source image 2."
+        }
+      ],
+      "videoLinks": [],
+      "application": "Choose and interpret sensing data for roof inspection and repair planning without claiming an autonomous repair system.",
+      "outcomeSummary": "Building point clouds + roof-opening / repair-quantity assessment"
+    },
+    "videoLinks": [],
+    "verifiedTeam": [
+      "Elizabeth Frias",
+      "Lauren Deming",
+      "Chi Lee",
+      "Krystyne Kontos"
+    ],
+    "videos": []
+  },
+  {
     "id": "fan-only",
     "title": "Fan Only",
     "subtitle": "One brush. A catalogue of robotic gestures.",
@@ -750,6 +878,10 @@ window.PORTFOLIO_PROJECTS = [
     ],
     "images": [
       {
+        "file": "media/iaac-spill-splatter.jpg",
+        "caption": "ABB arm with the Arduino-controlled balloon end effector during a release test."
+      },
+      {
         "file": "assets/balloon_05.jpg",
         "caption": "Pressurised balloon tool · team prototype."
       },
@@ -887,7 +1019,7 @@ window.PORTFOLIO_PROJECTS = [
         "source": "https://blog.iaac.net/pressurized-balloon-spill-tool/"
       }
     ],
-    "featured": false
+    "featured": true
   },
   {
     "id": "breathing-curtain",
@@ -1584,130 +1716,6 @@ window.PORTFOLIO_PROJECTS = [
     ],
     "videos": [],
     "featured": false
-  },
-  {
-    "id": "anomaly-detection",
-    "title": "Reading the unseen",
-    "subtitle": "Robotic scanning for building anomaly detection.",
-    "year": "2025",
-    "category": "Sensing",
-    "kind": "Team project",
-    "institution": "IAAC · MRAC Workshop 2.2",
-    "featured": false,
-    "summary": "LiDAR point clouds reveal roof openings and inform repair planning.",
-    "brief": "Can robotic scanning locate roof anomalies and support repair planning without direct physical access to the roof?",
-    "method": "The team compared scanning approaches including drone photogrammetry and Husky A200 LiDAR. The resulting point clouds were used to locate roof openings and estimate repair-material quantities.",
-    "role": "My contribution: operating the robot for LiDAR scanning, processing point clouds and analysing roof anomalies.",
-    "limits": "A workshop-scale diagnostic workflow. No numerical accuracy or certified inspection claim is made here.",
-    "team": "Elizabeth Frias · Lauren Deming · Chi Lee · Krystyne Kontos. Tutors: Marita Georganta and Huanyu Li.",
-    "tools": [
-      "Husky A200",
-      "LiDAR",
-      "Point clouds",
-      "Metashape"
-    ],
-    "images": [
-      {
-        "file": "assets/an_cloud.jpg",
-        "caption": "LiDAR point cloud of the building interior."
-      },
-      {
-        "file": "assets/an_holes.jpg",
-        "caption": "Roof-opening analysis from point-cloud geometry."
-      },
-      {
-        "file": "assets/an_hw.jpg",
-        "caption": "Scanning hardware compared by the team."
-      },
-      {
-        "file": "assets/an_cloud2.jpg",
-        "caption": "Additional LiDAR point-cloud view from the team inspection study."
-      },
-      {
-        "file": "assets/an_data.jpg",
-        "caption": "Roof geometry and data-extraction study."
-      }
-    ],
-    "source": "https://blog.iaac.net/robotics-solutions-for-building-anomaly-detection/",
-    "pages": "9",
-    "caseStudy": {
-      "context": "A team study of roof inspection through robotic scanning, motivated by the difficulty of assessing buildings after climate-related disasters. The project compared drone photogrammetry with ground-based LiDAR to locate roof openings without physically accessing the roof. Chi Lee’s confirmed scope was robot operation, LiDAR point-cloud work, and roof anomaly analysis; other responsibilities remain team-level.",
-      "decisions": [
-        {
-          "title": "Choose the sensor for the inspection question",
-          "text": "Initial comparisons considered photogrammetry, Husky A200, and Unitree GO2. The team concentrated its project tests on drone capture and Husky scanning. Drone data was easier to synthesize, but the Husky’s MID-360 LiDAR produced the detail the team preferred for roof anomalies and openings."
-        },
-        {
-          "title": "Separate visualization from anomaly analysis",
-          "text": "Drone imagery was reconstructed in Metashape for overall building context. The source describes photogrammetry as useful for visualizing the structure and setting the LiDAR cloud to scale, rather than as the strongest method for detecting holes."
-        }
-      ],
-      "workflow": [
-        {
-          "title": "Compare capture approaches",
-          "text": "The team first tested different scanning methodologies, weighing mobility, environmental access, and the differences between image-based reconstruction and laser-derived point clouds.",
-          "image": "assets/an_hw.jpg"
-        },
-        {
-          "title": "Scan and reconstruct",
-          "text": "Drone photographs and the LiDAR-equipped Husky were used to collect building information. After digital reconstruction, attention shifted from general mapping to extracting roof anomaly data.",
-          "image": "assets/an_cloud.jpg"
-        },
-        {
-          "title": "Interpret repair requirements",
-          "text": "The team used the resulting roof information to assess condition and determine the size and quantity of material needed for repairs. This was an assessment workflow, not a demonstrated robotic repair operation.",
-          "image": "assets/an_holes.jpg"
-        }
-      ],
-      "findings": [
-        {
-          "title": "Complementary datasets",
-          "text": "The team favored Husky LiDAR for this roof-opening study and proposed combining both methods for a fuller assessment. This is a qualitative conclusion within the project, not a universal accuracy ranking."
-        },
-        {
-          "title": "Automation remained a next step",
-          "text": "AI damage analysis, fully autonomous navigation, faster real-time processing, and alternative thermal or radar sensors are listed as potential improvements. They should not be presented as completed or validated functions."
-        }
-      ],
-      "unknowns": [
-        "No numerical hole-detection accuracy, ground-truth comparison, error distribution, or measured time saving is reported in the readable article.",
-        "The source does not document a completed disaster-response deployment or repair operation."
-      ],
-      "sourceUrl": "https://blog.iaac.net/robotics-solutions-for-building-anomaly-detection/",
-      "sourceEvidence": [
-        {
-          "url": "https://blog.iaac.net/robotics-solutions-for-building-anomaly-detection/",
-          "note": "Full official original: sensor comparison, Metashape reconstruction, MID-360 Husky capture, roof analysis, conclusions and explicitly future AI/autonomy work. Chi-specific role is supplied by the commissioning brief, not individually assigned in the article."
-        }
-      ],
-      "teamIfExplicit": [
-        "Elizabeth Frias",
-        "Lauren Deming",
-        "Chi Lee",
-        "Krystyne Kontos"
-      ],
-      "extraImages": [
-        {
-          "url": "https://blog.iaac.net/wp-content/uploads/2025/03/04-1.jpg",
-          "caption": "Official project documentation, source image 1."
-        },
-        {
-          "url": "https://blog.iaac.net/wp-content/uploads/2025/03/24-2.jpg",
-          "caption": "Official project documentation, source image 2."
-        }
-      ],
-      "videoLinks": [],
-      "application": "Choose and interpret sensing data for roof inspection and repair planning without claiming an autonomous repair system.",
-      "outcomeSummary": "Building point clouds + roof-opening / repair-quantity assessment"
-    },
-    "videoLinks": [],
-    "verifiedTeam": [
-      "Elizabeth Frias",
-      "Lauren Deming",
-      "Chi Lee",
-      "Krystyne Kontos"
-    ],
-    "videos": []
   },
   {
     "id": "earth-injection-vision",
