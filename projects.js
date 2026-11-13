@@ -231,9 +231,18 @@ window.PORTFOLIO_PROJECTS = [
     "videoLinks": [],
     "videos": [
       {
+        "src": "media/terraweave-studio3-final.mp4",
+        "poster": "media/terraweave-studio3-final.jpg",
+        "label": "Final film / Crafting performative structures (Studio III)",
+        "caption": "The final Studio III film: robotic earth injection into dynamic willow scaffolds, the woven-earth modules and their architectural application. Silent.",
+        "credits": "Team film, IAAC MRAC 2024/25 (Elizabeth Frias, Krystyne Kontos, Chi Lee; faculty Edouard Cabay, Pit Siebenaler).",
+        "remote": false,
+        "source": ""
+      },
+      {
         "src": "media/terraweave-film-hd.mp4",
         "poster": "media/terraweave-film-hd.jpg",
-        "label": "Terraweave film / Innovative structures for a changing world",
+        "label": "Studio II film / Innovative structures for a changing world",
         "caption": "The team film: weaving, earth mixing, robotic injection and the woven-earth modules, with IAAC credits (Elizabeth Frias, Krystyne Kontos, Chi Lee; faculty Edouard Cabay, Pit Siebenaler).",
         "credits": "Team film from the IAAC project page; video production by Chi Lee (per CV/LinkedIn).",
         "remote": false,
