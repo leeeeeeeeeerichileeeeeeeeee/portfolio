@@ -2392,16 +2392,16 @@ window.PORTFOLIO_PROJECTS = [
     "id": "madrid-castle",
     "title": "Reviving the castle",
     "subtitle": "New interventions in an existing structure.",
-    "year": "2020",
+    "year": "2018",
     "category": "Architecture",
-    "kind": "Studio project",
-    "institution": "ETSAM–UPM · Remote studio",
+    "kind": "Team studio · Grupo 14",
+    "institution": "FCU × ETSAM–UPM · Remote collaboration studio",
     "summary": "A collaboration studio with ETSAM–UPM on Quinta de Torre Arias, communicated through film and a VR walkthrough.",
     "brief": "How can new architecture inhabit an existing building without erasing its character?",
     "method": "The studio analysed the existing façade, interior elements and structural logic, then developed additions and communicated the proposal through video and a VR walkthrough.",
     "role": "Academic architectural-design study; studio context is preserved.",
     "limits": "An unbuilt design proposal, not completed conservation work.",
-    "team": "Studio project",
+    "team": "Grupo 14, a mixed Feng Chia University and ETSAM–UPM team, Carlos studio, autumn 2018.",
     "tools": [
       "Adaptive reuse",
       "Architectural analysis",
@@ -2485,9 +2485,18 @@ window.PORTFOLIO_PROJECTS = [
       {
         "src": "media/etsam-torre-arias-film.mp4",
         "poster": "media/etsam-torre-arias-film.jpg",
-        "label": "Studio film / Quinta de Torre Arias, Madrid",
+        "label": "Mid-review film / scaffold city and web interface",
         "caption": "Mid-review film from the ETSAM–UPM collaboration studio: a scaffold-and-screen elevation, wireframe walkthroughs with an embedded web interface, and the façade study of the existing building.",
         "credits": "Studio work shared in Chi Lee’s Facebook archive; academic design proposal, not built.",
+        "remote": false,
+        "source": ""
+      },
+      {
+        "src": "media/etsam-grupo14-final.mp4",
+        "poster": "media/etsam-grupo14-final.jpg",
+        "label": "Final film / palace inventory and event fit-out",
+        "caption": "Final-review film (Dec 2018): an inventory of the existing palace elements, the load-bearing wall model and a catalogue of temporary event equipment placed into the building.",
+        "credits": "Grupo 14 team film, shared in the team Google Drive folder; academic design proposal, not built.",
         "remote": false,
         "source": ""
       }
