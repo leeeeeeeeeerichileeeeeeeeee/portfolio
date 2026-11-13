@@ -474,6 +474,10 @@ window.PORTFOLIO_PROJECTS = [
         "caption": "Robotically printed cork-biomass piece."
       },
       {
+        "file": "assets/ig/DO-5HE3CNrh_07.jpg",
+        "caption": "Printing the cork bio-composite with the robot nozzle: optimised table legs in progress. Photo: IAAC MRAC workshop (Ricardo Mayor)."
+      },
+      {
         "file": "assets/cork_00.jpg",
         "caption": "Topology and form studies."
       },
