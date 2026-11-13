@@ -2483,6 +2483,15 @@ window.PORTFOLIO_PROJECTS = [
     },
     "videos": [
       {
+        "src": "media/etsam-grupo14-prototype.mp4",
+        "poster": "media/etsam-grupo14-prototype.jpg",
+        "label": "360° investigation / palace interior (Grupo 14 Prototype I)",
+        "caption": "360° render studies of the existing palace interiors, staircase and moulded hall, prepared for the VR walkthrough of the proposal.",
+        "credits": "Grupo 14 team film, published by team member Arantza Uriarte; academic design study, not built.",
+        "remote": false,
+        "source": "https://www.facebook.com/reel/10158810640241515"
+      },
+      {
         "src": "media/etsam-torre-arias-film.mp4",
         "poster": "media/etsam-torre-arias-film.jpg",
         "label": "Mid-review film / scaffold city and web interface",
