@@ -106,7 +106,26 @@ function sculptaCleanHTML(project, downloadLink, next) {
  '<footer class="case-bottom"><button type="button" data-project="'+escapeHTML(next.id)+'"><span>NEXT PROJECT / '+number(projects.indexOf(next)+1)+'</span>'+escapeHTML(next.title)+'</button><span aria-hidden="true">↗</span></footer></div>';
 }
 
+function iaacArticleHTML(project, sourceLink, downloadLink, next, index) {
+ const parts=project.iaac.parts||[];
+ const used=new Set();
+ const isSub=t=>{const w=t.split(/\s+/).length;if(/^(Github|Team member)/i.test(t))return false;if(t.length<=80&&w<=12&&!/[.!?;,]$/.test(t))return true;return t.length<=60&&/[.:]$/.test(t)&&!/[.:!?]/.test(t.slice(0,-1));};
+ const renderBlocks=blocks=>{let html='',buf=[];const flush=()=>{if(!buf.length)return;html+='<div class="ia-figs ia-n'+Math.min(buf.length,2)+'">'+buf.map(b=>{used.add(b.file);return figure({file:b.file,caption:b.caption||''});}).join('')+'</div>';buf=[];};for(const b of blocks){if(b.k==='img'){buf.push(b);if(buf.length===2)flush();continue;}flush();if(b.k==='h')html+='<h3 class="ia-h">'+escapeHTML(b.t)+'</h3>';else if(b.k==='p')html+=isSub(b.t)?'<h4 class="ia-sub">'+escapeHTML(b.t.replace(/[.:]$/,''))+'</h4>':'<p class="ia-p">'+escapeHTML(b.t)+'</p>';else if(b.k==='list')html+='<ul class="ia-list">'+b.items.map(i=>'<li>'+escapeHTML(i)+'</li>').join('')+'</ul>';else if(b.k==='quote')html+='<blockquote class="ia-quote">'+escapeHTML(b.t)+'</blockquote>';}flush();return html;};
+ const story=parts.map((p,i)=>(p.title?'<div class="ia-chapter"><span class="mono">CHAPTER '+number(i+1)+'</span><h3>'+escapeHTML(p.title)+'</h3></div>':'')+renderBlocks(p.blocks)).join('');
+ const cover=project.images[0];used.add(cover.file);
+ const extra=project.images.filter(im=>!used.has(im.file));
+ const films=(project.videos||[]).length>0;
+ const nav=[[films?'case-films':null,'Film'],['case-story','Story'],[extra.length?'case-gallery':null,'More'],['case-credits','Credits']].filter(x=>x[0]).map(([id,l])=>'<button type="button" data-case-jump="'+id+'">'+l+'</button>').join('');
+ const srcLinks=parts.map(p=>'<li><a href="'+escapeHTML(p.url)+'" target="_blank" rel="noopener noreferrer">'+escapeHTML(p.title||project.title)+' · IAAC project page ↗</a></li>').join('');
+ return '<header class="case-header"><div class="case-meta"><span class="scope-badge">'+escapeHTML(project.kind)+'</span><span>'+escapeHTML(project.year)+'</span><span>'+escapeHTML(project.institution)+'</span></div><h2 id="dialog-title">'+escapeHTML(project.title)+'</h2><p class="case-subtitle">'+escapeHTML(project.subtitle)+'</p></header><nav class="case-chapters" aria-label="Case-study sections">'+nav+'</nav>'+roboticsNoteHTML(project.id)+figure(cover,true)+projectVideosHTML(project)+
+ '<section class="ia-story" id="case-story" tabindex="-1"><div class="ia-story-head"><span class="mono">THE PROJECT · AS DOCUMENTED AT IAAC</span></div>'+story+'</section>'+
+ (extra.length?'<section class="case-gallery-section" id="case-gallery" tabindex="-1"><div class="gallery-section-heading"><div><span class="mono">MORE FROM THE PROJECT</span><h3>Process &amp; prototype.</h3></div><p>Additional photos, films stills and animated boards.</p></div><div class="case-gallery">'+extra.map(im=>figure(im)).join('')+'</div></section>':'')+
+ '<section class="case-section case-credits" id="case-credits" tabindex="-1"><div class="case-section-label"><span class="mono">CONTRIBUTION &amp; SOURCES</span><h3>Who did what.</h3></div><div class="case-section-content"><h4>'+(String(project.role||'').startsWith('My contribution')?'My contribution':'Contribution / team context')+'</h4><p>'+escapeHTML(project.role||'')+'</p><h4>Team</h4><p>'+escapeHTML(project.team||'')+'</p><h4>Text &amp; images</h4><p>Narrative, diagrams and photographs follow the team’s official IAAC project page'+(parts.length>1?'s':'')+'; additional photos and films are credited in their captions.</p><ul class="case-source-list">'+srcLinks+'</ul><div class="case-links">'+sourceLink+downloadLink+'</div></div></section>'+
+ '<footer class="case-bottom"><button type="button" data-project="'+escapeHTML(next.id)+'"><span>NEXT PROJECT / '+number(((index+1)%projects.length)+1)+'</span>'+escapeHTML(next.title)+'</button><span aria-hidden="true">↗</span></footer>';
+}
+
 function caseStudyHTML(project, sourceLink, downloadLink, next, index) {
+ if(project.layout==='iaac'&&project.iaac) return iaacArticleHTML(project, sourceLink, downloadLink, next, index);
  if(project.layout==='sculpta-clean') return sculptaCleanHTML(project,downloadLink,next);
 
  const study=project.caseStudy || {};

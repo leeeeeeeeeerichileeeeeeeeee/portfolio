@@ -275,7 +275,513 @@ window.PORTFOLIO_PROJECTS = [
         "remote": false,
         "source": "https://blog.iaac.net/terraweave-startup-pitch/"
       }
-    ]
+    ],
+    "iaac": {
+      "parts": [
+        {
+          "title": "",
+          "url": "https://blog.iaac.net/terraweave/",
+          "credit": "Terraweave is a project of IAAC, Institute for Advanced Architecture of Catalonia developed in the Master in Robotics & Advanced Construction 01 - 2024-2025 by the student(s) Elizabeth Frias, Krystyne Kontos and Chi Lee during the course MRAC01 24/25 Studio III with Edouard Cabay and Pit Siebenaler.",
+          "blocks": [
+            {
+              "k": "h",
+              "t": "Crafting performative structures through robotic earth injection in dynamic fiber scaffolds"
+            },
+            {
+              "k": "p",
+              "t": "Terraweave is an architectural research project that explores how robotic additive manufacturing can enhance the performance of natural building materials. Conducted as part of the Master in Robotics and Advanced Construction at IAAC, the project investigates the integration of willow scaffolds and earth injection to create adaptive wall systems that respond to both structural and thermal requirements. Without relying on synthetic fixings or conventional assembly methods, Terraweave proposes a low-impact, reversible, and thermally efficient construction strategy. Rather than a single solution, it is a system of possibilities — adaptable, craft-based, and deeply responsive to context. By leveraging robotic processes with natural materials, it opens a dialogue between tradition and innovation, structure and climate, matter and method."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_01.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Confronting the Challenge of Extreme Heat"
+            },
+            {
+              "k": "p",
+              "t": "Urban areas like Barcelona are projected to experience up to 50 days of extreme heat per year by 2050 . Current building practices exacerbate these conditions: walls typically insulate passively and act as thermal traps, contributing to increased cooling demands. Terraweave responds by reimagining the wall not as a static barrier, but as an active, performative system capable of thermal regulation through integrated mass and controlled porosity ."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_02.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_03.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Revisiting Traditional Techniques through Robotics"
+            },
+            {
+              "k": "p",
+              "t": "The project draws inspiration from wattle and daub, a historical technique combining woven timber and earthen plaster. Terraweave reinterprets this tradition through robotic fabrication, coupling the tensile strength of willow with the compressive and thermal properties of earth. This hybridization allows for structural optimization and thermal performance within a singular, cohesive assembly ."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_04.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_05.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Material System"
+            },
+            {
+              "k": "p",
+              "t": "Two primary materials define the system: willow, a lightweight and flexible natural fiber, and earth, a compressive mass enhanced with natural additives like xanthan gum and casein. Willow is used to create a woven scaffold capable of bearing tensile loads, while earth is robotically injected to form a thermal mass and compression core . Material testing informed mixture ratios, curing conditions, and adhesion behavior between the components."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_06.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Project Intention"
+            },
+            {
+              "k": "p",
+              "t": "The core hypothesis is that weaving and robotic earth injection, though distinct in logic and role, can function as a hybrid construction strategy. Each contributes complementary properties: willow offers flexibility and geometrical structure, while earth provides mass, insulation, and reinforcement."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_07.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_08.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Structure System"
+            },
+            {
+              "k": "p",
+              "t": "This hybrid structural system integrates willow weaving, which provides tensile strength through dynamic tension, with robotic earth injection that delivers compressive strength. Together, they form a strong and thermally efficient wall."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_09.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Workflow"
+            },
+            {
+              "k": "h",
+              "t": "1. Pre Fabrication Setup"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_10.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "2. Digital Design Process"
+            },
+            {
+              "k": "p",
+              "t": "The project defines a 3D interlocked weaving logic optimized for thermal performance, structural behavior, and injection precision. A catalogue of ten configurations compares densities, pole spacing, and fiber use, highlighting geometric impact on performance and resource efficiency. This comparative study informs design adaptability and material optimization for hybrid earthen construction systems."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_11.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_12.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "The injection strategy is carefully calibrated, with up to 30 injection points per module and defined parameters such as injection depth (30 cm), zone width (50 cm), and curing time (48 h), optimizing performance across 14 cavities per wall. FEM analysis confirms the thermal efficiency of the reinforced wall, reaching a U-value of 0.25 W/m²K—well below the regulatory limit—demonstrating that the willow-earth composite not only performs structurally, but also delivers measurable insulation benefits."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_13.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_14.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_15.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "3. Fabrication"
+            },
+            {
+              "k": "p",
+              "t": "The fabrication process of the Terrawave module integrates robotic earth injection, a defined multilayered wall prototype, and a precise assembly logic. Clay and earth are injected using linear toolpaths controlled by ABB robotic arms. Modules incorporate cavities for water, electricity, and vegetation expansion. The modular strategy enables both vertical and horizontal aggregation, with joinery optimized for in situ or off-site robotic fabrication, ensuring scalability and ease of construction."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_16.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_17.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_18.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Our system: Adaptive configurations"
+            },
+            {
+              "k": "p",
+              "t": "Terraweave is designed as a modular and reconfigurable system, adaptable to diverse use cases including facades, interior partitions, and thermal buffers. Future development will explore full-scale deployment, increased robotic precision, and expanded functionalities such as integrated HVAC channels or photovoltaic support structures ."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_19.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Conclusions"
+            },
+            {
+              "k": "p",
+              "t": "Terraweave proposes a new paradigm in wall construction—merging digital fabrication with natural materials to create responsive, climate-resilient systems. By leveraging the synergy between robotic control and material intelligence, the project offers a scalable and sustainable alternative to conventional walls, addressing the architectural needs of a warming world."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_20.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_21.jpeg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_22.jpeg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave_23.jpg",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "title": "Studio II · Innovative structures for a changing world",
+          "url": "https://blog.iaac.net/terraweave-innovative-structures-for-a-changing-world/",
+          "credit": "Terraweave: Innovative Structures for a Changing World is a project of IAAC, Institute for Advanced Architecture of Catalonia developed in the Master in Robotics & Advanced Construction 01 - 2024-2025 by the student(s) Elizabeth Frias, Krystyne Kontos and Chi Lee during the course MRAC01 24/25 Studio II with Edouard Cabay and Pit Siebenaler.",
+          "blocks": [
+            {
+              "k": "h",
+              "t": "Introduction"
+            },
+            {
+              "k": "p",
+              "t": "In the face of the growing demand for sustainable construction, the integration of renewable materials with advanced fabrication techniques is essential for creating adaptable and efficient structures. Our team developed Terraweave, a project that combines willow and earth to create hybrid building components. By leveraging the natural properties of willow for flexibility and earth for strength, we explore how robotic weaving and additive manufacturing can enhance the material’s performance while maintaining environmental integrity."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave-studio-ii_02.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "We asked, what if we could combine robotic processes with renewable materials to create adaptable, efficient, and ecological construction methods? Could robotics be more than speed and automation — could it help us shape materials in ways that respect and enhance their natural properties?"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave-studio-ii_03.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Terra Weave is our answer — this is a system that integrates robotic fabrication with renewable resources, specifically willow and earth. Our research stands on three pillars: natural composites, digital design and fabrication. We looked closely at the anatomical behaviour of materials like willow and earth, and how their natural properties could be leveraged through robotic precision."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave-studio-ii_04.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Willow offers unique advantages. It’s renewable, flexible, lightweight, and can be harvested yearly. Its tensile properties allow it to be woven and bent without breaking, making it perfect for forming curved geometries and distributing loads when integrated into a hybrid structure."
+            },
+            {
+              "k": "p",
+              "t": "Earth complements willow beautifully – It is locally available, low-impact, and offers excellent compressive strength. When combined, willow manages tension while earth provides weight anchoring, load transfer, and prevents sifting — together improving the system’s structural behaviour."
+            },
+            {
+              "k": "h",
+              "t": "Material Behaviour"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave-studio-ii_05.gif",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Willow weaving creates a highly adaptable framework. It responds to tension and bending, helping the structure work as a continuous skin without joints. Its geometry enhances load distribution, while the interlocking pattern prevents displacement under stress. Early tests focused on material deflection, breaking points, elasticity, and identifying the threshold where willow and earth could work together."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave-studio-ii_06.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "The system follows a four-phase process: first, weaving the willow; second, scanning the geometry to account for its irregularities and interpreting this data; third, applying additive manufacturing using earth-based mixtures; and finally, re-scanning for evaluation and adjustment."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave-studio-ii_07.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "We began with flat, small-scale prototypes using varying earth-water mixtures, spacing configurations, and nozzle sizes. As we iterated, we scaled up and modified the system earth-to-water ratios, and weaving densities. These adjustments directly affected deflection, material bonding, and load-bearing capacity."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave-studio-ii_08.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Jigs were essential to controlling geometry. We developed flat jigs, 3D jigs with even and uneven configurations, and experimented with creating non-planar surfaces. CNC technology enabled us to produce precise forms to guide the willow weaving before robotic intervention. The process starts by steaming the willow to increase pliability, then weaving it directly into the jigs."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave-studio-ii_09.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Afterward, we prepare the system for robotic printing by scanning the woven structure."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave-studio-ii_10.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Using Grasshopper, we generated robotic toolpaths tailored to each woven geometry. The scan-to-path approach allowed us to adapt the printing process to the natural variability of the handmade weave, making each print specific to its weave’s geometries."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave-studio-ii_11.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "In this phase we tested two main methods: non-planar surface printing and injection printing. Surface printing worked well on flatter geometries, while injection printing was suited for more complex, non-planar forms, where precision and material concentration were key."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave-studio-ii_12.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave-studio-ii_13.jpeg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave-studio-ii_14.jpeg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave-studio-ii_15.jpeg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "We observed that planar printing was well-suited for façade-like elements, offering flexibility but limited strength with clay. Injection printing performed better under concentrated loads, creating stronger, more structured components, especially in hybrid configurations. In our next tests, we will be testing with earth as opposed to clay, which was a limitation due to our end effector."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave-studio-ii_16.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "We observed that planar printing was well-suited for façade-like elements, offering flexibility but limited strength with clay. Injection printing performed better under concentrated loads, creating stronger, more structured components, especially in hybrid configurations."
+            },
+            {
+              "k": "p",
+              "t": "The idea for the next term is to merge the best of the learning outputs of these two processes in order to apply it to our hybrid technique, on a larger scale. We plan to integrate dual-robot collaboration: one robot weaving willow, another printing earth. We also aim to develop a custom end-effector optimized for weaving-integrated additive manufacturing, enabling us to test full-scale hybrid structure"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/terraweave-studio-ii_17.jpg",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "title": "Applied Theory · Multi-agent system",
+          "url": "https://blog.iaac.net/terraweave-multi-agent-system/",
+          "credit": "Terraweave: Multi-Agent System is a project of IAAC, Institute for Advanced Architecture of Catalonia developed in the Master in Robotics & Advanced Construction - 2024-2025 by the student(s) Krystyne Kontos, Lauren Deming, Elizabeth Frias and Chi Lee during the course MRAC01 24/25 Applied Theory III with Ana Cocho.",
+          "blocks": [
+            {
+              "k": "img",
+              "file": "assets/iaac/multi-agent_02.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/multi-agent_03.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/multi-agent_04.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/multi-agent_05.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/multi-agent_06.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/multi-agent_07.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/multi-agent_08.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/multi-agent_09.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/multi-agent_10.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/multi-agent_11.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/multi-agent_12.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/multi-agent_13.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "title": "Venture · Startup pitch",
+          "url": "https://blog.iaac.net/terraweave-startup-pitch/",
+          "credit": "TerraWeave: Startup Pitch is a project of IAAC, Institute for Advanced Architecture of Catalonia developed in the Master in Robotics & Advanced Construction 01 - 2024-2025 by the student(s) Krystyne Kontos, Elizabeth Frias and Chi Lee during the course MRAC 24/25 Applied Theory II with Yara Tayoun and Mathilde Marengo.",
+          "blocks": [
+            {
+              "k": "h",
+              "t": "The Problem"
+            },
+            {
+              "k": "p",
+              "t": "The built environment is responsible for 42% of annual global CO₂ emissions. Within this, building operations and construction alone contribute nearly one-third. Yet, current construction methods lack flexibility, efficient resource use, and environmentally friendly solutions. This is the context that drove our project."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/startup-pitch_02.png",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Terraweave Solution"
+            },
+            {
+              "k": "p",
+              "t": "TerraWeave integrates robotics, wattle and daub construction and renewable/local materials to create sustainable, adaptive, and resilient architectural solutions."
+            },
+            {
+              "k": "p",
+              "t": "Our approach enables local, precise, efficient, and scalable construction with minimal environmental impact.We are redefining the built environment by offering low-carbon, vernacular, and modular architecture for a changing world."
+            },
+            {
+              "k": "p",
+              "t": "So what do we offer:"
+            },
+            {
+              "k": "list",
+              "items": [
+                "On-site Robot Fabrication and Software: Allowing global firms to adopt TerraWeave’s proprietary methods and be able to utilize equipment with us and from us",
+                "Land Conservation: Promoting ancient building practices that preserve natural landscapes.​",
+                "Low-Cost Construction Systems: Providing affordable construction options through innovative construction methods.​",
+                "Wattle and Daub Construction: Revitalizing the use of earth and willow-like material as a primary building material.​",
+                "Education & Training Programs: Offering professional development in robotic fabrication and green construction across the globe"
+              ]
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/startup-pitch_03.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/startup-pitch_04.png",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Sustainable Business Canvas"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/startup-pitch_05.jpg",
+              "caption": ""
+            }
+          ]
+        }
+      ]
+    },
+    "layout": "iaac"
   },
   {
     "id": "scan-to-print",
@@ -447,7 +953,150 @@ window.PORTFOLIO_PROJECTS = [
         "source": "https://blog.iaac.net/scanning-for-reconstruction-non-planar-3d-printing/"
       }
     ],
-    "featured": true
+    "featured": true,
+    "iaac": {
+      "parts": [
+        {
+          "title": "",
+          "url": "https://blog.iaac.net/scanning-for-reconstruction-non-planar-3d-printing/",
+          "credit": "Scanning for Reconstruction: Non Planar 3D printing is a project of IAAC, Institute for Advanced Architecture of Catalonia developed in the Master in Robotics & Advanced Construction 01 - 2024-2025 by the student(s) Elizabeth Frias, Chi Lee and Krystyne Kontos during the course MRAC 24/25 Software II with Huanyu Li.",
+          "blocks": [
+            {
+              "k": "h",
+              "t": "Introduction"
+            },
+            {
+              "k": "p",
+              "t": "In this exercise, our objective was to scan a physical object and use the acquired data to generate a toolpath for non-planar 3D printing. To achieve this, we integrated tools such as Grasshopper, Python, and ROS (Robot Operating System) and conducted multiple tests to optimize the scanning strategy and post-processing."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/scan-to-print_01.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Methodology"
+            },
+            {
+              "k": "p",
+              "t": "To achieve non-planar 3D printing on a non-planar surface, we followed a structured workflow. First, we designed a scanning toolpath in Grasshopper and exported it to Python for robotic execution. Next, we used a UR10e robotic arm and a depth camera to scan the physical model and generate a .PLY file containing the 3D mesh. After comparing different scanning strategies, we selected the most accurate one for our project. Finally, we used the optimized mesh to generate a non-planar toolpath for 3D printing, ensuring precise adaptation to the curved surface."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/scan-to-print_02.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/scan-to-print_03.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Step 01: Design Toolpath Strategies"
+            },
+            {
+              "k": "p",
+              "t": "After modeling the geometry in 3D software, the next step involved developing a toolpath strategy, which was designed using Grasshopper. The toolpath is then exported as a .yaml file to be imported into Python, enabling the ROS scanning system to utilize the precise coordinates defined as lines within the Grasshopper model."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/scan-to-print_04.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Step 02: Scanning"
+            },
+            {
+              "k": "p",
+              "t": "After importing the .yaml file previously generated in Grasshopper, the next step was to load it.This allowed us to extract the coordinates required for the scanning process, ultimately enabling the reconstruction for a generation of the 3D mesh in the .ply format."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/scan-to-print_05.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "To optimize the robotic toolpath for scanning, we conducted three iterative attempts. Initially, the first test used a curved path with too many scanning points, resulting in high computational load and inefficient robotic arm movement. In the second attempt, we reduced the number of scanning points, which improved efficiency and smoothed motion execution in VS Code, but further refinement was still necessary. Finally, in the third attempt, we optimized the process by further decreasing the number of scanning points, achieving a structured, efficient, and balanced approach that enhanced both accuracy and performance."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/scan-to-print_06.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Step 03: Comparisons"
+            },
+            {
+              "k": "p",
+              "t": "Once the scans are completed, we proceed to collect the .ply meshes for comparison. This allows us to evaluate which of the designed toolpaths is most suitable for our geometry. The optimal toolpath is determined by its ability to generate a mesh that closely resembles the real-world geometry."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/scan-to-print_07.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Step 04: Post Processing"
+            },
+            {
+              "k": "p",
+              "t": "After obtaining the .ply mesh that best represents our geometry, we can proceed with designing the toolpath for non-planar 3D printing on a curved surface."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/scan-to-print_08.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/scan-to-print_09.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "After exploring various toolpath options, we determined that the horizontal toolpath was the most effective choice for our project. This approach aligned better with the geometry of the object, providing a faster and more efficient printing process. It allowed for cleaner results, optimizing both the time and precision required for 3D printing on non-planar surfaces."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/scan-to-print_10.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Conclusions and Next Steps"
+            },
+            {
+              "k": "p",
+              "t": "This exercise demonstrated the importance of a well-structured workflow for non-planar 3D printing. Throughout the process, we optimized scanning, improved toolpath strategies, and selected the best approach for fabrication."
+            },
+            {
+              "k": "list",
+              "items": [
+                "Post Processing: Open3D: provides robust tools for handling raw 3D data, including point cloud processing, registration, and classical reconstruction methods, offering a strong foundation for accurate mesh reconstruction. PyTorch3D: With its differentiable rendering and seamless integration with deep learning pipelines, it enables advanced reconstruction techniques like neural implicit surfaces and optimization-based mesh generation, making it a powerful choice for adaptable and innovative 3D reconstruction workflows.",
+                "Open3D: provides robust tools for handling raw 3D data, including point cloud processing, registration, and classical reconstruction methods, offering a strong foundation for accurate mesh reconstruction.",
+                "PyTorch3D: With its differentiable rendering and seamless integration with deep learning pipelines, it enables advanced reconstruction techniques like neural implicit surfaces and optimization-based mesh generation, making it a powerful choice for adaptable and innovative 3D reconstruction workflows.",
+                "Toolpath Design: Design a more adaptable, automated scanning toolpath to accommodate different object sizes and shapes.",
+                "Robotic Manipulation: Develop algorithms to extract optimal grasping poses from scanned models to improve robotic manipulation.",
+                "Lighting: Improve lighting setup to ensure better consistency and capture quality during scanning.",
+                "Camera Upgrade: Upgrade the camera system to enhance accuracy when scanning smaller objects."
+              ]
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/scan-to-print_11.jpg",
+              "caption": ""
+            }
+          ]
+        }
+      ]
+    },
+    "layout": "iaac"
   },
   {
     "id": "cork-reform",
@@ -596,7 +1245,424 @@ window.PORTFOLIO_PROJECTS = [
     },
     "videoLinks": [],
     "videos": [],
-    "featured": true
+    "featured": true,
+    "iaac": {
+      "parts": [
+        {
+          "title": "",
+          "url": "https://blog.iaac.net/cork-reform/",
+          "credit": "Cork ReForm is a project of IAAC, Institute for Advanced Architecture of Catalonia developed in the Master in Robotics & Advanced Construction 01 - 2024-2025 by the student(s) Aleksandra Kraeva, Santosh Prabhu Shenbagamoorthy, Altug Tugrul, Krystyne Kontos, Chi Lee, Tanvi Sawant and zeyu chao during the course MRAC01 24/25 Workshop 1.1: BIO-ADDITIVE MANUFACTURING with Ricardo Mayor, Sheikh Rizvi Riaz and Nestor Beguin.",
+          "blocks": [
+            {
+              "k": "p",
+              "t": "Bio-Additive Manufacturing with Cork"
+            },
+            {
+              "k": "p",
+              "t": "Topology optimisation – Arriving at an absolute"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/cork-reform_01.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Topology optimization is a shape optimization method that uses algorithmic models to optimize material layout within a user-defined space for a given set of loads, conditions, and constraints"
+            },
+            {
+              "k": "p",
+              "t": "Topology optimisation maximizes the performance and efficiency of the design by removing redundant material from areas based on structural load to reduce weight or to solve design challenges like reducing resonance or thermal stress."
+            },
+            {
+              "k": "p",
+              "t": "Designs produced with topology optimization often include free forms meshes and intricate shapes that are complex to reconstruct or impossible to manufacture with traditional production methods."
+            },
+            {
+              "k": "p",
+              "t": "Topology optimisation – Generico by SPADE"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/cork-reform_02.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Topology optimization is increasingly used in furniture design, especially in projects where aesthetics and structural efficiency are important."
+            },
+            {
+              "k": "p",
+              "t": "Spade’s Generico uses a generative form-finding process that takes into account structural performance, material properties and ergonomic demands as well as parameters of production.In order to accommodate the idea of a generative design development the concept for the realization is based on generative/additive manufacturing technologies. In a first step the constraints for the form generation were defined in a parametric 3D-model."
+            },
+            {
+              "k": "p",
+              "t": "Mix-design & material Composition"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/cork-reform_03.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Design Inspiration/Drivers"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/cork-reform_04.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/cork-reform_05.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/cork-reform_06.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Optimisation Parameters"
+            },
+            {
+              "k": "p",
+              "t": "Optimised positioning and placement of the asymmetrical supports led to them converging towards relatively stable topology."
+            },
+            {
+              "k": "p",
+              "t": "At 450 mm tall, the prototype can effectively fail for our convenience to get the necessary data about the slenderness ratio and slope angles that the material can actually handle during print."
+            },
+            {
+              "k": "p",
+              "t": "Technical Parameters – Prototype 1"
+            },
+            {
+              "k": "p",
+              "t": "Material-mix specifications :"
+            },
+            {
+              "k": "p",
+              "t": "Cork powder 2mm 1 kg"
+            },
+            {
+              "k": "p",
+              "t": "Gelatine 600 g"
+            },
+            {
+              "k": "p",
+              "t": "Xanthan gum 350 g"
+            },
+            {
+              "k": "p",
+              "t": "Bicarbonato 125 g"
+            },
+            {
+              "k": "p",
+              "t": "Pectine 285 g"
+            },
+            {
+              "k": "p",
+              "t": "Distilled water 3.25 l"
+            },
+            {
+              "k": "p",
+              "t": "Tap water 3.25 l"
+            },
+            {
+              "k": "p",
+              "t": "Robotic arm technical specifications :"
+            },
+            {
+              "k": "p",
+              "t": "Robotic arm ABB IRB 6700"
+            },
+            {
+              "k": "p",
+              "t": "Nozzle size 15mm"
+            },
+            {
+              "k": "p",
+              "t": "Robot Speed 25% – 55%"
+            },
+            {
+              "k": "p",
+              "t": "Print layer height 5mm"
+            },
+            {
+              "k": "p",
+              "t": "Print_width @ 25% speed 20mm – 23 mm"
+            },
+            {
+              "k": "p",
+              "t": "Print_width @ 50% speed 15mm – 17mm"
+            },
+            {
+              "k": "p",
+              "t": "Extruder head technical specifications:"
+            },
+            {
+              "k": "p",
+              "t": "Extruder motor speed 300 – 5000 (Long Int)"
+            },
+            {
+              "k": "p",
+              "t": "Motor speed range map 0 – 10 (in pendant)"
+            },
+            {
+              "k": "p",
+              "t": "(Motor speed is inversely proportional to extrusion)"
+            },
+            {
+              "k": "p",
+              "t": "Motor speed used 7"
+            },
+            {
+              "k": "p",
+              "t": "Mixing pump technical specification:"
+            },
+            {
+              "k": "p",
+              "t": "Model Wasp"
+            },
+            {
+              "k": "p",
+              "t": "Set pressure 13.9"
+            },
+            {
+              "k": "p",
+              "t": "Pressure range 15 – 50"
+            },
+            {
+              "k": "p",
+              "t": "Print specification:"
+            },
+            {
+              "k": "p",
+              "t": "Print height reached 42 cm"
+            },
+            {
+              "k": "p",
+              "t": "First leg collapse @ 38 cm"
+            },
+            {
+              "k": "p",
+              "t": "Second leg collapse 45 mins after print"
+            },
+            {
+              "k": "p",
+              "t": "Remaining collapsed overnight"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/cork-reform_07.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/cork-reform_08.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "The deformations of topology caused by steep angles in design revealed possible failure points way before the initial collapse."
+            },
+            {
+              "k": "p",
+              "t": "The print held itself together until it was about 32 cm tall after which we noticed the steepest leg fail."
+            },
+            {
+              "k": "p",
+              "t": "The printing continued for 3 hours and 10 mins overall and the remaining two supports stood the test of printing."
+            },
+            {
+              "k": "p",
+              "t": "We noticed the second support fail and collapse when the material started to dry rapidly and the shrinkage from below pulled down the wet layers on top in its own self weight."
+            },
+            {
+              "k": "p",
+              "t": "The final stable support collapsed overnight."
+            },
+            {
+              "k": "p",
+              "t": "Connections analysis"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/cork-reform_09.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "The distance between the upper and lower layers exceeds 5 mm—the width of our nozzle—the layers don’t connect properly. This gap prevents the layers from bonding effectively, compromising structural integrity. To address this, we need to add an infill strategy to ensure consistent layer bonding."
+            },
+            {
+              "k": "p",
+              "t": "Prototype 2 – Design development"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/cork-reform_10.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Final Module"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/cork-reform_11.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Technical Parameters – Prototype 2"
+            },
+            {
+              "k": "p",
+              "t": "Material-mix specifications :"
+            },
+            {
+              "k": "p",
+              "t": "Cork powder 2mm 1 kg"
+            },
+            {
+              "k": "p",
+              "t": "Gelatine 600 g"
+            },
+            {
+              "k": "p",
+              "t": "Xanthan gum 350 g"
+            },
+            {
+              "k": "p",
+              "t": "Bicarbonato 125 g"
+            },
+            {
+              "k": "p",
+              "t": "Pectine 285 g"
+            },
+            {
+              "k": "p",
+              "t": "Distilled water 3.25 l"
+            },
+            {
+              "k": "p",
+              "t": "Tap water 3.25 l"
+            },
+            {
+              "k": "p",
+              "t": "Robotic arm technical specifications :"
+            },
+            {
+              "k": "p",
+              "t": "Robotic arm ABB IRB 6700"
+            },
+            {
+              "k": "p",
+              "t": "Nozzle size 15 mm"
+            },
+            {
+              "k": "p",
+              "t": "Robot Speed 25% – 55%"
+            },
+            {
+              "k": "p",
+              "t": "Print layer height 5 mm"
+            },
+            {
+              "k": "p",
+              "t": "Print_width @ 25% speed 20 mm – 23 mm"
+            },
+            {
+              "k": "p",
+              "t": "Print_width @ 50% speed 15 mm – 17mm"
+            },
+            {
+              "k": "p",
+              "t": "Extruder head technical specifications:"
+            },
+            {
+              "k": "p",
+              "t": "Extruder motor speed 300 – 5000 (Long Int)"
+            },
+            {
+              "k": "p",
+              "t": "Motor speed range map 0 – 10 (in pendant)"
+            },
+            {
+              "k": "p",
+              "t": "(Motor speed is inversely proportional to extrusion)"
+            },
+            {
+              "k": "p",
+              "t": "Motor speed used 7"
+            },
+            {
+              "k": "p",
+              "t": "Mixing pump technical specification:"
+            },
+            {
+              "k": "p",
+              "t": "Model Wasp"
+            },
+            {
+              "k": "p",
+              "t": "Set pressure 13.9"
+            },
+            {
+              "k": "p",
+              "t": "Pressure range 15 – 50"
+            },
+            {
+              "k": "p",
+              "t": "Print specification:"
+            },
+            {
+              "k": "p",
+              "t": "Print height reached 30 cm"
+            },
+            {
+              "k": "p",
+              "t": "Base Printing"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/cork-reform_12.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/cork-reform_13.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/cork-reform_14.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/cork-reform_15.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/cork-reform_16.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/cork-reform_17.png",
+              "caption": ""
+            }
+          ]
+        }
+      ]
+    },
+    "layout": "iaac"
   },
   {
     "id": "anomaly-detection",
@@ -720,7 +1786,166 @@ window.PORTFOLIO_PROJECTS = [
       "Chi Lee",
       "Krystyne Kontos"
     ],
-    "videos": []
+    "videos": [],
+    "iaac": {
+      "parts": [
+        {
+          "title": "",
+          "url": "https://blog.iaac.net/robotics-solutions-for-building-anomaly-detection/",
+          "credit": "Robotics Solutions for Building Anomaly Detection is a project of IAAC, Institute for Advanced Architecture of Catalonia developed in the Master in Robotics & Advanced Construction 01 - 2024-2025 by the student(s) Elizabeth Frias, Lauren Deming, Chi Lee and Krystyne Kontos during the course MRAC 24/25 Workshop 2.2: Robotic Solutions For 3D Space Analysis with Marita Georganta and Huanyu Li.",
+          "blocks": [
+            {
+              "k": "h",
+              "t": "Introduction"
+            },
+            {
+              "k": "p",
+              "t": "In the face of increasing climate-related disasters, accurate and efficient scanning methods are essential for assessing structural integrity. Our team developed a robotic scanning solution that utilizes LiDAR-based Husky A200 and drone photogrammetry to detect roof anomalies, such as holes and structural weaknesses.This study explores different scanning methodologies and evaluates their effectiveness in detecting anomalies in post-disaster environments."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/anomaly-detection_01.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Exploring Different Scanning Methods"
+            },
+            {
+              "k": "p",
+              "t": "There are several scanning methods used for 3D space analysis and anomaly detection, each with distinct advantages. Photogrammetry, using a camera or drone, captures 2D imagery from multiple angles and processes it into a 3D model—ideal for visual reconstruction but less effective in detecting structural anomalies. LiDAR-based scanning, as used in the Husky A200 and robot dog (Unitree GO2), generates high-precision point clouds by measuring distances with laser pulses, making it highly accurate for detecting holes, structural weaknesses, and spatial mapping. The robot dog, with its mobility, is particularly useful for scanning hard-to-reach or uneven terrains, while ground-based robots like Husky excel in large, open environments with clear toolpaths."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/anomaly-detection_02.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/anomaly-detection_03.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/anomaly-detection_04.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Different methodologies were tested and based in our firs experiments, we decided to test in the project the scanning methodologies of the drone scanning and the husky a200."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/anomaly-detection_05.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/anomaly-detection_06.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Photogrammetry (drone based scanning)"
+            },
+            {
+              "k": "p",
+              "t": "Photogrammetry is a method that uses 2D imagery from drones to generate 3D models of buildings. By capturing multiple images from different angles and processing them with Metashape, we can create detailed 3D reconstructions."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/anomaly-detection_07.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/anomaly-detection_08.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "LiDAR based scanning (Husky A200)"
+            },
+            {
+              "k": "p",
+              "t": "Unlike photogrammetry, LiDAR (Light Detection and Ranging) uses laser pulses to generate precise point clouds of an environment. The Husky A200, equipped with a powerful MID-360 LiDAR sensor, was used to map and detect anomalies in roofs with high accuracy."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/anomaly-detection_09.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/anomaly-detection_10.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Selecting the best Scanning Method"
+            },
+            {
+              "k": "p",
+              "t": "Although the data from the drone was easier to synthesize, we chose to analyze the data collected from the Husky a200 using LiDar because it was most expeditious in gathering accurate + detailed data for anomalies + openings in the roof."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/anomaly-detection_11.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/anomaly-detection_12.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Roof Anomaly Detection"
+            },
+            {
+              "k": "p",
+              "t": "Following the completion of the scanning and the digital reconstruction of the building, our attention shifted towards the analysis and data extraction of anomalies on the roof. This step was critical for developing a comprehensive plan for a full-proof creating a disaster relief solution when it comes to the amendment/reconstruction of buildings. Without having physical access to the roof, the robot + scanning equipment provided enabled our team to use multiple methods of gathering data. The software used allowed us assess the roof condition and determine the size and quantity of material needed to repair the roof."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/anomaly-detection_13.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/anomaly-detection_14.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Conclusions"
+            },
+            {
+              "k": "p",
+              "t": "Husky A200 with LiDAR is the best option for roof anomaly detection due to its precision and autonomy. Drone photogrammetry is useful for visualizing overall structures and setting the LiDar point cloud to scale, but lacks hole-detection accuracy. The combination of both methods would provide the most comprehensive building assessment."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/anomaly-detection_15.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Next Steps & Potential Applications"
+            },
+            {
+              "k": "p",
+              "t": "Post-disaster assessment → Quickly detect damage in buildings after earthquakes or stormsBuilding maintenance → Identify structural weaknesses in commercial and industrial buildingsAutomation & AI integration → Future upgrades could include autonomous scanning and AI-based damage analysis"
+            },
+            {
+              "k": "p",
+              "t": "Enhance Husky’s real-time data processing to improve speedIntegrate AI-driven navigation for full autonomy Explore alternative scanning technologies (thermal imaging, radar, advanced photogrammetry)"
+            }
+          ]
+        }
+      ]
+    },
+    "layout": "iaac"
   },
   {
     "id": "fan-only",
@@ -881,7 +2106,201 @@ window.PORTFOLIO_PROJECTS = [
         "remote": false,
         "source": ""
       }
-    ]
+    ],
+    "iaac": {
+      "parts": [
+        {
+          "title": "",
+          "url": "https://blog.iaac.net/fan-only-a-cataloguing-approach-to-glazing/",
+          "credit": "Fan Only: A Cataloguing Approach to Glazing is a project of IAAC, Institute for Advanced Architecture of Catalonia developed in the Master in Robotics & Advanced Construction 01 - 2024-2025 by the student(s) Elizabeth Frias, Santosh Prabhu Shenbagamoorthy, Chi Lee, Greig Thomas and Krystyne Kontos during the course MRAC 24/25 Workshop 2.1: Robotic Glazing Coreography with Theophile Peju, Alfredo Chávez and Pit Siebenaler.",
+          "blocks": [
+            {
+              "k": "h",
+              "t": "Introduction"
+            },
+            {
+              "k": "p",
+              "t": "The exploration of robotic fabrication with traditional techniques has become increasingly important in the ceramic industry, opening up new possibilities for innovation, efficiency and mass production."
+            },
+            {
+              "k": "p",
+              "t": "This research, in collaboration with Heatherwick Studio, bridges traditional artistry and robotic innovation, using only a fan brush to explore creative possibilities in ceramic glazing."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_01.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_02.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_03.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Design Methodology"
+            },
+            {
+              "k": "p",
+              "t": "The design methodology follows a structured approach to exploring fan brush patterns in robotic fabrication. We begin with tool selection, defining the workflow to develop a comprehensive catalog of patterns. The process is divided into two main phases: flat surface testing, where patterns are generated and analyzed using photo scanning (OpenCV) to quantify brushstroke characteristics, followed by complex surface experiments, which examine how curvature and material behavior influence pattern formation."
+            },
+            {
+              "k": "p",
+              "t": "Finally, the results are evaluated and compared, identifying the most effective patterns for robotic execution and optimizing their application across diverse geometries."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_04.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_05.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Process I: Flat Surfaces"
+            },
+            {
+              "k": "p",
+              "t": "How many unique patterns can be created with a single fan brush by exploring variations and overlaps on flat ceramic surfaces to build a comprehensive catalog?"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_06.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "The image above explains the generated toolpath with motion tracking and the result on a ceramic tile."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_07.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_08.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_09.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "We then start comparing our generated robotic tiles with the help of open CV."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_10.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "We also start analyzing our overlaped stamping patterns"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_11.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_12.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Process II: Curved Surfaces"
+            },
+            {
+              "k": "p",
+              "t": "How can we create unique patterns with a single fan brush on complex ceramic geometries? This process explores how variations in shape and curvature influence pattern formation, requiring designs to adapt to each geometry while maximizing decorative possibilities"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_13.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_14.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Comparison"
+            },
+            {
+              "k": "p",
+              "t": "How may we analyse our experiments on flat and complex surfaces, to enable seamless execution on tiles and experiments to come?"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_15.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_16.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_17.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Learnings and Next Steps"
+            },
+            {
+              "k": "p",
+              "t": "Based on the insights gained from the analysis and comparison of flat surfaces to curved surfaces—such as how flat surfaces prioritize consistency and speed, producing precise, uniform patterns, while curved surfaces require customized toolpaths and glaze adjustments to create dynamic, shape-enhanced designs that embrace the complexity of the geometry—these are our conclusions:"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_18.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_19.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_20.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Final Exhibition"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_21.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/fan-only_22.jpg",
+              "caption": ""
+            }
+          ]
+        }
+      ]
+    },
+    "layout": "iaac"
   },
   {
     "id": "balloon-tool",
@@ -1045,7 +2464,286 @@ window.PORTFOLIO_PROJECTS = [
         "source": "https://blog.iaac.net/pressurized-balloon-spill-tool/"
       }
     ],
-    "featured": true
+    "featured": true,
+    "iaac": {
+      "parts": [
+        {
+          "title": "",
+          "url": "https://blog.iaac.net/pressurized-balloon-spill-tool/",
+          "credit": "Practical Introduction to Electronics / MRAC Hardware I is a project of IAAC, Institute for Advanced Architecture of Catalonia developed in the Master in Robotics & Advanced Construction 01 – 2024-2025 by the student(s) Marianne Weber, Chi Li, Aleksandra Kraeva, and Lauren Deming for the course, MRAC01 24/25 Hardware I with Marita Georganta and Huanyu Li.",
+          "blocks": [
+            {
+              "k": "p",
+              "t": "Practical Introduction to Electronics (MRAC Hardware 01)"
+            },
+            {
+              "k": "p",
+              "t": "Github: MRAC-IAAC/balloongun"
+            },
+            {
+              "k": "p",
+              "t": "Objectives."
+            },
+            {
+              "k": "p",
+              "t": "The Hardware Module 1 is intended to give an overview of the state of the art in robotic actuation, discussing the practical implementation of such actuators, and brainstorm how these actuators and the robotic arms could bring new levels of versatility, agility and efficiency to the production and construction processes."
+            },
+            {
+              "k": "p",
+              "t": "Over the course of three weeks, each group is tasked to create an transparent acrylic end-effector tool to be installed on the ABB arm robot using the actuators shown within the intro lecture. Concurrently, the 2nd Studio Module invites these groups to employ the end effector and ABB robotic arm mechanism to develop a “spill” of acrylic pigment onto canvas, exploring some aspect of the properties of the developed mechanism as an evolution from a more manual task."
+            },
+            {
+              "k": "p",
+              "t": "At the courses’ conclusion, skills developed include:"
+            },
+            {
+              "k": "list",
+              "items": [
+                "Programming using the Python or C# language",
+                "Using of microcontrollers",
+                "Controlling actuators such as motors, relays, etc.",
+                "Designing and fabricating an end effector tool to communicate between a robot arm and custom-made end effector",
+                "Programming synchronized actions between robot and the tool",
+                "Programming movements by a robotic arm",
+                "Arduino and laser cutting",
+                "Analysis of unpredicted results in design"
+              ]
+            },
+            {
+              "k": "p",
+              "t": "Concept of the Spill."
+            },
+            {
+              "k": "p",
+              "t": "In attempting to make a “spill” composition, our group focused on the mark made when a balloon full of liquid is popped. Typically, a manually popped balloon will a highly-variable, chaotic-looking splatter. With the precision of Arduino end-effector and ABB robotic arm, variables like pressure may be controlled to yield a more consistent outcome for each popped balloon. The following study examines a series of semi-automated splatters to seek underlying order in the otherwise chaotic marks."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/balloon-tool_02.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Variable Tested:"
+            },
+            {
+              "k": "list",
+              "items": [
+                "Pressure / Volume of balloon",
+                "Height of balloon",
+                "Amount + liquidity of pigment solution"
+              ]
+            },
+            {
+              "k": "p",
+              "t": "Variables Measured:"
+            },
+            {
+              "k": "list",
+              "items": [
+                "Splatter Size",
+                "Diameter"
+              ]
+            },
+            {
+              "k": "p",
+              "t": "Initial Data + Observations:"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/balloon-tool_03.jpg",
+              "caption": "Manual spill test."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/balloon-tool_04.png",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Development of the End Effector Tool."
+            },
+            {
+              "k": "p",
+              "t": "With initial observations, we sought to develop a tool that may better control the pressure in the balloon and where the balloon is popped as well as the balloon height."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/balloon-tool_05.png",
+              "caption": "Schematic Design."
+            },
+            {
+              "k": "p",
+              "t": "Design development integrated the air supply to the the acrylic housing, and the housing to the ABB robotic arm mount."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/balloon-tool_06.png",
+              "caption": "Design Development."
+            },
+            {
+              "k": "p",
+              "t": "Incorporation of the Arduino System."
+            },
+            {
+              "k": "p",
+              "t": "An elbow is added to the end effector to properly orient it to the robot arm and the canvas. Space is created to accommodate radially symmetrical solenoids intended to activate in unison to ensure popping of the balloon with minimum xy sway. A rigid frame is added to contain variability in the balloon’s inflation shape and further brace the balloon from sway."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/balloon-tool_07.png",
+              "caption": "Exploded Diagram."
+            },
+            {
+              "k": "p",
+              "t": "A detailed layout is required to ensure an organized and effective layout of the Arduino parts, including solenoids, air pump, relays, needles, wires, and a battery. Power supply is later added to regulate voltage to the solonoids and ensure ideal operation."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/balloon-tool_08.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/balloon-tool_09.jpg",
+              "caption": "360 degree rendering"
+            },
+            {
+              "k": "p",
+              "t": "The end effector is complete and ready for connection to the ABB."
+            },
+            {
+              "k": "p",
+              "t": "Incorporation of ABB Robotic Arm."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/balloon-tool_10.png",
+              "caption": "Pseudocode Diagram."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/balloon-tool_11.jpg",
+              "caption": "Photo of Final End Effector Mounted on ABB Robotic Arm."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/balloon-tool_12.jpg",
+              "caption": "Bill of Materials."
+            },
+            {
+              "k": "p",
+              "t": "Toolpath Concept."
+            },
+            {
+              "k": "p",
+              "t": "The robotic arm toolpath is intended to ensure consistency in the heights of each balloon pop. A grid is configured over the canvas with pre-programmed heights assigned to each x-y coordinate. Using Grasshopper software, the robot is programmed to begin and return to the “homing position” between each balloon pop to have the next balloon filled with pigment solution manually loaded off canvas. Three heights were used in 9 locations to ensure comparisons between same and variables heights."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/balloon-tool_13.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Outcomes + Observations."
+            },
+            {
+              "k": "p",
+              "t": "Prior to completing the final trials, some unforeseen variables were introduced to the group’s investigation, and adjustments were made to the pseudo code to ensure effective “splatter” results. ."
+            },
+            {
+              "k": "p",
+              "t": "Unforeseen Variables."
+            },
+            {
+              "k": "list",
+              "items": [
+                "Balloon shape changed drastically depending on the source of the pressure (ABB or air pump) and even more so depending on the liquidity and amount of the paint solution. Based on the geometry of the design (length of the needles in relation to the balloon shape), the success of popping the balloon became unpredictable. Controlling the geometry of the balloon yield obstructions in the spill pattern."
+              ]
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/balloon-tool_14.png",
+              "caption": "ABB supplied air pressure on paper."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/balloon-tool_15.png",
+              "caption": "End effector air pump on canvas."
+            },
+            {
+              "k": "list",
+              "items": [
+                "After repeated trials, the solenoids succumbed to the voltage, ultimately, burning out and requiring the end effector to be modified with longer, more angular needle configuration.",
+                "Changing the balloon size enabled more capacity for paint solution to be used.",
+                "Using the ABB air pressure was much more powerful than the Arduino air pump, creating more of a mist than a spill or splatter.",
+                "Adding water to the solution enables more of a splatter than a mist, however, upon impact, the canvas absorbed the moisture from the more watery solution than the trials done with paper, creating a less defined splatter and obscuring the initial results."
+              ]
+            },
+            {
+              "k": "p",
+              "t": "Variables Tested."
+            },
+            {
+              "k": "list",
+              "items": [
+                "Volume of balloon.",
+                "Height of balloon when popped.",
+                "Amount + liquidity of pigment solution"
+              ]
+            },
+            {
+              "k": "p",
+              "t": "Results Measured."
+            },
+            {
+              "k": "list",
+              "items": [
+                "Splatter Size / Diameter"
+              ]
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/balloon-tool_16.png",
+              "caption": "Trial 01."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/balloon-tool_17.png",
+              "caption": "Trial 02."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/balloon-tool_18.png",
+              "caption": "Vectorial drawings illustrating the toolpath, pigment solution, pop height, etc."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/balloon-tool_19.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Conclusion."
+            },
+            {
+              "k": "p",
+              "t": "In experimenting with new tools and mediums, the group learned the complexity of the anatomy of the machine and its vulnerability to both intended and unforeseen variables. With continued practice and interaction with the hardware design and Arduino, the group intends to increase the ability to control variables and outcomes, reducing chaos for chaotic processes."
+            },
+            {
+              "k": "p",
+              "t": "References."
+            },
+            {
+              "k": "p",
+              "t": "Li, Huanyu + Marita Georganta. (2024, October 28 – November 12). Hardware. IaaC, Barcelona, Spain"
+            }
+          ]
+        }
+      ]
+    },
+    "layout": "iaac"
   },
   {
     "id": "breathing-curtain",
@@ -1221,7 +2919,227 @@ window.PORTFOLIO_PROJECTS = [
         "source": "https://blog.iaac.net/weaving-natural-materials-breathin-curtain-wall/"
       }
     ],
-    "featured": false
+    "featured": false,
+    "iaac": {
+      "parts": [
+        {
+          "title": "",
+          "url": "https://blog.iaac.net/weaving-natural-materials-breathin-curtain-wall/",
+          "credit": "Weaving Natural Materials – Breathing Curtain Wall is a project of IAAC, Institute for Advanced Architecture of Catalonia developed in the Master in Robotics & Advanced Construction 01 - 2024-2025 by the student(s) Elizabeth Frias, Chanakan Chormai and Chi Lee during the course MRAC01 24/25 Workshop 1.2 \"Weaving Natural Materials\" with Javier Fuentes Quijano, Moritz Dörstelmann and Pit Siebenaler.",
+          "blocks": [
+            {
+              "k": "h",
+              "t": "Introduction"
+            },
+            {
+              "k": "p",
+              "t": "As part of the workshop led by Javier Fuentes and Moritz Dörstelmann the Chair of Digital Design and Fabrication (DDF) at the Karlsruhe Institute for Technology (KIT), our team explored the potential of willow as an innovative material in architecture. This project merges sustainability, advanced design, and robotic technology to develop breathable and adaptive facade systems. The goal was to leverage willow’s flexibility, strength, and sustainability to redefine material efficiency and create functional architectural systems."
+            },
+            {
+              "k": "p",
+              "t": "This project was driven by a multidisciplinary approach, combining historical insights, material research, and computational tools. It sought to develop facade systems that are not only aesthetically appealing but also contribute to environmental sustainability through natural ventilation and dynamic adaptability."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/breathing-curtain_01.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Concept"
+            },
+            {
+              "k": "p",
+              "t": "Our project revolved around the concept of core-less filament winding, a fabrication technique that eliminates the need for formwork and allows us to create unique, adaptable components. This approach encouraged us to think beyond traditional construction constraints and embrace designs that maximize material efficiency and sustainability."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/breathing-curtain_02.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Design Process & Development"
+            },
+            {
+              "k": "p",
+              "t": "The journey from concept to fabrication involved a combination of computational modeling, material testing, and robotic simulation. We started by analyzing the geometry of the module and experimenting with different weaving patterns."
+            },
+            {
+              "k": "p",
+              "t": "Here’s how we approached it:"
+            },
+            {
+              "k": "p",
+              "t": "a) Cataloging Weaving Patterns: We explored a range of weaving options, working through 18-layer designs that used up to 31 wooden sticks. These patterns were iteratively refined to optimize both stability and appearance."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/breathing-curtain_03.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "b) Choosing the best design approach: We explored with a few combinations of these patterns in order to choose the design that would fit best our concept, approach and stability."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/breathing-curtain_04.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/breathing-curtain_05.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/breathing-curtain_06.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Fabrication Strategy"
+            },
+            {
+              "k": "p",
+              "t": "Fabricating the module was an exciting challenge that brought together material treatments, computational tools, and robotic precision."
+            },
+            {
+              "k": "p",
+              "t": "We faced the task of adapting our designs for robotic fabrication. For example, we replaced curved toolpaths with segmented lines to accommodate the robot’s limitations and prevent errors during weaving, which ended up changing the geometry we had previously designed. Additionally, we carefully designed offset openings to ensure that the robot’s end effector wouldn’t collide with the wooden sticks during assembly. These adjustments allowed us to create a seamless process from digital design to physical construction."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/breathing-curtain_07.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/breathing-curtain_08.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "The final module featured a woven structure consisting of 18 layers and 29 wooden sticks. This design struck a balance between structural integrity and aesthetic elegance, showcasing willow’s natural flow and texture. The modular nature of the system allows it to scale up for larger architectural applications, making it ideal for facade systems."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/breathing-curtain_09.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Fabrication Process"
+            },
+            {
+              "k": "p",
+              "t": "The fabrication process was a pivotal part of our project, showcasing the seamless integration of material preparation, robotic precision, and computational design. Our approach was centered on achieving an autonomous workflow where the robotic arm could independently manipulate and weave the willow into the designated patterns."
+            },
+            {
+              "k": "p",
+              "t": "We began by steaming the willow to enhance its pliability. This treatment softened the fibers, reducing the risk of cracking during bending and ensuring a smoother weaving process. With the material ready, the robotic arm was programmed to execute the weaving autonomously. Using computational toolpaths generated in Grasshopper, the robot was capable of picking up individual willow pieces and placing them with precision in their designated positions."
+            },
+            {
+              "k": "p",
+              "t": "The autonomous aspect of the process was key to the project’s success. It allowed the robot to handle repetitive tasks with high accuracy, such as layering and aligning the willow strands according to the pre-determined weaving pattern. By automating these steps, we minimized human intervention and ensured consistency across the module’s layers."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/breathing-curtain_10.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/breathing-curtain_12.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Architectural Applications"
+            },
+            {
+              "k": "p",
+              "t": "While our module was initially designed as a proof of concept, we also envisioned its future architectural applications. The panels we created could function as breathable facades, contributing to natural ventilation and energy efficiency in buildings. Here are some potential applications:"
+            },
+            {
+              "k": "list",
+              "items": [
+                "Green Buildings: Our facade system could reduce reliance on air conditioning by enabling natural airflow, promoting sustainable design.",
+                "Smart Cities: Integrated with IoT sensors, these panels could dynamically adjust to temperature and humidity changes, optimizing indoor comfort.",
+                "Architectural Identity: The woven patterns add a unique aesthetic, blending natural materials with contemporary design to create visually striking buildings."
+              ]
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/breathing-curtain_13.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Breathable Facade System"
+            },
+            {
+              "k": "p",
+              "t": "One of the most exciting aspects of this project was envisioning how our modular willow panels could be integrated into real-world architectural systems. By combining natural materials with advanced robotic fabrication, we explored innovative applications for facades that prioritize sustainability, functionality, and aesthetics."
+            },
+            {
+              "k": "p",
+              "t": "Our primary architectural application focused on creating breathing curtain walls—dynamic facade systems that allow natural ventilation while contributing to the building’s energy efficiency. These facades are particularly effective in regulating temperature, reducing reliance on artificial cooling systems, and promoting airflow."
+            },
+            {
+              "k": "p",
+              "t": "Each module, with its woven willow pattern, acts as a filter that allows air and light to pass through. When aggregated, the panels form a cohesive system that adapts to environmental needs, offering both functional and aesthetic benefits."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/breathing-curtain_14.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/breathing-curtain_15.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/breathing-curtain_16.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Our facade concept goes beyond static applications. By integrating the modules with kinetic systems, we envisioned facades that respond dynamically to sunlight and other environmental conditions. For example:"
+            },
+            {
+              "k": "list",
+              "items": [
+                "Adjustable Modules: The panels could rotate horizontally or vertically to control the amount of light and ventilation entering the building. The renders demonstrate how the panels can transition between fully closed, semi-open, and fully open states to create varying levels of shading and airflow.",
+                "Smart Integration: When combined with IoT technologies, the facade could adjust automatically based on external conditions such as temperature, humidity, and air quality, making it an ideal solution for smart cities and high-tech architecture."
+              ]
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/breathing-curtain_17.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/breathing-curtain_18.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Conclusion"
+            },
+            {
+              "k": "p",
+              "t": "This project showcases the potential of natural materials like willow when combined with robotic fabrication. Through the creation of a woven module, we explored how traditional weaving techniques could be adapted using automation to achieve precision and scalability. While our work focused on developing the module, the digital proposal for a facade system demonstrates its potential for real-world architectural applications. This project highlights the possibilities of integrating natural materials into sustainable, energy-efficient designs and paves the way for further innovation in eco-friendly construction."
+            }
+          ]
+        }
+      ]
+    },
+    "layout": "iaac"
   },
   {
     "id": "shape",
@@ -1356,7 +3274,202 @@ window.PORTFOLIO_PROJECTS = [
         "source": "https://blog.iaac.net/anatomy-of-a-machine-shape/"
       }
     ],
-    "featured": false
+    "featured": false,
+    "iaac": {
+      "parts": [
+        {
+          "title": "",
+          "url": "https://blog.iaac.net/anatomy-of-a-machine-shape/",
+          "credit": "Anatomy of a Machine: Shape is a project of IAAC, Institute for Advanced Architecture of Catalonia developed in the Master in Robotics & Advanced Construction 01 - 2024-2025 by the student(s) Lauren Deming, Vasileios Mavromitros and Chi Lee during the course MRAC01 24/25 Studio I with Edouard Cabay and Pit Siebenaler.",
+          "blocks": [
+            {
+              "k": "p",
+              "t": "Objective."
+            },
+            {
+              "k": "p",
+              "t": "The primary focus of the project is to foster a sense of curiosity about the robotic arm and its ability to manipulate various sustainable construction materials through different processes. Teams are encouraged to apply their newly acquired hardware and software skills, alongside the robotic tools and equipment available in the robotic lab, to explore ways of creating and shaping materials."
+            },
+            {
+              "k": "list",
+              "items": [
+                "Develop scientific approach to material manipulation",
+                "Explore material plasticity",
+                "Research material specificities",
+                "Design custom made tools",
+                "Develop knowledge of usage of ready to use tools"
+              ]
+            },
+            {
+              "k": "p",
+              "t": "Deliverables."
+            },
+            {
+              "k": "p",
+              "t": "In addition to the four to eight prototypes each demonstrating different materials, tools or processes, video documentation and graphic diagram of the robotic process are required for presentation. Analysis of the various materials´ relevance via physical qualities, carbon footprint, and cost in the form of a ¨specifation sheet¨ was conducted. Ultimately, a speculatation on the utility and potential applications of these techniques, materials, and tools was encouraged."
+            },
+            {
+              "k": "p",
+              "t": "Materials."
+            },
+            {
+              "k": "p",
+              "t": "The materials must meet specific criteria: sustainability (low carbon footprint, local availability, and low embodied energy), compatibility with the available tools, and affordability. The prototypes can be made from a single material or material hybrids. Through manipulation of the materials, teams are able to better understand their physical properties– plasticity, elasticity, viscocity, etc."
+            },
+            {
+              "k": "p",
+              "t": "Initial experiments included combination of organic aggregates and binders in the hopes to create an extrudable material for 3D printing. Biomaterials such as coffee, eggshells, nuts hulls, flour clay, and sawdust were compbined with cornstarch and glycerine."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/shape_02.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "While crystalline wax and sodium trihydrate acetate are not traditional buillding materials, their physically properties (liquid to solid transformation) made for interesting experimentation in creating potentially extrudable material for a robot to manipulate."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/shape_03.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "In addition to robotic process, these materials required extended drying times or heating processes to create a solid shape. Given the limitations on time and heating elements, the biomaterial composites and non-traditional materials were abandoned for more traditional construction materials."
+            },
+            {
+              "k": "p",
+              "t": "Two such widely embraced materials were plaster and clay, each manipulatable with reasonable air drying times made for ideal prototype creations."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/shape_04.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Inspired by a recent robotic weaving exercise, a final robotic process involving the manipulation of jute, a solid, organic twine, was then employed to ensure a diversity in processes."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/shape_05.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Tools Utilized and Created."
+            },
+            {
+              "k": "p",
+              "t": "Initially, materials were manipulated by hand to see what accomodations may be necessary for a robotic arm to mimic the motions. Teams were encouraged to utilize existing robotic tools (or end effectors, such as extruders, grippers, and spindles) or to modify / build their own to ensure a diverse manipulation of the materials´physical properties. With just days between each experiment, playful improvisation turned processes with porous sponge-like tools to double-bladed knives. Careful consideration for relationships between the material bed, the material, and the tool center point (TCP) became integral to the seeming success or failure of each prototype. Plasticity and tactility of the array of the materials made each interation between robot and material changed the parameters and required careful consideration for speed and direction of the toolpath for each process."
+            },
+            {
+              "k": "p",
+              "t": "Processes."
+            },
+            {
+              "k": "p",
+              "t": "01. Stamp."
+            },
+            {
+              "k": "p",
+              "t": "End effector: Impact Printer + custom CNC stamp"
+            },
+            {
+              "k": "p",
+              "t": "Material: Red Clay"
+            },
+            {
+              "k": "p",
+              "t": "Inspired by the process of stamped concrete, the first process creates a repetitive task with the efficiency and precision adventageous in robotics. The tool, a stamp, was created by parametric design and carved via CNC to ensure observable variety of impression dependant on the maleability or viscocity of the material´s surface."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/shape_06.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Variables such as pressure, time, and stamp texture were adjusted to optimize results."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/shape_07.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "02. Lick."
+            },
+            {
+              "k": "p",
+              "t": "End Effectors: sponge brush, wire armature and sponge, wooden knives."
+            },
+            {
+              "k": "p",
+              "t": "Materials: clay + water, clay + glycerine + sawdust + water composite."
+            },
+            {
+              "k": "p",
+              "t": "Once a predictable outcome was acheived, the team moved toward more complex toolpaths utilizing more of the range of motion of the robot´s six axes."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/shape_08.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "The ¨lick¨process creates a more organic or ¨human-like¨ motion of manipulating a surface (as if it were being licked by a tongue). The end effector, made with a wire armature and sponge-like elasticity, allowed gave rise to a smoothing quality on an otherwise porous and course wet surface, a glycerine, clay and sawdust composite. The motion of the tool made a sweeping directional motion across the surface with x-axis deviation swinging from -30 degrees to +30 degrees. A dipping well (to moisten the tool) was later added to the toolpath and gave rise to more observable manipulation of the surface."
+            },
+            {
+              "k": "p",
+              "t": "03. Dip."
+            },
+            {
+              "k": "p",
+              "t": "End effector: impact printer + (weighted) mesh form."
+            },
+            {
+              "k": "p",
+              "t": "Material: Wax, spray plaster."
+            },
+            {
+              "k": "p",
+              "t": "Inspired the catenary curve chain models on display at Gaudi´s Sagrada Familia and the repetitive process of candle stick forming, this process adapts the toolpath and impact printing tool initially used for the ¨stamp¨process to create a timed dip + dry process. Due to the solidifying rate of crystalline wax, an electric stove would have been required to keep the material consistently liquid enough for the robotic manipulation, so plaster was utlized for the sake of the robotic experiment. At first attempt, the drying time of the material proved faster than necessary to allow the robot to properly manipulate the material. As a result the material quickly took the catenary form without repetition. Ultimately, the shape formed was dramatic but no greater as a result of robotic automation."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/shape_09.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "04. Weave."
+            },
+            {
+              "k": "p",
+              "t": "Finally, the team abandoned the concept of state-changing materials and moved toward simpler materials and even more complex toolpaths. The final process, required the robot to agily wind its was around a peg board with jute to create a vertical weave. While the robotic motion was repetitive, each layers of jute increased the tension on the peg members ultimately distorting them from their original vertical configuration."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/shape_10.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Conclusion."
+            },
+            {
+              "k": "p",
+              "t": "The project successfully demonstrated the potential of robotic systems in the manipulation of both traditional and experimental sustainable materials. Although initial experiments with biomaterials and non-traditional materials posed challenges, the team adapted by focusing on materials with more manageable properties for robotic manipulation. The processes explored—stamp, lick, dip, and weave—showcased the robot’s ability to perform complex, precision-based tasks, demonstrating that robotics can contribute to the development of sustainable construction materials. However, the project also highlighted the importance of carefully considering material properties, tool capabilities, and process limitations to achieve successful outcomes. Moving forward, further refinement of both the materials and tools would be necessary for optimizing robotic manipulation in sustainable construction applications."
+            }
+          ]
+        }
+      ]
+    },
+    "layout": "iaac"
   },
   {
     "id": "stroke",
@@ -1612,7 +3725,183 @@ window.PORTFOLIO_PROJECTS = [
     },
     "videoLinks": [],
     "videos": [],
-    "featured": false
+    "featured": false,
+    "iaac": {
+      "parts": [
+        {
+          "title": "",
+          "url": "https://blog.iaac.net/designing-dynamic-forms-advanced-robotic-fabrication-techniques/",
+          "credit": "Designing Dynamic Forms – Robotic Fabrication Techniques is a project of IAAC, Institute for Advanced Architecture of Catalonia developed in the Master in Robotics & Advanced Construction 01 - 2024-2025 by the student(s) Elizabeth Frias, zeyu chao and Chi Lee during the course MRAC01 24/25 Software I: Computational Design for Digital and Robotic Fabrication with Valentino Tagliaboschi and Nestor Beguin.",
+          "blocks": [
+            {
+              "k": "p",
+              "t": "Team member(s)：zeyu chao, Elizabeth.frias.martinez，Chi.Lee"
+            },
+            {
+              "k": "p",
+              "t": "3Dprint pavilion"
+            },
+            {
+              "k": "p",
+              "t": "Introduction"
+            },
+            {
+              "k": "p",
+              "t": "This project explores the large-scale robotic clay printing of a pavilion, with the geometry divided into four equal segments. The chosen geometry, Segment 1, was further developed into modular units to optimize the construction process. The modular approach allows for efficient fabrication and assembly, enhancing the structural and spatial qualities of the pavilion. The robot follows a time-calibrated path, as shown by the color gradient, which indicates the progression of the 120-minute printing process from start to completion"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/dynamic-forms_01.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "1 | Segmentation of the geometry"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/dynamic-forms_02.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "2 | Infill catalogue"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/dynamic-forms_03.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "3 | Segmentation of the module"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/dynamic-forms_04.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "4 | Dividing，Refining，and Orienting for Fabrication"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/dynamic-forms_05.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "5 | Arranged modules"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/dynamic-forms_06.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "6 | Referencing the modules"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/dynamic-forms_07.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "7 | Inclination Analysis"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/dynamic-forms_08.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "8 | 3D Printing Visualization —— fabrication strategy"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/dynamic-forms_09.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "9 | Render"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/dynamic-forms_10.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "CNC Milling Wave interior wall"
+            },
+            {
+              "k": "p",
+              "t": "Introduction"
+            },
+            {
+              "k": "p",
+              "t": "This project focuses on the large-scale milling of timber to create a wall inspired by the gentle flow of waves. To facilitate the fabrication process, the wall is divided into multiple panels, allowing each section to be milled separately before assembly. This modular approach ensures precision and ease in constructing the undulating design, capturing the dynamic motion of waves in a structured architectural form."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/dynamic-forms_11.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "1.Segmentation for milling and Fabrication"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/dynamic-forms_12.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "2.Module Orientation and Surface Selection"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/dynamic-forms_13.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "3.Surface Manipulation and Point Selection"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/dynamic-forms_14.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "4.Robot CNC Milling Process Overview"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/dynamic-forms_15.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "5.Render"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/dynamic-forms_16.jpg",
+              "caption": ""
+            }
+          ]
+        }
+      ]
+    },
+    "layout": "iaac"
   },
   {
     "id": "interlock-tower",
@@ -1742,7 +4031,126 @@ window.PORTFOLIO_PROJECTS = [
       "Krystyne Kontos"
     ],
     "videos": [],
-    "featured": false
+    "featured": false,
+    "iaac": {
+      "parts": [
+        {
+          "title": "",
+          "url": "https://blog.iaac.net/interlock-tower/",
+          "credit": "Interlock Tower is a project of IAAC, Institute for Advanced Architecture of Catalonia developed in the Master in Robotics & Advanced Construction 01 - 2024-2025 by the student(s) Elizabeth Frias, Chi Lee and Krystyne Kontos during the course MRAC01 24/25 Workshop 3.1 \"Learning the Matrix\" with Zeynep Aksöz and Nestor Beguin.",
+          "blocks": [
+            {
+              "k": "h",
+              "t": "Rethinking Towe Typology with AI:"
+            },
+            {
+              "k": "p",
+              "t": "This project explores the redesign of contemporary tower structures using machine learning (ML), challenging the repetitive, profit-driven design seen in cities like Hong Kong. The goal is to discover new typologies through AI and stacking rules, and tren translate them to a robotic fabrication system (pick and place). AI-generated towers were curated for stability and aesthetic character before being realized through robotic construction techniques."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/interlock-tower_01.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/interlock-tower_02.png",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Methodolgy"
+            },
+            {
+              "k": "p",
+              "t": "The methodology integrated several tools in a collaborative system: Grasshopper for parametric design, Python for data processing, and machine learning algorithms to train models. The workflow moved through stages of design, simulation, CSV data export/import, and robotic fabrication, enabling the transformation of digital designs into physical structures."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/interlock-tower_03.png",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Design Process"
+            },
+            {
+              "k": "p",
+              "t": "The design process involved exploring a series of towers with different configurations and stacking patterns using KAPLA. Various angles, heights, and numbers of pieces were tested to understand how these variations impacted stability and aesthetics. Through physical simulations, different designs were evaluated to select those with the best structural integrity, advancing the project to the robotic fabrication stage."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/interlock-tower_04.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/interlock-tower_05.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/interlock-tower_06.png",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Physx Simulation"
+            },
+            {
+              "k": "p",
+              "t": "The PhysX simulation was used to test the structural integrity of the AI-generated tower models. Each design was simulated to assess its stability under various conditions, focusing on how well the stacked elements would hold up. This step helped identify the most stable configurations, allowing us to filter out designs that collapsed or showed poor performance. The selected models, which passed the simulation, were then ready for further refinement and robotic fabrication."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/interlock-tower_07.png",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "The Machine Learning Process"
+            },
+            {
+              "k": "p",
+              "t": "After completing the PhysX simulation and selecting stable tower models, we entered a phase of iterative interaction to further refine the designs. These selected models were used to train the machine learning (ML) algorithm, allowing it to generate new tower outputs. The process involved feeding the stable models back into the algorithm and running multiple training epochs to create various new designs. This iterative loop of training and model generation enabled us to explore a broader range of possibilities, ensuring that the AI could produce both structurally sound and innovative tower designs."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/interlock-tower_08.png",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Machine Learning Outputs"
+            },
+            {
+              "k": "p",
+              "t": "These tower designs were generated through machine learning (ML) after training the algorithm with various parameters and stable models. The images show the results of different epochs, where the algorithm created new variations of tower configurations, each with a unique stacking pattern and twist angles. These designs underwent multiple iterations to ensure structural stability and visual complexity. After reviewing several outputs, the most stable and aesthetically appealing towers were selected, as shown in the second set of images, where the final models are displayed with clear structure and stability. These final models were chosen for further testing and eventual robotic fabrication."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/interlock-tower_09.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/interlock-tower_10.png",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Conclusion and next steps"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/interlock-tower_11.png",
+              "caption": ""
+            }
+          ]
+        }
+      ]
+    },
+    "layout": "iaac"
   },
   {
     "id": "earth-injection-vision",
@@ -1868,7 +4276,114 @@ window.PORTFOLIO_PROJECTS = [
     },
     "videoLinks": [],
     "videos": [],
-    "featured": false
+    "featured": false,
+    "iaac": {
+      "parts": [
+        {
+          "title": "",
+          "url": "https://blog.iaac.net/software-iii-ai-optimized-earth-injection-deposits/",
+          "credit": "Software III: AI Optimized Earth Injection Deposits is a project of IAAC, Institute for Advanced Architecture of Catalonia developed in the Master in Robotics & Advanced Construction - 2024-2025 by the student(s) Krystyne Kontos, Elizabeth Frias and Chi Lee during the course MRAC01 24/25 Software III \"Machine Learning for Robotic Fabrication\" with Marita Georganta and Nestor Beguin.",
+          "blocks": [
+            {
+              "k": "p",
+              "t": "Github: https://github.com/Adronegenius/Software-III-AI-Optimized-Earth-Injection-DepositsThe process begins with human fabrication of woven modules using flexible rods or sticks. Due to tension, compression, and human variability, the woven pattern often deforms. Our system integrates computer vision to scan these deformations and a robotic arm to inject earth between structural members at optimized locations. This bridges physical craft and adaptive digital automation."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/earth-injection-vision_01.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "What we built: a system that automatically detects stick positions and finds the best location for material injection. Why: woven modules shift due to material behavior, and manually updating robot instructions for each variation is time-consuming. How: by training a YOLOv8 model to detect sticks and using Python to calculate triangle meshes and optimal centroids between them. This replaces the need for manual point selection in Grasshopper and allows for geometry-aware robotic printing."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/earth-injection-vision_02.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "We designed a full loop system. After designing and weaving the module, the robot injects material. We simulate toolpaths digitally, then use vision to check the real structure. The ML layer detects structure geometry. We compute triangle connections between detected stick centers and extract the centroid of the smallest area triangle to inject material at the most structurally relevant position."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/earth-injection-vision_03.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "This diagram shows how the physical and digital systems interact. We start with either a photo or could be a live camera feed. The image is processed using a Python pipeline. We load a YOLO model trained on stick detections. After detection, we run geometric logic to find triangle meshes and compute the centroid of the tightest triangle. This result is sent to a robot controller—via serial, JSON, or ROS—closing the loop by physically injecting into the correct spot on the module."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/earth-injection-vision_04.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Training data is annotated in Roboflow and exported in YOLOv8 format. We use Ultralytics YOLO for inference. Once sticks are detected in an image, we calculate the Euclidean distance between them and form edges. Using combinations of three valid edges, we generate triangle meshes. From each triangle, we compute centroids and select the one with the smallest area as the best injection location. Outputs include annotated images and a CSV of triangle/centroid data."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/earth-injection-vision_05.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/earth-injection-vision_06.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/earth-injection-vision_07.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "We collected around 50–100 images of different woven module layouts under varied lighting and distortion. These were labeled in Roboflow with bounding boxes around each ‘stick’. The data was then used to train a YOLOv8 model. We exported the trained weights and used them locally in our Python pipeline to perform real-time inference."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/earth-injection-vision_08.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "This was our testing process for improving stick detection using OpenCV. We first used red markers, but they were too close to the background color, so detection failed. Then we switched to blue stickers, which gave much better results. Next, we measured and labeled the distances between sticks. Finally, we tested the same code on another model, but lighting affected the blue color, so detection didn’t work. These tests helped us understand what works and what doesn’t in color-based detection."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/earth-injection-vision_09.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "After detecting the sticks, we extracted features like position, distance, and spacing. We saved the data in a CSV file, then used pandas in Google Colab to create visualizations. The top histograms show the range of spacing values. The bottom scatter plots show how features like position and stick count relate to spacing. Since our dataset is still small, each value appears only once, but this gives us a clear idea of their ranges."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/earth-injection-vision_10.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "When sticks were evenly distributed and moderately spaced, the triangle mesh formed consistently and the optimal centroid was stable. In images with sparse or irregular spacing, triangles sometimes failed to form. To solve this, we introduced an adaptive distance threshold — calculated based on the average distance between all detected stick centers — which improved triangle generation even in sparse conditions."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/earth-injection-vision_11.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "We want to add real-time ROS or serial communication with a robotic arm so the system can operate in live fabrication. We’d also like to incorporate depth cameras (e.g., Intel RealSense) to add a third dimension and compute true (x, y, z) centroids. Longer term, clustering triangle regions and outputting multiple injection points would allow batch fabrication. Support multi-point detection and printing per image using triangle clusters. Packaging the whole pipeline as a Python tool would also make it reusable and sharable with other fabrication researchers."
+            }
+          ]
+        }
+      ]
+    },
+    "layout": "iaac"
   },
   {
     "id": "scanning-research",
@@ -1982,7 +4497,133 @@ window.PORTFOLIO_PROJECTS = [
       "Chi Lee"
     ],
     "videos": [],
-    "featured": false
+    "featured": false,
+    "iaac": {
+      "parts": [
+        {
+          "title": "",
+          "url": "https://blog.iaac.net/scanning-for-building-innovation/",
+          "credit": "Scanning for Building Innovation is a project of IAAC, Institute for Advanced Architecture of Catalonia developed in the Master in Robotics & Advanced Construction 01 - 2024-2025 by the student(s) Elizabeth Frias and Chi Lee during the course MRAC01 24/25 Applied Theory I with Mathilde Marengo and Yara Tayoun.",
+          "blocks": [
+            {
+              "k": "p",
+              "t": "From capturing intricate geometries to enhancing processes, our research emphasizes in innovation in construction and data optimization, showcasing the transformative potential of advanced scanning tools. These technologies not only enhance our ability to capture the intricacies of physical structures but also provide actionable insights for a variety of applications."
+            },
+            {
+              "k": "h",
+              "t": "Research Topics"
+            },
+            {
+              "k": "p",
+              "t": "1. Fabrication OptimizationWe leveraged scanning to improve workflows, enhancing material efficiency in 3D printing, refining timber assembly, and creating sustainable modular systems, enabling precise data acquisition for the enhancement of fabrication processes."
+            },
+            {
+              "k": "p",
+              "t": "2. Data OptimizationScanned data is transformed into actionable insights for urban planning, heritage preservation, and real-time monitoring. We focus on creating advanced visualizations and data management systems to tackle complex challenges."
+            },
+            {
+              "k": "h",
+              "t": "Mapping Structure"
+            },
+            {
+              "k": "p",
+              "t": "We categorized our data visualization framework into 2 topics (fabrication optimization and data optimization) which then we decided to categorize in operations (e.g., 3D printing, monitoring, mapping, etc), process stage in where the scanning is used (e.g., pre-fabrication, post-fabrication), scanning purposes, data types (e.g., point clouds, thermal maps) until the application market of each scanning project. This structure ensures clarity and flexibility for diverse applications."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/scanning-research_01.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Mapping"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/scanning-research_02.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Overview of Topic: Fabrication Optimization"
+            },
+            {
+              "k": "p",
+              "t": "We explored how scanning enhances fabrication processes by enabling precision, efficiency, and sustainability. From streamlining timber assembly to real-time extrusion analysis in 3D printing, these projects emphasize the integration of scanning into pre-, in-, and post-fabrication stages, fostering innovative approaches to modern construction."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/scanning-research_03.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "1. On-Site Robotics:We used drones and 3D printing to generate real-time thermal analysis, improving material performance and reducing manual work in post-fabrication."
+            },
+            {
+              "k": "p",
+              "t": "2. Drawing a Blank:Scanning captured timber irregularities to optimize pre-fabrication workflows, reducing waste and enhancing precision in sustainable construction."
+            },
+            {
+              "k": "p",
+              "t": "3. Feedback:This project applied scanning in pre-fabrication of modular systems, streamlining data acquisition and enabling efficient assembly of complex geometries."
+            },
+            {
+              "k": "p",
+              "t": "4. Q3D:Real-time scanning monitored 3D printing extrusions, improving accuracy and reducing waste with dynamic feedback for optimized fabrication."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/scanning-research_04.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Overview of Topic: Data Optimization"
+            },
+            {
+              "k": "p",
+              "t": "Our data visualization projects focus on transforming scanned inputs into actionable insights. By leveraging technologies for mapping, monitoring, and preservation, we provide advanced solutions that enhance understanding of environments, safeguard heritage, and optimize spatial planning for various industries."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/scanning-research_05.png",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "1. Museum Made Digital:We used scanning to map cultural heritage sites, creating high-fidelity digital records for preservation and safeguarding historical structures."
+            },
+            {
+              "k": "p",
+              "t": "2. BCN Mapping:This project utilized scanning for post-fabrication mapping, providing comprehensive spatial insights to optimize urban planning and geospatial analysis."
+            },
+            {
+              "k": "p",
+              "t": "3. Civita di Bagnoregio:Scanning large-scale environments allowed us to visualize urban systems, enabling data-driven planning and advanced geospatial solutions."
+            },
+            {
+              "k": "p",
+              "t": "4. Dimension Remota:We applied remote scanning to capture real-time data in inaccessible areas, improving environmental monitoring and structural analysis without physical intervention."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/scanning-research_06.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Next Steps"
+            },
+            {
+              "k": "p",
+              "t": "In the upcoming semester, we plan to deepen our investigation into the integration of scanning technologies with 3D printing processes. Our focus will include exploring innovative scanning methods to enhance precision, monitor fabrication in real-time, and optimize material usage. This research aims to uncover how scanning can support adaptive manufacturing workflows, reduce errors, and improve efficiency in advanced construction techniques. By applying these insights, we seek to contribute to the evolution of smarter and more sustainable 3D printing systems."
+            }
+          ]
+        }
+      ]
+    },
+    "layout": "iaac"
   },
   {
     "id": "emotion-reader",
@@ -2127,7 +4768,161 @@ window.PORTFOLIO_PROJECTS = [
         "source": "https://blog.iaac.net/emotion-reader-responsive-art-installation/"
       }
     ],
-    "featured": false
+    "featured": false,
+    "iaac": {
+      "parts": [
+        {
+          "title": "",
+          "url": "https://blog.iaac.net/emotion-reader-responsive-art-installation/",
+          "credit": "Emotion Reader: Responsive art Installation is a project of IAAC, Institute for Advanced Architecture of Catalonia developed in the Master in Robotics & Advanced Construction 01 - 2024-2025 by the student(s) Elizabeth Frias, Krystyne Kontos and Chi Lee during the course MRAC01 24/25 Hardware II with Marita Georganta and Pit Siebenaler.",
+          "blocks": [
+            {
+              "k": "p",
+              "t": "Github: https://github.com/elicolds/emotionreader/"
+            },
+            {
+              "k": "h",
+              "t": "Introduction"
+            },
+            {
+              "k": "p",
+              "t": "In the realm of architecture and art, installations serve as powerful mediums to explore the intersection of technology, human emotion, and design. Our project reimagines the relationship between viewers and spaces by creating an interactive structure that reacts dynamically to human presence and emotions. Combining hardware, software, and creative ingenuity, we designed a responsive art piece that not only engages but also communicates with its audience."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/emotion-reader_01.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Concept"
+            },
+            {
+              "k": "p",
+              "t": "At the heart of our design lies the idea of emotional resonance. This installation was conceived as a way to merge physical movement with emotional interpretation, creating a unique dialogue between the viewer and the artwork. By incorporating real-time emotion detection and dynamic physical responses, we aim to evoke curiosity, introspection, and a sense of connection."
+            },
+            {
+              "k": "p",
+              "t": "The installation is both reactive and reflective—detecting proximity, reading facial expressions, and responding with visual and mechanical changes. It becomes a living, breathing entity that acknowledges the emotions of those who interact with it."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/emotion-reader_02.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Stages of Development"
+            },
+            {
+              "k": "p",
+              "t": "1. List of materials:"
+            },
+            {
+              "k": "list",
+              "items": [
+                "Ultrasonic Sensors: Detect human proximity, acting as the trigger for the system.",
+                "Servo Motors: Animate physical elements, such as panels or modules, which move in response to the viewer’s approach.",
+                "RGB LED Strips: Express emotions through color (red for anger, green for happiness, blue for sadness).",
+                "Arduino Uno: Orchestrates inputs and outputs, forming the “brain” of the system.",
+                "Webcam: Captures facial expressions for emotion recognition."
+              ]
+            },
+            {
+              "k": "p",
+              "t": "The physical design of the installation incorporates modular panels, arranged to respond dynamically to the viewer’s actions. These panels move, light up, and shift to create a multi-sensory interaction."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/emotion-reader_03.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "2. Workflow overview:"
+            },
+            {
+              "k": "list",
+              "items": [
+                "When a person approaches the installation, the ultrasonic sensors detect their presence.",
+                "The servo motors move the panels to an open position, welcoming the viewer and activating the RGB lighting.",
+                "A webcam captures the viewer’s face, and Python processes the image to detect emotions.",
+                "Depending on the detected emotion: Anger: The lights turn red. Happiness: The lights turn green. Sadness: The lights turn blue.",
+                "Anger: The lights turn red.",
+                "Happiness: The lights turn green.",
+                "Sadness: The lights turn blue."
+              ]
+            },
+            {
+              "k": "p",
+              "t": "3. Methodology and Software Integration:"
+            },
+            {
+              "k": "list",
+              "items": [
+                "Arduino Programming: The Arduino interprets distance data from ultrasonic sensors to activate servo motors and LED lighting. It also communicates with a Python script for emotion processing.",
+                "OpenCV and DeepFace: Using Python, the webcam captures the viewer’s facial expressions, which are processed by DeepFace to identify emotions. These emotions are mapped to LED color changes."
+              ]
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/emotion-reader_06.jpg",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Artistic Impact"
+            },
+            {
+              "k": "p",
+              "t": "The installation blurs the boundaries between observer and participant, turning passive onlookers into active contributors. Its purpose is to evoke reflection and awareness of the emotional states we project, demonstrating how art can become an empathetic mirror of our inner selves. This interplay between technology and human interaction creates a powerful commentary on how we engage with the spaces around us. Challenges and Lessons Learned"
+            },
+            {
+              "k": "p",
+              "t": "As with any experimental project, we encountered challenges:"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/emotion-reader_07.jpg",
+              "caption": ""
+            },
+            {
+              "k": "p",
+              "t": "Despite these hurdles, the installation serves as a proof of concept for integrating technology, emotion, and design into a cohesive experience."
+            },
+            {
+              "k": "h",
+              "t": "Conclusion"
+            },
+            {
+              "k": "p",
+              "t": "This project showcases how technology can elevate art into an interactive, responsive medium. By combining sensors, actuators, and emotion-sensing, we designed a piece that transforms how audiences experience art. This project underscores the potential of using emotion as a design parameter, encouraging deeper connections between people and the spaces they inhabit"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/emotion-reader_08.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/emotion-reader_09.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/emotion-reader_10.jpg",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/emotion-reader_11.jpg",
+              "caption": ""
+            }
+          ]
+        }
+      ]
+    },
+    "layout": "iaac"
   },
   {
     "id": "palmpilot",
@@ -2282,7 +5077,112 @@ window.PORTFOLIO_PROJECTS = [
         "source": "https://blog.iaac.net/palmpilot-2000/"
       }
     ],
-    "featured": false
+    "featured": false,
+    "iaac": {
+      "parts": [
+        {
+          "title": "",
+          "url": "https://blog.iaac.net/palmpilot-2000/",
+          "credit": "PalmPilot 2000 is a project of IAAC, Institute for Advanced Architecture of Catalonia developed in the Master in Robotics & Advanced Construction - 2024-2025 by the student(s) Krystyne Kontos, Chi Lee, Vasileios Mavromitros and Lauren Deming during the course MRAC01 24/25 Hardware III \"Interactive Projection\" with Huanyu Li and Sameer Kishore.",
+          "blocks": [
+            {
+              "k": "h",
+              "t": "No mouse. No keyboard. Just you."
+            },
+            {
+              "k": "p",
+              "t": "Github Link: https://github.com/Adronegenius/palmpilot2000.git"
+            },
+            {
+              "k": "h",
+              "t": "Problem/Opportunity"
+            },
+            {
+              "k": "p",
+              "t": "Current 2D CAD layout tools rely heavily on complex UI layers and precise mouse manipulation. These become barriers for:"
+            },
+            {
+              "k": "list",
+              "items": [
+                "Schematic design tool",
+                "Client-designer scaled / immersive communication",
+                "Design-constructor collaboration to scale (in the built environment)",
+                "End-users ergonomic test fit"
+              ]
+            },
+            {
+              "k": "p",
+              "t": "PalmPilot2000 addresses this by introducing a body-centered interaction system, where gestures drive the logic of selecting, moving, and placing elements on a plan — with visual and physical feedback."
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/palmpilot_02.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/palmpilot_03.gif",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/palmpilot_04.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/palmpilot_05.gif",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/palmpilot_06.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/palmpilot_07.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/palmpilot_08.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/palmpilot_09.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/palmpilot_10.png",
+              "caption": ""
+            },
+            {
+              "k": "h",
+              "t": "Demo"
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/palmpilot_12.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/palmpilot_13.png",
+              "caption": ""
+            },
+            {
+              "k": "img",
+              "file": "assets/iaac/palmpilot_14.png",
+              "caption": ""
+            }
+          ]
+        }
+      ]
+    },
+    "layout": "iaac"
   },
   {
     "id": "sculpta",
