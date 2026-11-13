@@ -222,3 +222,7 @@
 .ia-figs figcaption{font-size:11px;color:#707967;margin-top:8px;line-height:1.5}
 .ia-figs.ia-n1 figure img{max-height:85vh;margin:0 auto}
 @media(max-width:700px){.ia-figs.ia-n2,.ia-figs.ia-n3{grid-template-columns:1fr}.ia-story{padding-top:40px}.ia-p{font-size:14px}}
+
+.ia-figs.ia-n1{max-width:1080px}
+.ia-figs.ia-n1 figure img{max-height:72vh}
+.ia-figs.ia-n2{max-width:1280px}
