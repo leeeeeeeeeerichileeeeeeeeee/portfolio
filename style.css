@@ -198,3 +198,5 @@
 
 /* v12 thesis feature */
 .thesis-graphic{transform:none!important;rotate:none!important;display:flex;flex-direction:column;gap:12px;justify-content:center}.thesis-graphic img{display:block;width:100%;height:auto;border:1px solid #32362d}.thesis-caption{font-size:9px;letter-spacing:.08em;color:#94988b}
+
+.loop-figure{display:block;width:100%;height:auto;background:#fff}

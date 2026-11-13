@@ -58,7 +58,8 @@ function renderArchive() {
  $('#empty-state').hidden = visible.length > 0;
 }
 function figure(image, cover = false) {
- return `<figure${cover ? ' class="case-cover"' : ''}><button class="image-open" type="button" data-image="${escapeHTML(image.file)}" data-caption="${escapeHTML(image.caption)}" aria-label="View full image: ${escapeHTML(image.caption)}"><img src="${escapeHTML(assetURL(image.file))}" alt="${escapeHTML(image.caption)}" loading="${cover ? 'eager' : 'lazy'}" decoding="async"><span class="image-open-label">VIEW FULL IMAGE +</span></button><figcaption>${escapeHTML(image.caption)}</figcaption></figure>`;
+ const media = image.loop ? `<video class="loop-figure" src="${escapeHTML(assetURL(image.loop))}" poster="${escapeHTML(assetURL(image.file))}" autoplay muted loop playsinline preload="metadata" aria-label="${escapeHTML(image.caption)}"></video>` : `<img src="${escapeHTML(assetURL(image.file))}" alt="${escapeHTML(image.caption)}" loading="${cover ? 'eager' : 'lazy'}" decoding="async">`;
+ return `<figure${cover ? ' class="case-cover"' : ''}><button class="image-open" type="button" data-image="${escapeHTML(image.file)}" data-caption="${escapeHTML(image.caption)}" aria-label="View full image: ${escapeHTML(image.caption)}">${media}<span class="image-open-label">${image.loop ? 'ANIMATED · VIEW FRAME +' : 'VIEW FULL IMAGE +'}</span></button><figcaption>${escapeHTML(image.caption)}</figcaption></figure>`;
 }
 const assetObjectURLs = new Map();
 function assetURL(file) {

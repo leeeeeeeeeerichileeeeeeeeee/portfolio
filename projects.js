@@ -26,20 +26,33 @@ window.PORTFOLIO_PROJECTS = [
         "caption": "Willow-and-earth physical prototype · team work."
       },
       {
+        "file": "media/ig/Dfpfco3lDQ6_anim1.jpg",
+        "loop": "media/ig/Dfpfco3lDQ6_anim1.mp4",
+        "caption": "Animated board · project intention: from woven scaffold to robotic earth injection and a performative wall."
+      },
+      {
+        "file": "media/ig/Dfpfco3lDQ6_anim0.jpg",
+        "loop": "media/ig/Dfpfco3lDQ6_anim0.mp4",
+        "caption": "Animated board · weaving and injection-printing parameters: willow weave, earth infill, nozzle and curing data."
+      },
+      {
+        "file": "media/ig/Dfpfco3lDQ6_anim2.jpg",
+        "loop": "media/ig/Dfpfco3lDQ6_anim2.mp4",
+        "caption": "Animated board · fabrication strategy: scanning, toolpath optimisation, calibration and injection steps."
+      },
+      {
+        "file": "media/ig/Dfpfco3lDQ6_anim3.jpg",
+        "loop": "media/ig/Dfpfco3lDQ6_anim3.mp4",
+        "caption": "Animated board · structure system: willow weaving in tension plus earth printing in compression."
+      },
+      {
+        "file": "media/ig/Dfpfco3lDQ6_anim4.jpg",
+        "loop": "media/ig/Dfpfco3lDQ6_anim4.mp4",
+        "caption": "Animated board · weaving definition: weaving types, strategy and the chosen pattern catalogue."
+      },
+      {
         "file": "assets/ig/DcCg7S-DpUC_08.jpg",
         "caption": "Earlier Studio II test · Scanned willow bed converted to points and toolpaths in Grasshopper."
-      },
-      {
-        "file": "assets/ig/Dfpfco3lDQ6_01.jpg",
-        "caption": "Weaving and injection-printing process diagram."
-      },
-      {
-        "file": "assets/ig/Dfpfco3lDQ6_03.jpg",
-        "caption": "Fabrication strategy: from woven scaffold to injected module."
-      },
-      {
-        "file": "assets/ig/Dfpfco3lDQ6_06.jpg",
-        "caption": "Weaving catalogue comparing pattern, density and willow use."
       },
       {
         "file": "assets/ig/DfQtnP0DvtD_06.jpg",
