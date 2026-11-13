@@ -113,7 +113,7 @@ function iaacArticleHTML(project, sourceLink, downloadLink, next, index) {
  const renderBlocks=blocks=>{let html='',buf=[];const flush=()=>{if(!buf.length)return;html+='<div class="ia-figs ia-n'+Math.min(buf.length,2)+'">'+buf.map(b=>{used.add(b.file);return figure({file:b.file,caption:b.caption||''});}).join('')+'</div>';buf=[];};for(const b of blocks){if(b.k==='img'){buf.push(b);if(buf.length===2)flush();continue;}flush();if(b.k==='h')html+='<h3 class="ia-h">'+escapeHTML(b.t)+'</h3>';else if(b.k==='p')html+=isSub(b.t)?'<h4 class="ia-sub">'+escapeHTML(b.t.replace(/[.:]$/,''))+'</h4>':'<p class="ia-p">'+escapeHTML(b.t)+'</p>';else if(b.k==='list')html+='<ul class="ia-list">'+b.items.map(i=>'<li>'+escapeHTML(i)+'</li>').join('')+'</ul>';else if(b.k==='quote')html+='<blockquote class="ia-quote">'+escapeHTML(b.t)+'</blockquote>';}flush();return html;};
  const story=parts.map((p,i)=>(p.title?'<div class="ia-chapter"><span class="mono">CHAPTER '+number(i+1)+'</span><h3>'+escapeHTML(p.title)+'</h3></div>':'')+renderBlocks(p.blocks)).join('');
  const cover=project.images[0];used.add(cover.file);
- const extra=project.images.filter(im=>!used.has(im.file));
+ const extra=project.images.filter(im=>!used.has(im.file)&&/^(assets\/ig\/|media\/)/.test(im.file));
  const films=(project.videos||[]).length>0;
  const nav=[[films?'case-films':null,'Film'],['case-story','Story'],[extra.length?'case-gallery':null,'More'],['case-credits','Credits']].filter(x=>x[0]).map(([id,l])=>'<button type="button" data-case-jump="'+id+'">'+l+'</button>').join('');
  const srcLinks=parts.map(p=>'<li><a href="'+escapeHTML(p.url)+'" target="_blank" rel="noopener noreferrer">'+escapeHTML(p.title||project.title)+' · IAAC project page ↗</a></li>').join('');
