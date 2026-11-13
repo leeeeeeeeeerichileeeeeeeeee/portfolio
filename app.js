@@ -1,12 +1,12 @@
 (() => {
 'use strict';
-const projects = window.PORTFOLIO_PROJECTS || [];
+const projects = (window.PORTFOLIO_PROJECTS || []).filter(project => !project.hidden);
 const $ = (selector) => document.querySelector(selector);
 const escapeHTML = (value = '') => String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 const number = (n) => String(n).padStart(2, '0');
 const dialog = $('#project-dialog');
 let selectedFilter = 'All';
-const ROBOTICS_PATH=['terraweave','anomaly-detection','scan-to-print','sculpta','so101'];
+const ROBOTICS_PATH=['terraweave','scan-to-print','cork-reform','fan-only','balloon-tool'];
 const ROBOTICS_NOTES={
  'terraweave':['Team project with Elizabeth Frias and Krystyne Kontos: design development, Grasshopper-based robot toolpath programming, prototype fabrication and project film.','Turning design intent into ABB robot motion, then iterating with real material.'],
  'anomaly-detection':['Team project: operated the robot, processed LiDAR point clouds and analysed roof anomalies.','Sensing and model-to-reality checks, the core of deploying a robot on site.'],
@@ -102,7 +102,7 @@ function sculptaCleanHTML(project, downloadLink, next) {
  '<section class="sc-block" id="case-prototype" tabindex="-1"><div class="sc-section-heading"><span class="sc-kicker">03 / PROTOTYPE</span><h3>Print. Observe. Revise.</h3></div>'+grid(['assets/sculpta-slide-print-revision.jpg','assets/sculpta-slide-unit-to-field.jpg','assets/sculpta-prototype-front.jpg','assets/sculpta-prototype-edge.jpg'])+'</section>'+
  '<section class="sc-block" id="case-application" tabindex="-1"><div class="sc-section-heading"><span class="sc-kicker">04 / APPLICATION</span><h3>From component to architecture.</h3></div>'+image('assets/sculpta-system-render.jpg')+grid(['assets/sculpta-slide-barrel-vault.jpg','assets/sculpta-slide-arch54-landscape.jpg','assets/sculpta-slide-structural-check.jpg'])+'<p class="sc-small sc-limit">Not yet validated: watertightness, cultivation, thermal performance.</p></section>'+
  '<section class="sc-block sc-credits" id="case-credits" tabindex="-1"><details><summary>Documentation & credits <span>+</span></summary><div class="sc-documentation"><p>'+escapeHTML(project.team)+'</p><p>'+escapeHTML(project.mediaCredit)+'</p><div class="case-links">'+downloadLink+'</div></div></details></section>'+
- '<footer class="case-bottom"><button type="button" data-project="'+escapeHTML(next.id)+'"><span>NEXT PROJECT / 02</span>'+escapeHTML(next.title)+'</button><span aria-hidden="true">↗</span></footer></div>';
+ '<footer class="case-bottom"><button type="button" data-project="'+escapeHTML(next.id)+'"><span>NEXT PROJECT / '+number(projects.indexOf(next)+1)+'</span>'+escapeHTML(next.title)+'</button><span aria-hidden="true">↗</span></footer></div>';
 }
 
 function caseStudyHTML(project, sourceLink, downloadLink, next, index) {

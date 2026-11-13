@@ -1,155 +1,24 @@
 window.PORTFOLIO_PROJECTS = [
   {
-    "id": "sculpta",
-    "title": "SCULPTA",
-    "subtitle": "3D-printed components for a living façade.",
-    "year": "2025–26",
-    "category": "Materials",
-    "kind": "Individual thesis",
-    "institution": "MADE · ETSAV–UPC",
-    "featured": true,
-    "summary": "A printable PETG system for a maintainable microalgal façade.",
-    "brief": "How can cultivation requirements become printable geometry, and how can that geometry remain accessible, replaceable and maintainable at building scale?",
-    "method": "A Rhino/Grasshopper definition connects wall thickness, cavity depth, ports and shoulders to a closed fabrication mesh. Full-scale FDM specimens informed a revision from a nominal 1.0 mm face to 1.2 mm with a smoother shoulder. Assembly studies organise independently valved circuits and a 600 mm maintenance zone.",
-    "role": "Individual master’s thesis: computational design, component and assembly development, full-scale PETG printing and handling observations.",
-    "limits": "Printed specimens and handling observations are documented. Watertightness, final JOIN sealing, cultivation, and thermal or structural performance have not been validated.",
-    "team": "Chi Lee · Supervision: David López López and Marta Domènech Rodríguez",
-    "tools": [
-      "Rhino",
-      "Grasshopper",
-      "PETG FDM",
-      "Design for maintenance"
-    ],
-    "images": [
-      {
-        "file": "assets/sculpta-cover-night.jpg",
-        "caption": "Night-canopy concept visualisation. Atmospheric proposal, not a built project or a CAD-accurate Arch54 model."
-      },
-      {
-        "file": "assets/sculpta-slide-why-s-unit.jpg",
-        "caption": "Mirrored hypar surface → depth, cavity, four ports."
-      },
-      {
-        "file": "assets/sculpta-slide-final-unit.jpg",
-        "caption": "Final unit: shoulders, thin light wall, fluid passages."
-      },
-      {
-        "file": "assets/sculpta-slide-aggregation.jpg",
-        "caption": "Unit → cluster → field."
-      },
-      {
-        "file": "assets/sculpta-slide-join.jpg",
-        "caption": "JOIN: PETG body, TPU seals, removable fasteners."
-      },
-      {
-        "file": "assets/sculpta-slide-print-revision.jpg",
-        "caption": "1.0 mm faces broke; revised to 1.2 mm."
-      },
-      {
-        "file": "assets/sculpta-slide-unit-to-field.jpg",
-        "caption": "Printed PETG field prototype."
-      },
-      {
-        "file": "assets/sculpta-slide-barrel-vault.jpg",
-        "caption": "Barrel-vault proposal."
-      },
-      {
-        "file": "assets/sculpta-slide-arch54-landscape.jpg",
-        "caption": "Arch54 landscape proposal."
-      },
-      {
-        "file": "assets/sculpta-slide-structural-check.jpg",
-        "caption": "Indicative linear FE screening, not validation."
-      },
-      {
-        "file": "assets/sculpta-unit-cutout.png",
-        "caption": "S-shaped PETG unit / CAD render."
-      },
-      {
-        "file": "assets/sculpta-step-1.png",
-        "caption": "01 / Square base."
-      },
-      {
-        "file": "assets/sculpta-step-2.png",
-        "caption": "02 / S-shaped deformation."
-      },
-      {
-        "file": "assets/sculpta-step-3.png",
-        "caption": "03 / Cavity and ports."
-      },
-      {
-        "file": "assets/sculpta-step-4.png",
-        "caption": "04 / Connection geometry."
-      },
-      {
-        "file": "assets/sculpta-prototype-front.jpg",
-        "caption": "Printed wall, front."
-      },
-      {
-        "file": "assets/sculpta-prototype-edge.jpg",
-        "caption": "Edge and transmitted light."
-      },
-      {
-        "file": "assets/sculpta-handling-samples.jpg",
-        "caption": "Printed assembly and local curved specimens from the fabrication record."
-      },
-      {
-        "file": "assets/sculpta-join-detail.jpg",
-        "caption": "JOIN concept: alignment, intended sealing and removable retention."
-      },
-      {
-        "file": "assets/sculpta-system-render.jpg",
-        "caption": "Whole-system proposal (unbuilt)."
-      }
-    ],
-    "pages": "2–5",
-    "caseStudy": {
-      "context": "SCULPTA explores how a microalgal façade could be printed, connected and maintained. The work moves from hollow PETG units to replaceable connections and architectural assemblies.",
-      "sourceEvidence": [
-        {
-          "note": "SCULPTA master’s thesis: parametric design, PETG fabrication and maintenance strategy."
-        },
-        {
-          "note": "Additional nominal CAD assembly and removal study, 44 pages. Design-development material, not validation.",
-          "url": "downloads/SCULPTA-Assembly-Atlas.pdf"
-        }
-      ]
-    },
-    "videos": [
-      {
-        "src": "media/SCULPTA-Thesis-Film-74s.mp4",
-        "label": "SCULPTA / Project film · 74.5 seconds",
-        "caption": "Design proposal, model animation and prototype documentation.",
-        "credits": "AI-assisted presentation edit from existing SCULPTA material. Original project: Chi Lee.",
-        "poster": "assets/sculpta-system-render.jpg"
-      }
-    ],
-    "mediaCredit": "Design and prototype documentation: Chi Lee. Supervision: David López López and Marta Domènech Rodríguez. Additional visualisation, assembly studies and film post-production are AI-assisted. Renderings are design proposals; the night-canopy cover is atmospheric concept imagery rather than exact Arch54 geometry.",
-    "download": "downloads/SCULPTA-Assembly-Atlas.pdf",
-    "downloadName": "SCULPTA-Assembly-Atlas.pdf",
-    "downloadLabel": "Download 44-page assembly study",
-    "layout": "sculpta-clean"
-  },
-  {
     "id": "terraweave",
     "title": "Terraweave",
     "subtitle": "Woven willow. Robotically injected earth.",
     "year": "2024–25",
     "category": "Robotics",
-    "kind": "Team project",
+    "kind": "Team project · 3 IAAC courses",
     "institution": "IAAC · MRAC Studio III",
     "featured": true,
-    "summary": "An ABB fabrication workflow combining woven natural fibres and earth injection.",
+    "summary": "Scan-to-toolpath ABB workflow injecting earth into woven willow scaffolds, from first tests to a full prototype.",
     "brief": "How can a flexible woven scaffold and robotically deposited earth become a wall system?",
     "method": "The team paired willow weaving with clay and earth deposition using an ABB robot. Material consistency, scaffold density, nozzle access, drying and adhesion informed the physical prototypes. The project developed alongside related studies of injection points and deposition strategies.",
     "role": "My contribution: design development, Grasshopper-based robot control and toolpath programming, prototype fabrication and project video production.",
     "limits": "A material and fabrication prototype, not a certified structural or thermal wall system.",
-    "team": "Elizabeth Frias · Krystyne Kontos · Chi Lee. Tutors: Edouard Cabay and Pit Siebenaler.",
+    "team": "Elizabeth Frias · Krystyne Kontos · Chi Lee (Studio II & III; tutors Edouard Cabay, Pit Siebenaler). System study with Lauren Deming (tutor Ana Cocho). Pitch tutors Yara Tayoun, Mathilde Marengo.",
     "tools": [
-      "Grasshopper",
       "ABB robotics",
-      "Willow",
-      "Earth injection"
+      "Grasshopper toolpaths",
+      "3D scanning",
+      "Willow + earth"
     ],
     "images": [
       {
@@ -157,16 +26,8 @@ window.PORTFOLIO_PROJECTS = [
         "caption": "Willow-and-earth physical prototype · team work."
       },
       {
-        "file": "assets/tw_inj.jpg",
-        "caption": "Robotic earth-injection process."
-      },
-      {
-        "file": "assets/tw_comp.jpg",
-        "caption": "Comparison of deposition approaches."
-      },
-      {
-        "file": "assets/ig/Dfpfco3lDQ6_07.jpg",
-        "caption": "Prototype overview sheet: woven willow scaffold, earth injection and wall configurations."
+        "file": "assets/ig/DcCg7S-DpUC_08.jpg",
+        "caption": "Earlier Studio II test · Scanned willow bed converted to points and toolpaths in Grasshopper."
       },
       {
         "file": "assets/ig/Dfpfco3lDQ6_01.jpg",
@@ -185,16 +46,16 @@ window.PORTFOLIO_PROJECTS = [
         "caption": "Fabrication set-up: ABB robot, earth pump and the woven scaffold."
       },
       {
-        "file": "assets/ig/DfQtnP0DvtD_08.jpg",
-        "caption": "ABB robot with the injection nozzle during the final prototype."
-      },
-      {
         "file": "assets/ig/DfRPAvbFeHa_03.jpg",
         "caption": "Grasshopper toolpaths beside the robot during set-up."
       },
       {
         "file": "assets/ig/DfRPAvbFeHa_04.jpg",
         "caption": "Teach pendant during robot calibration."
+      },
+      {
+        "file": "assets/ig/DfQtnP0DvtD_08.jpg",
+        "caption": "ABB robot with the injection nozzle during the final prototype."
       },
       {
         "file": "assets/ig/DfXkaHzlCWN_02.jpg",
@@ -209,12 +70,24 @@ window.PORTFOLIO_PROJECTS = [
         "caption": "Finished willow-and-earth prototype."
       },
       {
-        "file": "assets/ig/Dffot8fFEyl_05.jpg",
-        "caption": "Final MRAC Studio III presentation at IAAC."
+        "file": "assets/tw_comp.jpg",
+        "caption": "Comparison of deposition approaches."
       },
       {
-        "file": "assets/ig/Dffot8fFEyl_02.jpg",
-        "caption": "Team at the final presentation: Krystyne Kontos, Elizabeth Frias and Chi Lee."
+        "file": "assets/ig/DcCg7S-DpUC_01.jpg",
+        "caption": "Earlier Studio II test · ABB robot depositing clay over the woven willow bed."
+      },
+      {
+        "file": "assets/ig/DcCg7S-DpUC_07.jpg",
+        "caption": "Earlier Studio II test · Extrusion end effector mounted on the ABB robot."
+      },
+      {
+        "file": "assets/mas_00.png",
+        "caption": "System study · control structure for coordinating robots, tools, sensors and people (proposed, not autonomous construction)."
+      },
+      {
+        "file": "assets/pitch_02.jpg",
+        "caption": "Venture framing · Terraweave as a modular building concept (academic pitch, not a commercial deployment)."
       }
     ],
     "source": "https://blog.iaac.net/terraweave/",
@@ -237,6 +110,11 @@ window.PORTFOLIO_PROJECTS = [
       ],
       "workflow": [
         {
+          "title": "Test on a scanned willow bed (Studio II)",
+          "text": "Earlier tests scanned a woven willow bed, converted it to points and generated Grasshopper toolpaths for clay deposition on an ABB robot. Clay was used because of the available end effector.",
+          "image": "assets/ig/DcCg7S-DpUC_08.jpg"
+        },
+        {
           "title": "Prepare materials",
           "text": "Establish the woven scaffold and investigate earth mixtures and bonding behavior."
         },
@@ -257,6 +135,16 @@ window.PORTFOLIO_PROJECTS = [
           "title": "Study assembly",
           "text": "Document the layered prototype and propose joinery and vertical/horizontal aggregation.",
           "image": "assets/tw_model.jpg"
+        },
+        {
+          "title": "Coordinate the system",
+          "text": "A companion study mapped how robots, a gantry, tools, sensors and people would share one fabrication task. It is a proposed coordination model, not an autonomous build.",
+          "image": "assets/mas_00.png"
+        },
+        {
+          "title": "Frame the venture",
+          "text": "An academic pitch translated the fabrication study into a modular building concept using robotics and local renewable materials.",
+          "image": "assets/pitch_02.jpg"
         }
       ],
       "findings": [
@@ -278,6 +166,18 @@ window.PORTFOLIO_PROJECTS = [
         {
           "url": "https://blog.iaac.net/terraweave/",
           "note": "Original article and embedded presentation sheets; documents configuration catalogue, injection parameters, modeled thermal result and future full-scale development."
+        },
+        {
+          "url": "https://blog.iaac.net/terraweave-innovative-structures-for-a-changing-world/",
+          "note": "Studio II article: scan-to-path process and clay deposition tests."
+        },
+        {
+          "url": "https://blog.iaac.net/terraweave-multi-agent-system/",
+          "note": "Multi-agent system study (team)."
+        },
+        {
+          "url": "https://blog.iaac.net/terraweave-startup-pitch/",
+          "note": "Startup pitch (team)."
         }
       ],
       "extraImages": [
@@ -327,6 +227,15 @@ window.PORTFOLIO_PROJECTS = [
         "source": ""
       },
       {
+        "src": "media/ig/DcCg7S-DpUC_03.mp4",
+        "poster": "media/ig/DcCg7S-DpUC_03.jpg",
+        "label": "Studio II / printing over a scanned willow bed",
+        "caption": "Earlier test: Grasshopper toolpaths generated from a scanned willow bed, executed on an ABB robot with clay.",
+        "credits": "",
+        "remote": false,
+        "source": ""
+      },
+      {
         "src": "media/ig/DfiXWVKpYkW_00.mp4",
         "poster": "media/ig/DfiXWVKpYkW_00.jpg",
         "label": "Façade possibilities",
@@ -336,298 +245,22 @@ window.PORTFOLIO_PROJECTS = [
         "source": ""
       },
       {
-        "src": "media/ig/DfXkaHzlCWN_12.mp4",
-        "poster": "media/ig/DfXkaHzlCWN_12.jpg",
-        "label": "Preparing the earth mixture",
-        "caption": "Mixing earth for injection during prototype making.",
-        "credits": "",
-        "remote": false,
-        "source": ""
-      },
-      {
-        "src": "media/iaac-terraweave-studio-ii.mp4",
-        "poster": "media/iaac-terraweave-studio-ii.jpg",
+        "src": "media/iaac-multi-agent.mp4",
+        "poster": "media/iaac-multi-agent.jpg",
         "originalSource": "https://blog.iaac.net/wp-content/uploads/",
-        "label": "Related film / Terraweave Studio II",
-        "caption": "Earlier team material/deposition study. This is not a film of the final Studio III prototype.",
+        "label": "System study / multi-agent workflow",
+        "caption": "Proposed coordination of robots, gantry, tools and people. Simulation, not autonomous physical construction.",
         "remote": false,
-        "source": "https://blog.iaac.net/terraweave-innovative-structures-for-a-changing-world/"
-      }
-    ]
-  },
-  {
-    "id": "anomaly-detection",
-    "title": "Reading the unseen",
-    "subtitle": "Robotic scanning for building anomaly detection.",
-    "year": "2025",
-    "category": "Sensing",
-    "kind": "Team project",
-    "institution": "IAAC · MRAC Workshop 2.2",
-    "featured": true,
-    "summary": "LiDAR point clouds reveal roof openings and inform repair planning.",
-    "brief": "Can robotic scanning locate roof anomalies and support repair planning without direct physical access to the roof?",
-    "method": "The team compared scanning approaches including drone photogrammetry and Husky A200 LiDAR. The resulting point clouds were used to locate roof openings and estimate repair-material quantities.",
-    "role": "My contribution: operating the robot for LiDAR scanning, processing point clouds and analysing roof anomalies.",
-    "limits": "A workshop-scale diagnostic workflow. No numerical accuracy or certified inspection claim is made here.",
-    "team": "Elizabeth Frias · Lauren Deming · Chi Lee · Krystyne Kontos. Tutors: Marita Georganta and Huanyu Li.",
-    "tools": [
-      "Husky A200",
-      "LiDAR",
-      "Point clouds",
-      "Metashape"
-    ],
-    "images": [
-      {
-        "file": "assets/an_cloud.jpg",
-        "caption": "LiDAR point cloud of the building interior."
+        "source": "https://blog.iaac.net/terraweave-multi-agent-system/"
       },
       {
-        "file": "assets/an_holes.jpg",
-        "caption": "Roof-opening analysis from point-cloud geometry."
-      },
-      {
-        "file": "assets/an_hw.jpg",
-        "caption": "Scanning hardware compared by the team."
-      },
-      {
-        "file": "assets/an_cloud2.jpg",
-        "caption": "Additional LiDAR point-cloud view from the team inspection study."
-      },
-      {
-        "file": "assets/an_data.jpg",
-        "caption": "Roof geometry and data-extraction study."
-      }
-    ],
-    "source": "https://blog.iaac.net/robotics-solutions-for-building-anomaly-detection/",
-    "pages": "9",
-    "caseStudy": {
-      "context": "A team study of roof inspection through robotic scanning, motivated by the difficulty of assessing buildings after climate-related disasters. The project compared drone photogrammetry with ground-based LiDAR to locate roof openings without physically accessing the roof. Chi Lee’s confirmed scope was robot operation, LiDAR point-cloud work, and roof anomaly analysis; other responsibilities remain team-level.",
-      "decisions": [
-        {
-          "title": "Choose the sensor for the inspection question",
-          "text": "Initial comparisons considered photogrammetry, Husky A200, and Unitree GO2. The team concentrated its project tests on drone capture and Husky scanning. Drone data was easier to synthesize, but the Husky’s MID-360 LiDAR produced the detail the team preferred for roof anomalies and openings."
-        },
-        {
-          "title": "Separate visualization from anomaly analysis",
-          "text": "Drone imagery was reconstructed in Metashape for overall building context. The source describes photogrammetry as useful for visualizing the structure and setting the LiDAR cloud to scale, rather than as the strongest method for detecting holes."
-        }
-      ],
-      "workflow": [
-        {
-          "title": "Compare capture approaches",
-          "text": "The team first tested different scanning methodologies, weighing mobility, environmental access, and the differences between image-based reconstruction and laser-derived point clouds.",
-          "image": "assets/an_hw.jpg"
-        },
-        {
-          "title": "Scan and reconstruct",
-          "text": "Drone photographs and the LiDAR-equipped Husky were used to collect building information. After digital reconstruction, attention shifted from general mapping to extracting roof anomaly data.",
-          "image": "assets/an_cloud.jpg"
-        },
-        {
-          "title": "Interpret repair requirements",
-          "text": "The team used the resulting roof information to assess condition and determine the size and quantity of material needed for repairs. This was an assessment workflow, not a demonstrated robotic repair operation.",
-          "image": "assets/an_holes.jpg"
-        }
-      ],
-      "findings": [
-        {
-          "title": "Complementary datasets",
-          "text": "The team favored Husky LiDAR for this roof-opening study and proposed combining both methods for a fuller assessment. This is a qualitative conclusion within the project, not a universal accuracy ranking."
-        },
-        {
-          "title": "Automation remained a next step",
-          "text": "AI damage analysis, fully autonomous navigation, faster real-time processing, and alternative thermal or radar sensors are listed as potential improvements. They should not be presented as completed or validated functions."
-        }
-      ],
-      "unknowns": [
-        "No numerical hole-detection accuracy, ground-truth comparison, error distribution, or measured time saving is reported in the readable article.",
-        "The source does not document a completed disaster-response deployment or repair operation."
-      ],
-      "sourceUrl": "https://blog.iaac.net/robotics-solutions-for-building-anomaly-detection/",
-      "sourceEvidence": [
-        {
-          "url": "https://blog.iaac.net/robotics-solutions-for-building-anomaly-detection/",
-          "note": "Full official original: sensor comparison, Metashape reconstruction, MID-360 Husky capture, roof analysis, conclusions and explicitly future AI/autonomy work. Chi-specific role is supplied by the commissioning brief, not individually assigned in the article."
-        }
-      ],
-      "teamIfExplicit": [
-        "Elizabeth Frias",
-        "Lauren Deming",
-        "Chi Lee",
-        "Krystyne Kontos"
-      ],
-      "extraImages": [
-        {
-          "url": "https://blog.iaac.net/wp-content/uploads/2025/03/04-1.jpg",
-          "caption": "Official project documentation, source image 1."
-        },
-        {
-          "url": "https://blog.iaac.net/wp-content/uploads/2025/03/24-2.jpg",
-          "caption": "Official project documentation, source image 2."
-        }
-      ],
-      "videoLinks": [],
-      "application": "Choose and interpret sensing data for roof inspection and repair planning without claiming an autonomous repair system.",
-      "outcomeSummary": "Building point clouds + roof-opening / repair-quantity assessment"
-    },
-    "videoLinks": [],
-    "verifiedTeam": [
-      "Elizabeth Frias",
-      "Lauren Deming",
-      "Chi Lee",
-      "Krystyne Kontos"
-    ],
-    "videos": []
-  },
-  {
-    "id": "fan-only",
-    "title": "Fan Only",
-    "subtitle": "One brush. A catalogue of robotic gestures.",
-    "year": "2025",
-    "category": "Robotics",
-    "kind": "Team project",
-    "institution": "IAAC · MRAC Workshop 2.1",
-    "featured": true,
-    "summary": "Robotic ceramic glazing explored with motion tracking and image analysis.",
-    "brief": "Can a single fan brush produce a useful catalogue of robotic glazing patterns?",
-    "method": "Motion-tracked toolpaths were executed on ceramic tiles. Photographs and OpenCV analysis supported comparison of strokes and overlapping stamps. A second phase explored how curved surfaces and material behaviour change the patterns.",
-    "role": "IAAC MRAC team project. The methods and outcomes described here belong to the team; individual responsibilities are not separately documented.",
-    "limits": "An experimental team study, not an industrially validated glazing process.",
-    "team": "Elizabeth Frias · Santosh Prabhu Shenbagamoorthy · Chi Lee · Greig Thomas · Krystyne Kontos. Tutors: Theophile Peju, Alfredo Chávez and Pit Siebenaler. In collaboration with Heatherwick Studio.",
-    "tools": [
-      "Robotic glazing",
-      "Motion tracking",
-      "OpenCV",
-      "Ceramics"
-    ],
-    "images": [
-      {
-        "file": "assets/fan_01.jpg",
-        "caption": "Robot with fan-brush tool · team workshop."
-      },
-      {
-        "file": "assets/fan_08.jpg",
-        "caption": "Catalogue of glazing patterns."
-      },
-      {
-        "file": "assets/fan_13.jpg",
-        "caption": "Pattern tests on curved surfaces."
-      },
-      {
-        "file": "assets/fan_04.jpg",
-        "caption": "Glazing pattern studies from the team workshop."
-      },
-      {
-        "file": "assets/fan_10.jpg",
-        "caption": "Further pattern / surface tests from the original workshop record."
-      },
-      {
-        "file": "assets/ig/DbXKIC-jnMt_04.jpg",
-        "caption": "ABB robot glazing tiles with a single brush."
-      },
-      {
-        "file": "assets/ig/DbXKIC-jnMt_09.jpg",
-        "caption": "Robot-painted tile patterns."
-      },
-      {
-        "file": "assets/ig/DbXKIC-jnMt_07.jpg",
-        "caption": "Exhibition of the glazed tile catalogue at IAAC."
-      }
-    ],
-    "source": "https://blog.iaac.net/fan-only-a-cataloguing-approach-to-glazing/",
-    "pages": "12",
-    "caseStudy": {
-      "context": "Fan Only is a team investigation of robotic ceramic glazing developed in collaboration with Heatherwick Studio. Rather than change tools for each decorative effect, the study constrained its exploration to a single fan brush and asked how many patterns could emerge from variations, repeated gestures, and overlapping marks.",
-      "decisions": [
-        {
-          "title": "A single-tool catalogue",
-          "text": "Keeping the fan brush constant made the relationship between motion and ceramic pattern the focus of the investigation. The aim was a catalogue of usable marks, not a new glazing material or a production-ready industrial line."
-        },
-        {
-          "title": "Separate flat and curved surfaces",
-          "text": "The team organized testing into two phases. Flat tiles offered a basis for comparing repeatability and overlaps; complex ceramic geometries introduced curvature and material behavior that required adapting the pattern application."
-        }
-      ],
-      "workflow": [
-        {
-          "title": "Define and capture brush movements",
-          "text": "Tool selection established the workflow. The flat-surface sequence includes a motion-tracked toolpath and its resulting mark on a ceramic tile, followed by comparisons across robot-generated tiles.",
-          "image": "assets/fan_01.jpg"
-        },
-        {
-          "title": "Analyze flat patterns",
-          "text": "The team used photographic scanning and OpenCV to analyze brushstroke characteristics. Overlapping stamped patterns formed a further part of the flat-surface catalogue, allowing the study to move beyond isolated brush marks.",
-          "image": "assets/fan_08.jpg"
-        },
-        {
-          "title": "Transfer to complex geometry",
-          "text": "The second phase explored how the same brush could create distinctive patterns on curved ceramics. Rather than assume direct transfer from a flat tile, the team examined how the shape influenced the design and its execution.",
-          "image": "assets/fan_13.jpg"
-        },
-        {
-          "title": "Compare and exhibit",
-          "text": "Flat and curved results were brought together in a comparison and learning stage. The original page closes with a final exhibition, documenting the work as an exploratory workshop outcome."
-        }
-      ],
-      "findings": [
-        {
-          "title": "Geometry changes the workflow",
-          "text": "The source associates flat surfaces with consistency, speed, and uniform patterns. Curved surfaces required customized toolpaths and glaze adjustments, producing designs that responded to the ceramic form rather than ignoring it."
-        },
-        {
-          "title": "A catalogue, not a validated production claim",
-          "text": "The supported outcome is a comparative body of robotic glazing experiments. The readable article does not supply quantified throughput, repeatability, glaze durability, or a benchmark proving industrial scalability."
-        }
-      ],
-      "unknowns": [
-        "Detailed numerical settings and quantitative OpenCV results are not stated in the readable prose; several conclusions appear within source images.",
-        "No individual division of work is given; present the study explicitly as team work."
-      ],
-      "sourceUrl": "https://blog.iaac.net/fan-only-a-cataloguing-approach-to-glazing/",
-      "sourceEvidence": [
-        {
-          "url": "https://blog.iaac.net/fan-only-a-cataloguing-approach-to-glazing/",
-          "note": "Full official original: single fan-brush constraint, motion-tracked flat-tile toolpaths, OpenCV comparison, curved surfaces, qualitative conclusions and exhibition."
-        }
-      ],
-      "teamIfExplicit": [
-        "Elizabeth Frias",
-        "Santosh Prabhu Shenbagamoorthy",
-        "Chi Lee",
-        "Greig Thomas",
-        "Krystyne Kontos"
-      ],
-      "extraImages": [
-        {
-          "url": "https://blog.iaac.net/wp-content/uploads/2025/02/3-3.jpg",
-          "caption": "Official project documentation, source image 1."
-        },
-        {
-          "url": "https://blog.iaac.net/wp-content/uploads/2025/02/32.jpg",
-          "caption": "Official project documentation, source image 2."
-        }
-      ],
-      "videoLinks": [],
-      "application": "Develop a repeatable tool-and-motion catalogue for applying patterns to ceramics.",
-      "outcomeSummary": "Flat/curved glazing experiments + comparative pattern catalogue"
-    },
-    "videoLinks": [],
-    "verifiedTeam": [
-      "Elizabeth Frias",
-      "Santosh Prabhu Shenbagamoorthy",
-      "Chi Lee",
-      "Greig Thomas",
-      "Krystyne Kontos"
-    ],
-    "videos": [
-      {
-        "src": "media/ig/DbXKIC-jnMt_01.mp4",
-        "poster": "media/ig/DbXKIC-jnMt_01.jpg",
-        "label": "Robotic glazing",
-        "caption": "ABB robot replicating a captured brush movement on a tile.",
-        "credits": "",
+        "src": "media/iaac-startup-pitch.mp4",
+        "poster": "media/iaac-startup-pitch.jpg",
+        "originalSource": "https://blog.iaac.net/wp-content/uploads/",
+        "label": "Venture / academic pitch film",
+        "caption": "A venture proposition, not evidence of commercial deployment.",
         "remote": false,
-        "source": ""
+        "source": "https://blog.iaac.net/terraweave-startup-pitch/"
       }
     ]
   },
@@ -636,7 +269,7 @@ window.PORTFOLIO_PROJECTS = [
     "title": "Scan → Print",
     "subtitle": "From sensed geometry to non-planar paths.",
     "year": "2025",
-    "category": "Sensing",
+    "category": "Robotics",
     "kind": "Team project",
     "institution": "IAAC · MRAC Software II",
     "summary": "A UR10e depth-camera workflow connects a physical model to curved toolpaths.",
@@ -796,14 +429,15 @@ window.PORTFOLIO_PROJECTS = [
         "remote": false,
         "source": "https://blog.iaac.net/scanning-for-reconstruction-non-planar-3d-printing/"
       }
-    ]
+    ],
+    "featured": true
   },
   {
     "id": "cork-reform",
     "title": "Cork ReForm",
     "subtitle": "Topology meets a bio-based material.",
     "year": "2024",
-    "category": "Materials",
+    "category": "Robotics",
     "kind": "Team project",
     "institution": "IAAC · MRAC Workshop 1.1",
     "summary": "Topology optimisation and robotic printing with a cork-biomass mix.",
@@ -940,14 +574,327 @@ window.PORTFOLIO_PROJECTS = [
       "outcomeSummary": "Cork-mix printing trials and documented failures"
     },
     "videoLinks": [],
-    "videos": []
+    "videos": [],
+    "featured": true
+  },
+  {
+    "id": "fan-only",
+    "title": "Fan Only",
+    "subtitle": "One brush. A catalogue of robotic gestures.",
+    "year": "2025",
+    "category": "Robotics",
+    "kind": "Team project",
+    "institution": "IAAC · MRAC Workshop 2.1",
+    "featured": true,
+    "summary": "Robotic ceramic glazing explored with motion tracking and image analysis.",
+    "brief": "Can a single fan brush produce a useful catalogue of robotic glazing patterns?",
+    "method": "Motion-tracked toolpaths were executed on ceramic tiles. Photographs and OpenCV analysis supported comparison of strokes and overlapping stamps. A second phase explored how curved surfaces and material behaviour change the patterns.",
+    "role": "IAAC MRAC team project. The methods and outcomes described here belong to the team; individual responsibilities are not separately documented.",
+    "limits": "An experimental team study, not an industrially validated glazing process.",
+    "team": "Elizabeth Frias · Santosh Prabhu Shenbagamoorthy · Chi Lee · Greig Thomas · Krystyne Kontos. Tutors: Theophile Peju, Alfredo Chávez and Pit Siebenaler. In collaboration with Heatherwick Studio.",
+    "tools": [
+      "Robotic glazing",
+      "Motion tracking",
+      "OpenCV",
+      "Ceramics"
+    ],
+    "images": [
+      {
+        "file": "assets/fan_01.jpg",
+        "caption": "Robot with fan-brush tool · team workshop."
+      },
+      {
+        "file": "assets/fan_08.jpg",
+        "caption": "Catalogue of glazing patterns."
+      },
+      {
+        "file": "assets/fan_13.jpg",
+        "caption": "Pattern tests on curved surfaces."
+      },
+      {
+        "file": "assets/fan_04.jpg",
+        "caption": "Glazing pattern studies from the team workshop."
+      },
+      {
+        "file": "assets/fan_10.jpg",
+        "caption": "Further pattern / surface tests from the original workshop record."
+      },
+      {
+        "file": "assets/ig/DbXKIC-jnMt_04.jpg",
+        "caption": "ABB robot glazing tiles with a single brush."
+      },
+      {
+        "file": "assets/ig/DbXKIC-jnMt_09.jpg",
+        "caption": "Robot-painted tile patterns."
+      },
+      {
+        "file": "assets/ig/DbXKIC-jnMt_07.jpg",
+        "caption": "Exhibition of the glazed tile catalogue at IAAC."
+      }
+    ],
+    "source": "https://blog.iaac.net/fan-only-a-cataloguing-approach-to-glazing/",
+    "pages": "12",
+    "caseStudy": {
+      "context": "Fan Only is a team investigation of robotic ceramic glazing developed in collaboration with Heatherwick Studio. Rather than change tools for each decorative effect, the study constrained its exploration to a single fan brush and asked how many patterns could emerge from variations, repeated gestures, and overlapping marks.",
+      "decisions": [
+        {
+          "title": "A single-tool catalogue",
+          "text": "Keeping the fan brush constant made the relationship between motion and ceramic pattern the focus of the investigation. The aim was a catalogue of usable marks, not a new glazing material or a production-ready industrial line."
+        },
+        {
+          "title": "Separate flat and curved surfaces",
+          "text": "The team organized testing into two phases. Flat tiles offered a basis for comparing repeatability and overlaps; complex ceramic geometries introduced curvature and material behavior that required adapting the pattern application."
+        }
+      ],
+      "workflow": [
+        {
+          "title": "Define and capture brush movements",
+          "text": "Tool selection established the workflow. The flat-surface sequence includes a motion-tracked toolpath and its resulting mark on a ceramic tile, followed by comparisons across robot-generated tiles.",
+          "image": "assets/fan_01.jpg"
+        },
+        {
+          "title": "Analyze flat patterns",
+          "text": "The team used photographic scanning and OpenCV to analyze brushstroke characteristics. Overlapping stamped patterns formed a further part of the flat-surface catalogue, allowing the study to move beyond isolated brush marks.",
+          "image": "assets/fan_08.jpg"
+        },
+        {
+          "title": "Transfer to complex geometry",
+          "text": "The second phase explored how the same brush could create distinctive patterns on curved ceramics. Rather than assume direct transfer from a flat tile, the team examined how the shape influenced the design and its execution.",
+          "image": "assets/fan_13.jpg"
+        },
+        {
+          "title": "Compare and exhibit",
+          "text": "Flat and curved results were brought together in a comparison and learning stage. The original page closes with a final exhibition, documenting the work as an exploratory workshop outcome."
+        }
+      ],
+      "findings": [
+        {
+          "title": "Geometry changes the workflow",
+          "text": "The source associates flat surfaces with consistency, speed, and uniform patterns. Curved surfaces required customized toolpaths and glaze adjustments, producing designs that responded to the ceramic form rather than ignoring it."
+        },
+        {
+          "title": "A catalogue, not a validated production claim",
+          "text": "The supported outcome is a comparative body of robotic glazing experiments. The readable article does not supply quantified throughput, repeatability, glaze durability, or a benchmark proving industrial scalability."
+        }
+      ],
+      "unknowns": [
+        "Detailed numerical settings and quantitative OpenCV results are not stated in the readable prose; several conclusions appear within source images.",
+        "No individual division of work is given; present the study explicitly as team work."
+      ],
+      "sourceUrl": "https://blog.iaac.net/fan-only-a-cataloguing-approach-to-glazing/",
+      "sourceEvidence": [
+        {
+          "url": "https://blog.iaac.net/fan-only-a-cataloguing-approach-to-glazing/",
+          "note": "Full official original: single fan-brush constraint, motion-tracked flat-tile toolpaths, OpenCV comparison, curved surfaces, qualitative conclusions and exhibition."
+        }
+      ],
+      "teamIfExplicit": [
+        "Elizabeth Frias",
+        "Santosh Prabhu Shenbagamoorthy",
+        "Chi Lee",
+        "Greig Thomas",
+        "Krystyne Kontos"
+      ],
+      "extraImages": [
+        {
+          "url": "https://blog.iaac.net/wp-content/uploads/2025/02/3-3.jpg",
+          "caption": "Official project documentation, source image 1."
+        },
+        {
+          "url": "https://blog.iaac.net/wp-content/uploads/2025/02/32.jpg",
+          "caption": "Official project documentation, source image 2."
+        }
+      ],
+      "videoLinks": [],
+      "application": "Develop a repeatable tool-and-motion catalogue for applying patterns to ceramics.",
+      "outcomeSummary": "Flat/curved glazing experiments + comparative pattern catalogue"
+    },
+    "videoLinks": [],
+    "verifiedTeam": [
+      "Elizabeth Frias",
+      "Santosh Prabhu Shenbagamoorthy",
+      "Chi Lee",
+      "Greig Thomas",
+      "Krystyne Kontos"
+    ],
+    "videos": [
+      {
+        "src": "media/ig/DbXKIC-jnMt_01.mp4",
+        "poster": "media/ig/DbXKIC-jnMt_01.jpg",
+        "label": "Robotic glazing",
+        "caption": "ABB robot replicating a captured brush movement on a tile.",
+        "credits": "",
+        "remote": false,
+        "source": ""
+      }
+    ]
+  },
+  {
+    "id": "balloon-tool",
+    "title": "Balloon Gun",
+    "subtitle": "A pressurised pigment-spill tool.",
+    "year": "2024",
+    "category": "Robotics",
+    "kind": "Team project",
+    "institution": "IAAC · MRAC Hardware I",
+    "summary": "A custom Arduino-controlled end effector for an ABB arm, then used to study pigment spills.",
+    "brief": "How can an end effector release pigment as a controllable robotic action?",
+    "method": "The team developed a transparent acrylic, Arduino-controlled tool that releases pigment from balloons onto canvas, linking pneumatic behaviour and robotic positioning.",
+    "role": "IAAC MRAC team project. The methods and outcomes described here belong to the team; individual responsibilities are not separately documented.",
+    "limits": "Experimental workshop tool, not a production-ready end effector.",
+    "team": "Marianne Weber · Chi Lee · Aleksandra Kraeva · Lauren Deming",
+    "tools": [
+      "Arduino",
+      "ABB",
+      "End-effector prototyping"
+    ],
+    "images": [
+      {
+        "file": "assets/balloon_05.jpg",
+        "caption": "Pressurised balloon tool · team prototype."
+      },
+      {
+        "file": "assets/balloon_10.jpg",
+        "caption": "Tool development and assembly."
+      },
+      {
+        "file": "assets/balloon_06.png",
+        "caption": "Tool-housing and component-layout drawings from the team documentation."
+      },
+      {
+        "file": "assets/balloon_02.png",
+        "caption": "Original trial-record table. Source values are retained as recorded; no calibrated performance benchmark is inferred."
+      },
+      {
+        "file": "assets/spill_09.jpg",
+        "caption": "Spill study · Pigment-spill sequence."
+      },
+      {
+        "file": "assets/spill_11.jpg",
+        "caption": "Spill study · Resulting material patterns."
+      }
+    ],
+    "source": "https://blog.iaac.net/pressurized-balloon-spill-tool/",
+    "pages": "14",
+    "caseStudy": {
+      "context": "Hardware I_Pressurized Balloon Spill Tool is team work developed alongside the Studio I spill exercise. Over three weeks, the group designed a transparent acrylic end effector for an ABB arm, using balloon rupture to investigate the boundary between controlled actuation and unpredictable liquid splatter. The hardware and studio originals substantially repeat the same experiment.",
+      "decisions": [
+        {
+          "title": "Control rupture as well as robot position",
+          "text": "The tool combined an air supply, Arduino components, relays, solenoids, and needles. An elbow oriented the housing toward the canvas; radially arranged solenoids were intended to puncture together and reduce sideways balloon motion."
+        },
+        {
+          "title": "Constrain balloon geometry",
+          "text": "A rigid frame was added to limit inflation-shape variation and sway. The housing also had to organize the pump, wiring, battery, and arm mount. A later power supply was introduced to regulate solenoid voltage."
+        }
+      ],
+      "workflow": [
+        {
+          "title": "Establish a manual baseline",
+          "text": "Manual popping tests examined pressure or volume, balloon height, pigment quantity, and liquidity. Splatter size and diameter were the intended outputs to compare."
+        },
+        {
+          "title": "Develop and integrate the tool",
+          "text": "The team progressed through schematic design, acrylic housing development, component layout, and a mounted ABB end effector. The aim was coordinated robot-and-tool behavior rather than an independently operating paint device.",
+          "image": "assets/balloon_05.jpg"
+        },
+        {
+          "title": "Program the test grid",
+          "text": "A Grasshopper-defined toolpath used nine canvas locations and three popping heights. Between releases, the robot returned to a homing position so a pigment-filled balloon could be manually loaded off the canvas."
+        },
+        {
+          "title": "Revise after failure",
+          "text": "Inflation shape and needle reach made popping inconsistent. Repeated trials burned out the solenoids, leading to a modified, longer and more angular needle configuration. Balloon size and air source were also adjusted.",
+          "image": "assets/balloon_10.jpg"
+        },
+        {
+          "title": "Use the tool: Spill study",
+          "text": "In the follow-up studio, the team varied balloon size and release height with the same end effector, with the arm returning home between pops for manual reloading.",
+          "image": "assets/spill_09.jpg"
+        }
+      ],
+      "findings": [
+        {
+          "title": "Actuation changed the mark",
+          "text": "ABB air pressure was stronger than the small Arduino air pump and produced more mist than splatter. Water addition encouraged splattering, while canvas absorption blurred marks compared with paper."
+        },
+        {
+          "title": "Control remained partial",
+          "text": "The frame that stabilized the balloon could obstruct the spill pattern. The project documents a functioning experimental setup and its failures, not a repeatable fully automated painting system; more predictable control remained a future aim."
+        }
+      ],
+      "unknowns": [
+        "No calibrated pressure values, numerical splatter table, or repeatability statistic is supplied in the readable prose.",
+        "The header credits Chi Lee, while an embedded course-credit paragraph spells the name Chi Li.",
+        "No individual hardware or programming responsibility is assigned."
+      ],
+      "sourceUrl": "https://blog.iaac.net/pressurized-balloon-spill-tool/",
+      "sourceEvidence": [
+        {
+          "url": "https://blog.iaac.net/pressurized-balloon-spill-tool/",
+          "note": "Full official original: acrylic end-effector assembly, radial solenoids, manual loading, nine locations/three heights, burnouts and material-dependent results."
+        },
+        {
+          "url": "https://blog.iaac.net/studio-i_pressurized-balloon-spill-tool/",
+          "note": "Studio I Spill study using the Balloon Gun end effector."
+        }
+      ],
+      "teamIfExplicit": [
+        "Marianne Weber",
+        "Chi Lee",
+        "Aleksandra Kraeva",
+        "Lauren Deming"
+      ],
+      "extraImages": [
+        {
+          "url": "https://blog.iaac.net/wp-content/uploads/2024/11/image-23-1024x496.png",
+          "caption": "Official project documentation, source image 1."
+        },
+        {
+          "url": "https://blog.iaac.net/wp-content/uploads/2024/11/image-29-1024x523.png",
+          "caption": "Official project documentation, source image 2."
+        }
+      ],
+      "videoLinks": [
+        {
+          "url": "https://blog.iaac.net/wp-content/uploads/2024/11/Splatter-01-Made-with-Clipchamp.mp4",
+          "label": "Project demonstration video 1 embedded in the official source"
+        }
+      ],
+      "application": "Integrate a custom tool, robot motion, reload procedure and experimental test plan.",
+      "outcomeSummary": "Acrylic end effector + pigment-release trials"
+    },
+    "videoLinks": [
+      {
+        "url": "https://blog.iaac.net/wp-content/uploads/2024/11/Splatter-01-Made-with-Clipchamp.mp4",
+        "label": "Project demonstration video 1 embedded in the official source"
+      }
+    ],
+    "verifiedTeam": [
+      "Marianne Weber",
+      "Chi Lee",
+      "Aleksandra Kraeva",
+      "Lauren Deming"
+    ],
+    "videos": [
+      {
+        "src": "media/iaac-spill-splatter.mp4",
+        "poster": "media/iaac-spill-splatter.jpg",
+        "originalSource": "https://blog.iaac.net/wp-content/uploads/",
+        "label": "Balloon Gun / pigment-release experiment",
+        "caption": "Team film shared with the related Spill study.",
+        "remote": false,
+        "source": "https://blog.iaac.net/pressurized-balloon-spill-tool/"
+      }
+    ],
+    "featured": false
   },
   {
     "id": "breathing-curtain",
     "title": "Breathing Curtain Wall",
     "subtitle": "Weaving natural materials.",
     "year": "2024",
-    "category": "Materials",
+    "category": "Robotics",
     "kind": "Team project",
     "institution": "IAAC · MRAC Workshop 1.2",
     "summary": "Willow-weaving modules explored through robotic fabrication.",
@@ -1115,7 +1062,253 @@ window.PORTFOLIO_PROJECTS = [
         "remote": false,
         "source": "https://blog.iaac.net/weaving-natural-materials-breathin-curtain-wall/"
       }
-    ]
+    ],
+    "featured": false
+  },
+  {
+    "id": "shape",
+    "title": "Shape",
+    "subtitle": "Anatomy of a machine.",
+    "year": "2024",
+    "category": "Robotics",
+    "kind": "Team project",
+    "institution": "IAAC · MRAC Studio I",
+    "summary": "Local, low-carbon materials shaped with custom robotic tools.",
+    "brief": "How can a robot’s tool and movement respond to different materials?",
+    "method": "The team explored robotic shaping with custom tools and compared materials through physical qualities, carbon-footprint considerations and cost.",
+    "role": "IAAC MRAC team project. The methods and outcomes described here belong to the team; individual responsibilities are not separately documented.",
+    "limits": "Exploratory material comparisons, not a certified life-cycle assessment.",
+    "team": "Lauren Deming · Vasileios Mavromitros · Chi Lee",
+    "tools": [
+      "Robotic shaping",
+      "Custom tools",
+      "Material studies"
+    ],
+    "images": [
+      {
+        "file": "assets/shape_01.jpg",
+        "caption": "Material shaping with the robotic arm."
+      },
+      {
+        "file": "assets/shape_03.png",
+        "caption": "Tool and movement diagrams from the team shaping study."
+      }
+    ],
+    "source": "https://blog.iaac.net/anatomy-of-a-machine-shape/",
+    "pages": "15",
+    "caseStudy": {
+      "context": "Anatomy of a Machine: Shape is team research into robotic material manipulation through four processes: stamp, lick, dip, and weave. Material choices were constrained by sustainability, affordability, local availability, available tools, and short experiment times. The project evolved through failures and substitutions rather than following one fixed material system.",
+      "decisions": [
+        {
+          "title": "Abandon impractical early mixtures",
+          "text": "Initial work combined organic aggregates such as coffee, eggshells, nut hulls, flour clay, and sawdust with binders including cornstarch and glycerine. Wax and sodium acetate also interested the team for state changes, but drying and heating requirements pushed the work toward plaster, clay, and jute."
+        },
+        {
+          "title": "Treat the tool-material relationship as variable",
+          "text": "Manual trials informed custom tools and adaptations. Tool center point, material bed, speed, and direction required reconsideration as plasticity and tactile behavior changed between experiments."
+        }
+      ],
+      "workflow": [
+        {
+          "title": "Stamp clay",
+          "text": "A parametrically designed, CNC-carved stamp was combined with an impact-printing end effector. Pressure, time, and stamp texture were varied to explore impressions in red clay."
+        },
+        {
+          "title": "Lick and smooth",
+          "text": "A wire-armature, sponge-like tool swept over a clay, glycerine, and sawdust composite. The motion deviated from −30 to +30 degrees about the x-axis. A dipping well was later added to moisten the tool and make surface manipulation more apparent."
+        },
+        {
+          "title": "Dip a suspended form",
+          "text": "A weighted mesh and timed dip-and-dry process drew on catenary models and candle making. Wax would have required sustained heating, so plaster was used. It set too quickly for repeated robotic manipulation and formed the catenary without the intended cycles.",
+          "image": "assets/shape_01.jpg"
+        },
+        {
+          "title": "Weave jute",
+          "text": "The final process moved to a solid organic twine and a more complex path around a pegboard. Repeated layers increased tension and distorted the originally upright pegs."
+        }
+      ],
+      "findings": [
+        {
+          "title": "Automation did not improve every result",
+          "text": "The plaster shape was dramatic, but the team explicitly concluded it was no greater because of robotic automation. Material timing could defeat the intended benefit of repeated motion."
+        },
+        {
+          "title": "The support also deforms",
+          "text": "Jute weaving exposed accumulated loads in the fixture. These prototypes demonstrate material-process interactions, not tested building components or proven low-carbon performance."
+        }
+      ],
+      "unknowns": [
+        "No measured carbon comparison, load capacity, production yield, or scale-up validation is reported.",
+        "No individual responsibilities are given."
+      ],
+      "sourceUrl": "https://blog.iaac.net/anatomy-of-a-machine-shape/",
+      "sourceEvidence": [
+        {
+          "url": "https://blog.iaac.net/anatomy-of-a-machine-shape/",
+          "note": "Full official original: discarded mixtures, drying/heating limits, stamp/lick/dip/weave details and explicit observations including peg distortion."
+        }
+      ],
+      "teamIfExplicit": [
+        "Lauren Deming",
+        "Vasileios Mavromitros",
+        "Chi Lee"
+      ],
+      "extraImages": [
+        {
+          "url": "https://blog.iaac.net/wp-content/uploads/2024/12/stampbot.png",
+          "caption": "Stamp-process diagram from the official project."
+        },
+        {
+          "url": "https://blog.iaac.net/wp-content/uploads/2024/12/lick-section.png",
+          "caption": "Lick-process section from the official project."
+        },
+        {
+          "url": "https://blog.iaac.net/wp-content/uploads/2024/12/weave-1-1024x469.jpg",
+          "caption": "Jute-weaving documentation from the official project."
+        }
+      ],
+      "videoLinks": [
+        {
+          "url": "https://blog.iaac.net/wp-content/uploads/2024/12/SHAPE-STUDIO-VIDEO.mp4",
+          "label": "Project demonstration video 1 embedded in the official source"
+        }
+      ],
+      "application": "Investigate how material and custom tooling change a robotic shaping task.",
+      "outcomeSummary": "Material-shaping and tool experiments"
+    },
+    "videoLinks": [
+      {
+        "url": "https://blog.iaac.net/wp-content/uploads/2024/12/SHAPE-STUDIO-VIDEO.mp4",
+        "label": "Project demonstration video 1 embedded in the official source"
+      }
+    ],
+    "verifiedTeam": [
+      "Lauren Deming",
+      "Vasileios Mavromitros",
+      "Chi Lee"
+    ],
+    "videos": [
+      {
+        "src": "media/iaac-shape.mp4",
+        "poster": "media/iaac-shape.jpg",
+        "originalSource": "https://blog.iaac.net/wp-content/uploads/",
+        "label": "Material shaping / process film",
+        "caption": "Team material and custom-tool experiments.",
+        "remote": false,
+        "source": "https://blog.iaac.net/anatomy-of-a-machine-shape/"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "stroke",
+    "title": "Stroke",
+    "subtitle": "Anatomy of a machine.",
+    "year": "2025",
+    "category": "Robotics",
+    "kind": "Team project",
+    "institution": "IAAC · MRAC Studio I",
+    "summary": "Manual brush experiments translated into robotic movement.",
+    "brief": "What changes when a robot becomes the tool behind a brushstroke?",
+    "method": "The team used manual brush tests to study the components of a stroke and translated those observations into robotic movements.",
+    "role": "IAAC MRAC team project. The methods and outcomes described here belong to the team; individual responsibilities are not separately documented.",
+    "limits": "Artistic and fabrication exploration; individual algorithm authorship is not claimed.",
+    "team": "Elizabeth Frias · Chi Lee. Tutors: Edouard Cabay and Pit Siebenaler.",
+    "tools": [
+      "Robotic painting",
+      "Brush tests",
+      "Toolpaths"
+    ],
+    "images": [
+      {
+        "file": "assets/stroke_00.jpg",
+        "caption": "Robotic painting setup · team work."
+      },
+      {
+        "file": "assets/stroke_01.jpg",
+        "caption": "Additional brush/stroke study from the team project."
+      }
+    ],
+    "source": "https://blog.iaac.net/anatomy-of-a-machine-stroke/",
+    "pages": "15",
+    "caseStudy": {
+      "context": "Anatomy of a Machine: Stroke is a three-week team exercise in translating manual brush gestures into robotic painting. Its subject is the relationship between brush flexibility, paint behavior, human motion, and the articulation of an ABB arm. The final outputs connect a physical painting with a vectorial description of its path.",
+      "decisions": [
+        {
+          "title": "Learn the brush before programming it",
+          "text": "The team began with manual experiments rather than treating a brush as a fixed-width digital pen. Pressure, hand motion, flexibility, and viscosity were studied together because each influenced the resulting stroke."
+        },
+        {
+          "title": "Make the robot’s anatomy part of the design",
+          "text": "The final vector path was conceived to highlight rotational axes, articulation, and reach. The aim was not simply to reproduce hand painting, but to explore the distinct marks enabled by the machine’s movement."
+        }
+      ],
+      "workflow": [
+        {
+          "title": "Run six manual tests",
+          "text": "Test 1 explored fluid gestures and flowing patterns. Test 2 varied pressure for tapering. Test 3 investigated repetitive forms such as dots and elongated shapes. Tests 4–6 expanded into complex patterns, layered marks, and directional changes.",
+          "image": "assets/stroke_01.jpg"
+        },
+        {
+          "title": "Translate simple trajectories",
+          "text": "The next stage introduced ABB programming. Grasshopper mapped basic movements into robot-drawn lines, and early experiments attempted to reproduce hand gestures while examining articulation and consistency."
+        },
+        {
+          "title": "Compose a vectorial path",
+          "text": "Manual observations and initial robotic tests informed the final artistic concept. The team modeled a vector path in Grasshopper rather than skipping directly from the first hand study to a complete robotic composition.",
+          "image": "assets/stroke_00.jpg"
+        },
+        {
+          "title": "Execute the final painting",
+          "text": "The design moved to the larger white ABB robots for final tests. A brush mounted on a custom holder followed the vectorial path on canvas, linking digital drawing and physical paint application."
+        }
+      ],
+      "findings": [
+        {
+          "title": "Material behavior remained central",
+          "text": "The exercise connected paint viscosity and brush compliance to robotic trajectory design. It demonstrates a progression from tactile experiments to programmable motion, not a claim that robotic painting eliminates material variation."
+        },
+        {
+          "title": "A foundational fabrication study",
+          "text": "The source reports increased understanding of how robot anatomy can augment creative work. Its documented outcomes are the painting and vector drawing; no precision benchmark or controlled aesthetic comparison is provided."
+        }
+      ],
+      "unknowns": [
+        "No numerical speed, pressure, viscosity, stroke-error, or reproducibility data is stated.",
+        "No individual contribution division is provided."
+      ],
+      "sourceUrl": "https://blog.iaac.net/anatomy-of-a-machine-stroke/",
+      "sourceEvidence": [
+        {
+          "url": "https://blog.iaac.net/anatomy-of-a-machine-stroke/",
+          "note": "Full official original: six manual tests, ABB/Grasshopper introduction, vector path, custom brush holder and final canvas execution."
+        }
+      ],
+      "teamIfExplicit": [
+        "Elizabeth Frias",
+        "Chi Lee"
+      ],
+      "extraImages": [
+        {
+          "url": "https://blog.iaac.net/wp-content/uploads/2025/01/final1-1024x576.jpg",
+          "caption": "Official project documentation, source image 1."
+        },
+        {
+          "url": "https://blog.iaac.net/wp-content/uploads/2025/01/VECTORIAL_DRAWING-1-724x1024.jpg",
+          "caption": "Vectorial drawing of the painting path from the official project."
+        }
+      ],
+      "videoLinks": [],
+      "application": "Connect manual brush observations to a robotic tool-and-motion study.",
+      "outcomeSummary": "Manual and robot brushstroke experiments"
+    },
+    "videoLinks": [],
+    "verifiedTeam": [
+      "Elizabeth Frias",
+      "Chi Lee"
+    ],
+    "videos": [],
+    "featured": false
   },
   {
     "id": "dynamic-forms",
@@ -1259,7 +1452,8 @@ window.PORTFOLIO_PROJECTS = [
       "outcomeSummary": "Pavilion print-planning + CNC wave-wall design studies"
     },
     "videoLinks": [],
-    "videos": []
+    "videos": [],
+    "featured": false
   },
   {
     "id": "interlock-tower",
@@ -1388,149 +1582,372 @@ window.PORTFOLIO_PROJECTS = [
       "Chi Lee",
       "Krystyne Kontos"
     ],
-    "videos": []
+    "videos": [],
+    "featured": false
   },
   {
-    "id": "balloon-tool",
-    "title": "Balloon Gun",
-    "subtitle": "A pressurised pigment-spill tool.",
-    "year": "2024",
-    "category": "Robotics",
+    "id": "anomaly-detection",
+    "title": "Reading the unseen",
+    "subtitle": "Robotic scanning for building anomaly detection.",
+    "year": "2025",
+    "category": "Sensing",
     "kind": "Team project",
-    "institution": "IAAC · MRAC Hardware I",
-    "summary": "An acrylic, Arduino-controlled end effector for an ABB arm.",
-    "brief": "How can an end effector release pigment as a controllable robotic action?",
-    "method": "The team developed a transparent acrylic, Arduino-controlled tool that releases pigment from balloons onto canvas, linking pneumatic behaviour and robotic positioning.",
-    "role": "IAAC MRAC team project. The methods and outcomes described here belong to the team; individual responsibilities are not separately documented.",
-    "limits": "Experimental workshop tool, not a production-ready end effector.",
-    "team": "Marianne Weber · Chi Lee · Aleksandra Kraeva · Lauren Deming",
+    "institution": "IAAC · MRAC Workshop 2.2",
+    "featured": false,
+    "summary": "LiDAR point clouds reveal roof openings and inform repair planning.",
+    "brief": "Can robotic scanning locate roof anomalies and support repair planning without direct physical access to the roof?",
+    "method": "The team compared scanning approaches including drone photogrammetry and Husky A200 LiDAR. The resulting point clouds were used to locate roof openings and estimate repair-material quantities.",
+    "role": "My contribution: operating the robot for LiDAR scanning, processing point clouds and analysing roof anomalies.",
+    "limits": "A workshop-scale diagnostic workflow. No numerical accuracy or certified inspection claim is made here.",
+    "team": "Elizabeth Frias · Lauren Deming · Chi Lee · Krystyne Kontos. Tutors: Marita Georganta and Huanyu Li.",
     "tools": [
-      "Arduino",
-      "ABB",
-      "End-effector prototyping"
+      "Husky A200",
+      "LiDAR",
+      "Point clouds",
+      "Metashape"
     ],
     "images": [
       {
-        "file": "assets/balloon_05.jpg",
-        "caption": "Pressurised balloon tool · team prototype."
+        "file": "assets/an_cloud.jpg",
+        "caption": "LiDAR point cloud of the building interior."
       },
       {
-        "file": "assets/balloon_10.jpg",
-        "caption": "Tool development and assembly."
+        "file": "assets/an_holes.jpg",
+        "caption": "Roof-opening analysis from point-cloud geometry."
       },
       {
-        "file": "assets/balloon_06.png",
-        "caption": "Tool-housing and component-layout drawings from the team documentation."
+        "file": "assets/an_hw.jpg",
+        "caption": "Scanning hardware compared by the team."
       },
       {
-        "file": "assets/balloon_02.png",
-        "caption": "Original trial-record table. Source values are retained as recorded; no calibrated performance benchmark is inferred."
+        "file": "assets/an_cloud2.jpg",
+        "caption": "Additional LiDAR point-cloud view from the team inspection study."
+      },
+      {
+        "file": "assets/an_data.jpg",
+        "caption": "Roof geometry and data-extraction study."
       }
     ],
-    "source": "https://blog.iaac.net/pressurized-balloon-spill-tool/",
-    "pages": "14",
+    "source": "https://blog.iaac.net/robotics-solutions-for-building-anomaly-detection/",
+    "pages": "9",
     "caseStudy": {
-      "context": "Hardware I_Pressurized Balloon Spill Tool is team work developed alongside the Studio I spill exercise. Over three weeks, the group designed a transparent acrylic end effector for an ABB arm, using balloon rupture to investigate the boundary between controlled actuation and unpredictable liquid splatter. The hardware and studio originals substantially repeat the same experiment.",
+      "context": "A team study of roof inspection through robotic scanning, motivated by the difficulty of assessing buildings after climate-related disasters. The project compared drone photogrammetry with ground-based LiDAR to locate roof openings without physically accessing the roof. Chi Lee’s confirmed scope was robot operation, LiDAR point-cloud work, and roof anomaly analysis; other responsibilities remain team-level.",
       "decisions": [
         {
-          "title": "Control rupture as well as robot position",
-          "text": "The tool combined an air supply, Arduino components, relays, solenoids, and needles. An elbow oriented the housing toward the canvas; radially arranged solenoids were intended to puncture together and reduce sideways balloon motion."
+          "title": "Choose the sensor for the inspection question",
+          "text": "Initial comparisons considered photogrammetry, Husky A200, and Unitree GO2. The team concentrated its project tests on drone capture and Husky scanning. Drone data was easier to synthesize, but the Husky’s MID-360 LiDAR produced the detail the team preferred for roof anomalies and openings."
         },
         {
-          "title": "Constrain balloon geometry",
-          "text": "A rigid frame was added to limit inflation-shape variation and sway. The housing also had to organize the pump, wiring, battery, and arm mount. A later power supply was introduced to regulate solenoid voltage."
+          "title": "Separate visualization from anomaly analysis",
+          "text": "Drone imagery was reconstructed in Metashape for overall building context. The source describes photogrammetry as useful for visualizing the structure and setting the LiDAR cloud to scale, rather than as the strongest method for detecting holes."
         }
       ],
       "workflow": [
         {
-          "title": "Establish a manual baseline",
-          "text": "Manual popping tests examined pressure or volume, balloon height, pigment quantity, and liquidity. Splatter size and diameter were the intended outputs to compare."
+          "title": "Compare capture approaches",
+          "text": "The team first tested different scanning methodologies, weighing mobility, environmental access, and the differences between image-based reconstruction and laser-derived point clouds.",
+          "image": "assets/an_hw.jpg"
         },
         {
-          "title": "Develop and integrate the tool",
-          "text": "The team progressed through schematic design, acrylic housing development, component layout, and a mounted ABB end effector. The aim was coordinated robot-and-tool behavior rather than an independently operating paint device.",
-          "image": "assets/balloon_05.jpg"
+          "title": "Scan and reconstruct",
+          "text": "Drone photographs and the LiDAR-equipped Husky were used to collect building information. After digital reconstruction, attention shifted from general mapping to extracting roof anomaly data.",
+          "image": "assets/an_cloud.jpg"
         },
         {
-          "title": "Program the test grid",
-          "text": "A Grasshopper-defined toolpath used nine canvas locations and three popping heights. Between releases, the robot returned to a homing position so a pigment-filled balloon could be manually loaded off the canvas."
-        },
-        {
-          "title": "Revise after failure",
-          "text": "Inflation shape and needle reach made popping inconsistent. Repeated trials burned out the solenoids, leading to a modified, longer and more angular needle configuration. Balloon size and air source were also adjusted.",
-          "image": "assets/balloon_10.jpg"
+          "title": "Interpret repair requirements",
+          "text": "The team used the resulting roof information to assess condition and determine the size and quantity of material needed for repairs. This was an assessment workflow, not a demonstrated robotic repair operation.",
+          "image": "assets/an_holes.jpg"
         }
       ],
       "findings": [
         {
-          "title": "Actuation changed the mark",
-          "text": "ABB air pressure was stronger than the small Arduino air pump and produced more mist than splatter. Water addition encouraged splattering, while canvas absorption blurred marks compared with paper."
+          "title": "Complementary datasets",
+          "text": "The team favored Husky LiDAR for this roof-opening study and proposed combining both methods for a fuller assessment. This is a qualitative conclusion within the project, not a universal accuracy ranking."
         },
         {
-          "title": "Control remained partial",
-          "text": "The frame that stabilized the balloon could obstruct the spill pattern. The project documents a functioning experimental setup and its failures, not a repeatable fully automated painting system; more predictable control remained a future aim."
+          "title": "Automation remained a next step",
+          "text": "AI damage analysis, fully autonomous navigation, faster real-time processing, and alternative thermal or radar sensors are listed as potential improvements. They should not be presented as completed or validated functions."
         }
       ],
       "unknowns": [
-        "No calibrated pressure values, numerical splatter table, or repeatability statistic is supplied in the readable prose.",
-        "The header credits Chi Lee, while an embedded course-credit paragraph spells the name Chi Li.",
-        "No individual hardware or programming responsibility is assigned."
+        "No numerical hole-detection accuracy, ground-truth comparison, error distribution, or measured time saving is reported in the readable article.",
+        "The source does not document a completed disaster-response deployment or repair operation."
       ],
-      "sourceUrl": "https://blog.iaac.net/pressurized-balloon-spill-tool/",
+      "sourceUrl": "https://blog.iaac.net/robotics-solutions-for-building-anomaly-detection/",
       "sourceEvidence": [
         {
-          "url": "https://blog.iaac.net/pressurized-balloon-spill-tool/",
-          "note": "Full official original: acrylic end-effector assembly, radial solenoids, manual loading, nine locations/three heights, burnouts and material-dependent results."
+          "url": "https://blog.iaac.net/robotics-solutions-for-building-anomaly-detection/",
+          "note": "Full official original: sensor comparison, Metashape reconstruction, MID-360 Husky capture, roof analysis, conclusions and explicitly future AI/autonomy work. Chi-specific role is supplied by the commissioning brief, not individually assigned in the article."
         }
       ],
       "teamIfExplicit": [
-        "Marianne Weber",
+        "Elizabeth Frias",
+        "Lauren Deming",
         "Chi Lee",
-        "Aleksandra Kraeva",
-        "Lauren Deming"
+        "Krystyne Kontos"
       ],
       "extraImages": [
         {
-          "url": "https://blog.iaac.net/wp-content/uploads/2024/11/image-23-1024x496.png",
+          "url": "https://blog.iaac.net/wp-content/uploads/2025/03/04-1.jpg",
           "caption": "Official project documentation, source image 1."
         },
         {
-          "url": "https://blog.iaac.net/wp-content/uploads/2024/11/image-29-1024x523.png",
+          "url": "https://blog.iaac.net/wp-content/uploads/2025/03/24-2.jpg",
           "caption": "Official project documentation, source image 2."
         }
       ],
-      "videoLinks": [
+      "videoLinks": [],
+      "application": "Choose and interpret sensing data for roof inspection and repair planning without claiming an autonomous repair system.",
+      "outcomeSummary": "Building point clouds + roof-opening / repair-quantity assessment"
+    },
+    "videoLinks": [],
+    "verifiedTeam": [
+      "Elizabeth Frias",
+      "Lauren Deming",
+      "Chi Lee",
+      "Krystyne Kontos"
+    ],
+    "videos": []
+  },
+  {
+    "id": "earth-injection-vision",
+    "title": "Seeing the weave",
+    "subtitle": "AI-optimised earth injection deposits.",
+    "year": "2025",
+    "category": "Sensing",
+    "kind": "Team project",
+    "institution": "IAAC · MRAC Software III",
+    "summary": "Detected rods become candidate injection points in woven modules.",
+    "brief": "How can image-based geometry inform injection locations in an irregular scaffold?",
+    "method": "The team explored computer-vision detection of woven rods and generated triangle-based candidate injection locations. This software study connects to the Terraweave project family.",
+    "role": "IAAC MRAC team project. The methods and outcomes described here belong to the team; individual responsibilities are not separately documented.",
+    "limits": "Image-based detection and candidate locations only. Real-time robot communication, depth sensing and calibrated 3D centroids are described as next steps, not completed autonomous injection.",
+    "team": "Krystyne Kontos · Elizabeth Frias · Chi Lee",
+    "tools": [
+      "Computer vision",
+      "Image geometry",
+      "Injection planning"
+    ],
+    "images": [
+      {
+        "file": "assets/tw_cv.jpg",
+        "caption": "Detected rod positions and candidate injection geometry."
+      }
+    ],
+    "source": "https://blog.iaac.net/software-iii-ai-optimized-earth-injection-deposits/",
+    "pages": "7",
+    "caseStudy": {
+      "context": "Hand-woven modules deform through material behavior and manual variation. This software exercise replaces repeated manual injection-point selection with stick detection and geometric analysis. Its documented output is an image-analysis pipeline; live robotic execution remains a subsequent integration task.",
+      "decisions": [
         {
-          "url": "https://blog.iaac.net/wp-content/uploads/2024/11/Splatter-01-Made-with-Clipchamp.mp4",
-          "label": "Project demonstration video 1 embedded in the official source"
+          "title": "Learn perception, calculate geometry",
+          "text": "YOLOv8 detects sticks; Python connects their centers into triangles and selects the smallest-area triangle’s centroid. This is a geometric heuristic, not validated structural optimization."
+        },
+        {
+          "title": "Adapt connectivity",
+          "text": "An adaptive distance threshold based on average detected-center spacing addresses sparse layouts where triangles otherwise fail."
+        },
+        {
+          "title": "Test marker detection",
+          "text": "OpenCV trials compare red and blue markers and expose background-contrast and illumination sensitivity."
         }
       ],
-      "application": "Integrate a custom tool, robot motion, reload procedure and experimental test plan.",
-      "outcomeSummary": "Acrylic end effector + pigment-release trials"
+      "workflow": [
+        {
+          "title": "Collect and label",
+          "text": "Approximately 50–100 images of varied layouts, lighting and distortion are annotated in Roboflow."
+        },
+        {
+          "title": "Train and infer",
+          "text": "Export YOLOv8 data and use Ultralytics with locally trained weights."
+        },
+        {
+          "title": "Build triangle meshes",
+          "text": "Calculate Euclidean distances, valid edges and triangular combinations.",
+          "image": "assets/tw_cv.jpg"
+        },
+        {
+          "title": "Choose and export",
+          "text": "Compute areas and centroids, select a candidate and export annotated images and CSV data."
+        },
+        {
+          "title": "Inspect failures",
+          "text": "Compare regular and sparse layouts; visualize positions and spacing using pandas in Colab."
+        }
+      ],
+      "findings": [
+        {
+          "title": "Lighting remained a failure mode",
+          "text": "Red markers lacked background contrast. Blue stickers initially improved detection but failed on another model under changed lighting."
+        },
+        {
+          "title": "Regularity affected stability",
+          "text": "Moderately spaced regular layouts yielded consistent triangles and centroids; irregular spacing required the adaptive threshold."
+        },
+        {
+          "title": "The physical loop remains future work",
+          "text": "The article discusses ROS, serial and JSON conceptually but lists real-time robot communication, depth sensing and true xyz centroids as next steps. Do not claim autonomous physical injection from these software outputs."
+        }
+      ],
+      "sourceUrl": "https://blog.iaac.net/software-iii-ai-optimized-earth-injection-deposits/",
+      "sourceEvidence": [
+        {
+          "url": "https://blog.iaac.net/software-iii-ai-optimized-earth-injection-deposits/",
+          "note": "Original article documents dataset range, algorithm, failures and explicit future-work boundary."
+        },
+        {
+          "url": "https://github.com/Adronegenius/Software-III-AI-Optimized-Earth-Injection-Deposits",
+          "note": "Repository linked by the IAAC article; code not independently audited."
+        }
+      ],
+      "extraImages": [
+        {
+          "url": "https://blog.iaac.net/wp-content/uploads/2025/04/Screenshot-2025-04-20-at-5.01.02%E2%80%AFPM-1024x574.png",
+          "caption": "Training-data slide showing Roboflow annotations, detector training and local inference."
+        },
+        {
+          "url": "https://blog.iaac.net/wp-content/uploads/2025/04/Screenshot-2025-04-20-at-5.01.49%E2%80%AFPM-1024x572.png",
+          "caption": "OpenCV red/blue marker trials, measured distances and lighting-sensitive failure."
+        }
+      ],
+      "videoLinks": [],
+      "teamIfExplicit": {
+        "students": [
+          "Krystyne Kontos",
+          "Elizabeth Frias",
+          "Chi Lee"
+        ],
+        "tutors": [
+          "Marita Georganta",
+          "Nestor Beguin"
+        ],
+        "course": "MRAC01 24/25 Software III: Machine Learning for Robotic Fabrication"
+      },
+      "unknowns": [
+        "No accuracy, precision/recall or timing benchmark is provided.",
+        "No calibrated 3D localization or closed-loop physical injection is demonstrated.",
+        "Individual task ownership is unspecified."
+      ],
+      "application": "Turn an image of a woven scaffold into candidate deposition locations; physical closed-loop injection remains a next step.",
+      "outcomeSummary": "Detection and candidate-point generation experiments"
     },
-    "videoLinks": [
+    "videoLinks": [],
+    "videos": [],
+    "featured": false
+  },
+  {
+    "id": "scanning-research",
+    "title": "Scanning for Innovation",
+    "subtitle": "Mapping a field of research.",
+    "year": "2024",
+    "category": "Sensing",
+    "kind": "Team project",
+    "institution": "IAAC · MRAC Applied Theory I",
+    "summary": "A research map linking scanning, fabrication and data optimisation.",
+    "brief": "Where can 3D scanning change the way buildings are understood and made?",
+    "method": "The team organised scanning research by process stage, data type, application and the relationships between fabrication and data optimisation.",
+    "role": "IAAC MRAC team project. The methods and outcomes described here belong to the team; individual responsibilities are not separately documented.",
+    "limits": "Research mapping rather than a newly deployed scanning system.",
+    "team": "Elizabeth Frias · Chi Lee. Tutors: Mathilde Marengo and Yara Tayoun.",
+    "tools": [
+      "Research mapping",
+      "3D scanning",
+      "Process analysis"
+    ],
+    "images": [
       {
-        "url": "https://blog.iaac.net/wp-content/uploads/2024/11/Splatter-01-Made-with-Clipchamp.mp4",
-        "label": "Project demonstration video 1 embedded in the official source"
+        "file": "assets/sbi_01.jpg",
+        "caption": "Map of scanning research and applications."
+      },
+      {
+        "file": "assets/sbi_00.jpg",
+        "caption": "Framework for comparing scanning precedents by process, data type and use."
+      },
+      {
+        "file": "assets/sbi_02.jpg",
+        "caption": "Research-map relationships among existing scanning approaches; not systems built by the student team."
       }
     ],
+    "source": "https://blog.iaac.net/scanning-for-building-innovation/",
+    "pages": "15",
+    "caseStudy": {
+      "context": "Scanning for Building Innovation is a team research map of scanning applications, not evidence that the students personally constructed every case study shown. It organizes the field around fabrication optimization and data optimization, asking how captured geometry becomes useful information across construction and environmental applications.",
+      "decisions": [
+        {
+          "title": "Classify by use rather than sensor alone",
+          "text": "The mapping framework groups projects by operation, fabrication stage, scanning purpose, data type, and application market. Point clouds and thermal maps are examples of the data categories; pre-, in-, and post-fabrication distinguish when scanning contributes."
+        },
+        {
+          "title": "Separate making from information management",
+          "text": "Fabrication optimization covers material efficiency, timber assembly, modular systems, and feedback during printing. Data optimization covers urban planning, heritage preservation, monitoring, visualization, and data management."
+        }
+      ],
+      "workflow": [
+        {
+          "title": "Build the comparative framework",
+          "text": "The team first established two main research topics, then mapped projects through operations such as 3D printing, monitoring, and mapping. This creates a common structure for comparing otherwise different applications."
+        },
+        {
+          "title": "Map fabrication precedents",
+          "text": "The source discusses On-Site Robotics in relation to thermal analysis, Drawing a Blank for scanning timber irregularities, Feedback for modular pre-fabrication and assembly, and Q3D for monitoring extrusion with dynamic feedback. These are mapped references, not four newly built student systems.",
+          "image": "assets/sbi_01.jpg"
+        },
+        {
+          "title": "Map data-oriented precedents",
+          "text": "Museum Made Digital addresses heritage records; BCN Mapping and Civita di Bagnoregio address spatial and urban information; Dimension Remota concerns remote capture and monitoring in inaccessible environments."
+        },
+        {
+          "title": "Define a later research direction",
+          "text": "The next-semester plan proposes closer investigation of scanning with 3D printing, including real-time monitoring, precision, material use, and adaptive workflows. These are future research intentions in this article."
+        }
+      ],
+      "findings": [
+        {
+          "title": "Scanning has different roles across a process",
+          "text": "The map distinguishes geometry capture before fabrication, feedback during making, and documentation afterward. Its outcome is a comparative framework for understanding when data is useful, rather than a single universal scanning workflow."
+        },
+        {
+          "title": "Keep claimed benefits at the right level",
+          "text": "Efficiency, reduced waste, and preservation are discussed as applications and motivations. The page does not report controlled measurements demonstrating these benefits in a new student-built platform."
+        }
+      ],
+      "unknowns": [
+        "No new scanning system performance benchmark or independently quantified efficiency improvement is reported.",
+        "Individual case-study ownership should not be assigned to Chi Lee or the student team.",
+        "No individual contribution breakdown is provided."
+      ],
+      "sourceUrl": "https://blog.iaac.net/scanning-for-building-innovation/",
+      "sourceEvidence": [
+        {
+          "url": "https://blog.iaac.net/scanning-for-building-innovation/",
+          "note": "Full official original: two-topic research taxonomy, fabrication/data case studies and future 3D-printing investigation. Precedents must not be recast as student-built projects."
+        }
+      ],
+      "teamIfExplicit": [
+        "Elizabeth Frias",
+        "Chi Lee"
+      ],
+      "extraImages": [
+        {
+          "url": "https://blog.iaac.net/wp-content/uploads/2024/12/scanning_fabrication-1024x576.png",
+          "caption": "Fabrication-optimization research map."
+        },
+        {
+          "url": "https://blog.iaac.net/wp-content/uploads/2024/12/scanning_data-1024x576.png",
+          "caption": "Data-optimization research map."
+        }
+      ],
+      "videoLinks": [],
+      "application": "Organise existing scanning approaches by where they could contribute to a construction workflow.",
+      "outcomeSummary": "Research map and precedent analysis, not a new scanner"
+    },
+    "videoLinks": [],
     "verifiedTeam": [
-      "Marianne Weber",
-      "Chi Lee",
-      "Aleksandra Kraeva",
-      "Lauren Deming"
+      "Elizabeth Frias",
+      "Chi Lee"
     ],
-    "videos": [
-      {
-        "src": "media/iaac-spill-splatter.mp4",
-        "poster": "media/iaac-spill-splatter.jpg",
-        "originalSource": "https://blog.iaac.net/wp-content/uploads/",
-        "label": "Balloon Gun / pigment-release experiment",
-        "caption": "Team film shared with the related Spill study.",
-        "remote": false,
-        "source": "https://blog.iaac.net/pressurized-balloon-spill-tool/"
-      }
-    ]
+    "videos": [],
+    "featured": false
   },
   {
     "id": "emotion-reader",
@@ -1674,7 +2091,8 @@ window.PORTFOLIO_PROJECTS = [
         "remote": false,
         "source": "https://blog.iaac.net/emotion-reader-responsive-art-installation/"
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "palmpilot",
@@ -1828,116 +2246,231 @@ window.PORTFOLIO_PROJECTS = [
         "remote": false,
         "source": "https://blog.iaac.net/palmpilot-2000/"
       }
-    ]
+    ],
+    "featured": false
   },
   {
-    "id": "stroke",
-    "title": "Stroke",
-    "subtitle": "Anatomy of a machine.",
-    "year": "2025",
-    "category": "Robotics",
-    "kind": "Team project",
-    "institution": "IAAC · MRAC Studio I",
-    "summary": "Manual brush experiments translated into robotic movement.",
-    "brief": "What changes when a robot becomes the tool behind a brushstroke?",
-    "method": "The team used manual brush tests to study the components of a stroke and translated those observations into robotic movements.",
-    "role": "IAAC MRAC team project. The methods and outcomes described here belong to the team; individual responsibilities are not separately documented.",
-    "limits": "Artistic and fabrication exploration; individual algorithm authorship is not claimed.",
-    "team": "Elizabeth Frias · Chi Lee. Tutors: Edouard Cabay and Pit Siebenaler.",
+    "id": "sculpta",
+    "title": "SCULPTA",
+    "subtitle": "3D-printed components for a living façade.",
+    "year": "2025–26",
+    "category": "Thesis",
+    "kind": "Individual thesis",
+    "institution": "MADE · ETSAV–UPC",
+    "featured": false,
+    "summary": "A printable PETG system for a maintainable microalgal façade.",
+    "brief": "How can cultivation requirements become printable geometry, and how can that geometry remain accessible, replaceable and maintainable at building scale?",
+    "method": "A Rhino/Grasshopper definition connects wall thickness, cavity depth, ports and shoulders to a closed fabrication mesh. Full-scale FDM specimens informed a revision from a nominal 1.0 mm face to 1.2 mm with a smoother shoulder. Assembly studies organise independently valved circuits and a 600 mm maintenance zone.",
+    "role": "Individual master’s thesis: computational design, component and assembly development, full-scale PETG printing and handling observations.",
+    "limits": "Printed specimens and handling observations are documented. Watertightness, final JOIN sealing, cultivation, and thermal or structural performance have not been validated.",
+    "team": "Chi Lee · Supervision: David López López and Marta Domènech Rodríguez",
     "tools": [
-      "Robotic painting",
-      "Brush tests",
-      "Toolpaths"
+      "Rhino",
+      "Grasshopper",
+      "PETG FDM",
+      "Design for maintenance"
     ],
     "images": [
       {
-        "file": "assets/stroke_00.jpg",
-        "caption": "Robotic painting setup · team work."
+        "file": "assets/sculpta-cover-night.jpg",
+        "caption": "Night-canopy concept visualisation. Atmospheric proposal, not a built project or a CAD-accurate Arch54 model."
       },
       {
-        "file": "assets/stroke_01.jpg",
-        "caption": "Additional brush/stroke study from the team project."
+        "file": "assets/sculpta-slide-why-s-unit.jpg",
+        "caption": "Mirrored hypar surface → depth, cavity, four ports."
+      },
+      {
+        "file": "assets/sculpta-slide-final-unit.jpg",
+        "caption": "Final unit: shoulders, thin light wall, fluid passages."
+      },
+      {
+        "file": "assets/sculpta-slide-aggregation.jpg",
+        "caption": "Unit → cluster → field."
+      },
+      {
+        "file": "assets/sculpta-slide-join.jpg",
+        "caption": "JOIN: PETG body, TPU seals, removable fasteners."
+      },
+      {
+        "file": "assets/sculpta-slide-print-revision.jpg",
+        "caption": "1.0 mm faces broke; revised to 1.2 mm."
+      },
+      {
+        "file": "assets/sculpta-slide-unit-to-field.jpg",
+        "caption": "Printed PETG field prototype."
+      },
+      {
+        "file": "assets/sculpta-slide-barrel-vault.jpg",
+        "caption": "Barrel-vault proposal."
+      },
+      {
+        "file": "assets/sculpta-slide-arch54-landscape.jpg",
+        "caption": "Arch54 landscape proposal."
+      },
+      {
+        "file": "assets/sculpta-slide-structural-check.jpg",
+        "caption": "Indicative linear FE screening, not validation."
+      },
+      {
+        "file": "assets/sculpta-unit-cutout.png",
+        "caption": "S-shaped PETG unit / CAD render."
+      },
+      {
+        "file": "assets/sculpta-step-1.png",
+        "caption": "01 / Square base."
+      },
+      {
+        "file": "assets/sculpta-step-2.png",
+        "caption": "02 / S-shaped deformation."
+      },
+      {
+        "file": "assets/sculpta-step-3.png",
+        "caption": "03 / Cavity and ports."
+      },
+      {
+        "file": "assets/sculpta-step-4.png",
+        "caption": "04 / Connection geometry."
+      },
+      {
+        "file": "assets/sculpta-prototype-front.jpg",
+        "caption": "Printed wall, front."
+      },
+      {
+        "file": "assets/sculpta-prototype-edge.jpg",
+        "caption": "Edge and transmitted light."
+      },
+      {
+        "file": "assets/sculpta-handling-samples.jpg",
+        "caption": "Printed assembly and local curved specimens from the fabrication record."
+      },
+      {
+        "file": "assets/sculpta-join-detail.jpg",
+        "caption": "JOIN concept: alignment, intended sealing and removable retention."
+      },
+      {
+        "file": "assets/sculpta-system-render.jpg",
+        "caption": "Whole-system proposal (unbuilt)."
       }
     ],
-    "source": "https://blog.iaac.net/anatomy-of-a-machine-stroke/",
-    "pages": "15",
+    "pages": "2–5",
     "caseStudy": {
-      "context": "Anatomy of a Machine: Stroke is a three-week team exercise in translating manual brush gestures into robotic painting. Its subject is the relationship between brush flexibility, paint behavior, human motion, and the articulation of an ABB arm. The final outputs connect a physical painting with a vectorial description of its path.",
-      "decisions": [
+      "context": "SCULPTA explores how a microalgal façade could be printed, connected and maintained. The work moves from hollow PETG units to replaceable connections and architectural assemblies.",
+      "sourceEvidence": [
         {
-          "title": "Learn the brush before programming it",
-          "text": "The team began with manual experiments rather than treating a brush as a fixed-width digital pen. Pressure, hand motion, flexibility, and viscosity were studied together because each influenced the resulting stroke."
+          "note": "SCULPTA master’s thesis: parametric design, PETG fabrication and maintenance strategy."
         },
         {
-          "title": "Make the robot’s anatomy part of the design",
-          "text": "The final vector path was conceived to highlight rotational axes, articulation, and reach. The aim was not simply to reproduce hand painting, but to explore the distinct marks enabled by the machine’s movement."
+          "note": "Additional nominal CAD assembly and removal study, 44 pages. Design-development material, not validation.",
+          "url": "downloads/SCULPTA-Assembly-Atlas.pdf"
+        }
+      ]
+    },
+    "videos": [
+      {
+        "src": "media/SCULPTA-Thesis-Film-74s.mp4",
+        "label": "SCULPTA / Project film · 74.5 seconds",
+        "caption": "Design proposal, model animation and prototype documentation.",
+        "credits": "AI-assisted presentation edit from existing SCULPTA material. Original project: Chi Lee.",
+        "poster": "assets/sculpta-system-render.jpg"
+      }
+    ],
+    "mediaCredit": "Design and prototype documentation: Chi Lee. Supervision: David López López and Marta Domènech Rodríguez. Additional visualisation, assembly studies and film post-production are AI-assisted. Renderings are design proposals; the night-canopy cover is atmospheric concept imagery rather than exact Arch54 geometry.",
+    "download": "downloads/SCULPTA-Assembly-Atlas.pdf",
+    "downloadName": "SCULPTA-Assembly-Atlas.pdf",
+    "downloadLabel": "Download 44-page assembly study",
+    "layout": "sculpta-clean"
+  },
+  {
+    "id": "madrid-castle",
+    "title": "Reviving the castle",
+    "subtitle": "New interventions in an existing structure.",
+    "year": "2020",
+    "category": "Architecture",
+    "kind": "Studio project",
+    "institution": "ETSAM–UPM · Remote studio",
+    "summary": "A conservation-minded proposal communicated through video and VR.",
+    "brief": "How can new architecture inhabit an existing building without erasing its character?",
+    "method": "The studio analysed the existing façade, interior elements and structural logic, then developed additions and communicated the proposal through video and a VR walkthrough.",
+    "role": "Academic architectural-design study; studio context is preserved.",
+    "limits": "An unbuilt design proposal, not completed conservation work.",
+    "team": "Studio project",
+    "tools": [
+      "Adaptive reuse",
+      "Architectural analysis",
+      "VR communication"
+    ],
+    "images": [
+      {
+        "file": "assets/m_madrid_facade.jpg",
+        "caption": "Existing and proposed façade · design study."
+      },
+      {
+        "file": "assets/m_madrid_axo.jpg",
+        "caption": "Existing structure and new interventions."
+      },
+      {
+        "file": "assets/m_madrid_struct.jpg",
+        "caption": "Structural reading of the building."
+      }
+    ],
+    "pages": "21",
+    "caseStudy": {
+      "context": "A semester-long remote studio with ETSAM–UPM examined an abandoned castle/palace as an existing architectural system. The proposal starts by reading the building: its façade, yard, mouldings, hall, staircase, carpentry and structural organisation. New interventions are developed in relation to that reading rather than presented as a replacement for the historic fabric.",
+      "application": "An adaptive-reuse proposal connecting existing-building analysis with a legible new intervention.",
+      "outcomeSummary": "Building analysis + intervention drawings + remote presentation",
+      "decisions": [
+        {
+          "title": "Distinguish what exists from what is added",
+          "text": "The portfolio explicitly compares original and proposed façades and separates original elements from new ones. This makes the intervention easier to evaluate than a final render alone."
+        },
+        {
+          "title": "Read structure and spatial use together",
+          "text": "Interior elements are examined alongside load-bearing walls and internal structure, so the design proposal responds to both character and organisation."
         }
       ],
       "workflow": [
         {
-          "title": "Run six manual tests",
-          "text": "Test 1 explored fluid gestures and flowing patterns. Test 2 varied pressure for tapering. Test 3 investigated repetitive forms such as dots and elongated shapes. Tests 4–6 expanded into complex patterns, layered marks, and directional changes.",
-          "image": "assets/stroke_01.jpg"
+          "title": "Analyse the site and existing building",
+          "text": "The studio establishes the abandoned building as the starting condition and identifies the architectural qualities the proposal intends to preserve."
         },
         {
-          "title": "Translate simple trajectories",
-          "text": "The next stage introduced ABB programming. Grasshopper mapped basic movements into robot-drawn lines, and early experiments attempted to reproduce hand gestures while examining articulation and consistency."
+          "title": "Decompose the interior",
+          "text": "The study isolates the yard, mouldings, hall, staircase and carpentry to understand their roles and relationships.",
+          "image": "assets/m_madrid_axo.jpg"
         },
         {
-          "title": "Compose a vectorial path",
-          "text": "Manual observations and initial robotic tests informed the final artistic concept. The team modeled a vector path in Grasshopper rather than skipping directly from the first hand study to a complete robotic composition.",
-          "image": "assets/stroke_00.jpg"
+          "title": "Map the structural organisation",
+          "text": "The drawings distinguish partitions, load-bearing walls, external walls and internal structure. They record an analytical reading, not an engineering assessment.",
+          "image": "assets/m_madrid_struct.jpg"
         },
         {
-          "title": "Execute the final painting",
-          "text": "The design moved to the larger white ABB robots for final tests. A brush mounted on a custom holder followed the vectorial path on canvas, linking digital drawing and physical paint application."
+          "title": "Communicate the intervention",
+          "text": "Before/after façade drawings, video and a VR walkthrough support remote review of how the new work sits within the old.",
+          "image": "assets/m_madrid_facade.jpg"
         }
       ],
       "findings": [
         {
-          "title": "Material behavior remained central",
-          "text": "The exercise connected paint viscosity and brush compliance to robotic trajectory design. It demonstrates a progression from tactile experiments to programmable motion, not a claim that robotic painting eliminates material variation."
+          "title": "Analysis becomes part of the design argument",
+          "text": "The existing-element and structural drawings explain why the intervention takes its form instead of leaving the project dependent on a single visualisation."
         },
         {
-          "title": "A foundational fabrication study",
-          "text": "The source reports increased understanding of how robot anatomy can augment creative work. Its documented outcomes are the painting and vector drawing; no precision benchmark or controlled aesthetic comparison is provided."
+          "title": "The proposal remains unbuilt",
+          "text": "The portfolio does not establish conservation approval, structural verification or completed work on site."
         }
       ],
-      "unknowns": [
-        "No numerical speed, pressure, viscosity, stroke-error, or reproducibility data is stated.",
-        "No individual contribution division is provided."
+      "nextSteps": [
+        "Provide the video/VR link and clearer existing-versus-added drawings if available.",
+        "Confirm the exact site identity and any survey basis before expanding the historical account."
       ],
-      "sourceUrl": "https://blog.iaac.net/anatomy-of-a-machine-stroke/",
       "sourceEvidence": [
         {
-          "url": "https://blog.iaac.net/anatomy-of-a-machine-stroke/",
-          "note": "Full official original: six manual tests, ABB/Grasshopper introduction, vector path, custom brush holder and final canvas execution."
+          "note": "Original Portfolio 2025, pp. 10–12; expanded portfolio, p. 21."
         }
-      ],
-      "teamIfExplicit": [
-        "Elizabeth Frias",
-        "Chi Lee"
-      ],
-      "extraImages": [
-        {
-          "url": "https://blog.iaac.net/wp-content/uploads/2025/01/final1-1024x576.jpg",
-          "caption": "Official project documentation, source image 1."
-        },
-        {
-          "url": "https://blog.iaac.net/wp-content/uploads/2025/01/VECTORIAL_DRAWING-1-724x1024.jpg",
-          "caption": "Vectorial drawing of the painting path from the official project."
-        }
-      ],
-      "videoLinks": [],
-      "application": "Connect manual brush observations to a robotic tool-and-motion study.",
-      "outcomeSummary": "Manual and robot brushstroke experiments"
+      ]
     },
-    "videoLinks": [],
-    "verifiedTeam": [
-      "Elizabeth Frias",
-      "Chi Lee"
-    ],
-    "videos": []
+    "videos": [],
+    "featured": false
   },
   {
     "id": "spill",
@@ -2071,379 +2604,9 @@ window.PORTFOLIO_PROJECTS = [
         "remote": false,
         "source": "https://blog.iaac.net/studio-i_pressurized-balloon-spill-tool/"
       }
-    ]
-  },
-  {
-    "id": "shape",
-    "title": "Shape",
-    "subtitle": "Anatomy of a machine.",
-    "year": "2024",
-    "category": "Materials",
-    "kind": "Team project",
-    "institution": "IAAC · MRAC Studio I",
-    "summary": "Local, low-carbon materials shaped with custom robotic tools.",
-    "brief": "How can a robot’s tool and movement respond to different materials?",
-    "method": "The team explored robotic shaping with custom tools and compared materials through physical qualities, carbon-footprint considerations and cost.",
-    "role": "IAAC MRAC team project. The methods and outcomes described here belong to the team; individual responsibilities are not separately documented.",
-    "limits": "Exploratory material comparisons, not a certified life-cycle assessment.",
-    "team": "Lauren Deming · Vasileios Mavromitros · Chi Lee",
-    "tools": [
-      "Robotic shaping",
-      "Custom tools",
-      "Material studies"
     ],
-    "images": [
-      {
-        "file": "assets/shape_01.jpg",
-        "caption": "Material shaping with the robotic arm."
-      },
-      {
-        "file": "assets/shape_03.png",
-        "caption": "Tool and movement diagrams from the team shaping study."
-      }
-    ],
-    "source": "https://blog.iaac.net/anatomy-of-a-machine-shape/",
-    "pages": "15",
-    "caseStudy": {
-      "context": "Anatomy of a Machine: Shape is team research into robotic material manipulation through four processes: stamp, lick, dip, and weave. Material choices were constrained by sustainability, affordability, local availability, available tools, and short experiment times. The project evolved through failures and substitutions rather than following one fixed material system.",
-      "decisions": [
-        {
-          "title": "Abandon impractical early mixtures",
-          "text": "Initial work combined organic aggregates such as coffee, eggshells, nut hulls, flour clay, and sawdust with binders including cornstarch and glycerine. Wax and sodium acetate also interested the team for state changes, but drying and heating requirements pushed the work toward plaster, clay, and jute."
-        },
-        {
-          "title": "Treat the tool-material relationship as variable",
-          "text": "Manual trials informed custom tools and adaptations. Tool center point, material bed, speed, and direction required reconsideration as plasticity and tactile behavior changed between experiments."
-        }
-      ],
-      "workflow": [
-        {
-          "title": "Stamp clay",
-          "text": "A parametrically designed, CNC-carved stamp was combined with an impact-printing end effector. Pressure, time, and stamp texture were varied to explore impressions in red clay."
-        },
-        {
-          "title": "Lick and smooth",
-          "text": "A wire-armature, sponge-like tool swept over a clay, glycerine, and sawdust composite. The motion deviated from −30 to +30 degrees about the x-axis. A dipping well was later added to moisten the tool and make surface manipulation more apparent."
-        },
-        {
-          "title": "Dip a suspended form",
-          "text": "A weighted mesh and timed dip-and-dry process drew on catenary models and candle making. Wax would have required sustained heating, so plaster was used. It set too quickly for repeated robotic manipulation and formed the catenary without the intended cycles.",
-          "image": "assets/shape_01.jpg"
-        },
-        {
-          "title": "Weave jute",
-          "text": "The final process moved to a solid organic twine and a more complex path around a pegboard. Repeated layers increased tension and distorted the originally upright pegs."
-        }
-      ],
-      "findings": [
-        {
-          "title": "Automation did not improve every result",
-          "text": "The plaster shape was dramatic, but the team explicitly concluded it was no greater because of robotic automation. Material timing could defeat the intended benefit of repeated motion."
-        },
-        {
-          "title": "The support also deforms",
-          "text": "Jute weaving exposed accumulated loads in the fixture. These prototypes demonstrate material-process interactions, not tested building components or proven low-carbon performance."
-        }
-      ],
-      "unknowns": [
-        "No measured carbon comparison, load capacity, production yield, or scale-up validation is reported.",
-        "No individual responsibilities are given."
-      ],
-      "sourceUrl": "https://blog.iaac.net/anatomy-of-a-machine-shape/",
-      "sourceEvidence": [
-        {
-          "url": "https://blog.iaac.net/anatomy-of-a-machine-shape/",
-          "note": "Full official original: discarded mixtures, drying/heating limits, stamp/lick/dip/weave details and explicit observations including peg distortion."
-        }
-      ],
-      "teamIfExplicit": [
-        "Lauren Deming",
-        "Vasileios Mavromitros",
-        "Chi Lee"
-      ],
-      "extraImages": [
-        {
-          "url": "https://blog.iaac.net/wp-content/uploads/2024/12/stampbot.png",
-          "caption": "Stamp-process diagram from the official project."
-        },
-        {
-          "url": "https://blog.iaac.net/wp-content/uploads/2024/12/lick-section.png",
-          "caption": "Lick-process section from the official project."
-        },
-        {
-          "url": "https://blog.iaac.net/wp-content/uploads/2024/12/weave-1-1024x469.jpg",
-          "caption": "Jute-weaving documentation from the official project."
-        }
-      ],
-      "videoLinks": [
-        {
-          "url": "https://blog.iaac.net/wp-content/uploads/2024/12/SHAPE-STUDIO-VIDEO.mp4",
-          "label": "Project demonstration video 1 embedded in the official source"
-        }
-      ],
-      "application": "Investigate how material and custom tooling change a robotic shaping task.",
-      "outcomeSummary": "Material-shaping and tool experiments"
-    },
-    "videoLinks": [
-      {
-        "url": "https://blog.iaac.net/wp-content/uploads/2024/12/SHAPE-STUDIO-VIDEO.mp4",
-        "label": "Project demonstration video 1 embedded in the official source"
-      }
-    ],
-    "verifiedTeam": [
-      "Lauren Deming",
-      "Vasileios Mavromitros",
-      "Chi Lee"
-    ],
-    "videos": [
-      {
-        "src": "media/iaac-shape.mp4",
-        "poster": "media/iaac-shape.jpg",
-        "originalSource": "https://blog.iaac.net/wp-content/uploads/",
-        "label": "Material shaping / process film",
-        "caption": "Team material and custom-tool experiments.",
-        "remote": false,
-        "source": "https://blog.iaac.net/anatomy-of-a-machine-shape/"
-      }
-    ]
-  },
-  {
-    "id": "scanning-research",
-    "title": "Scanning for Innovation",
-    "subtitle": "Mapping a field of research.",
-    "year": "2024",
-    "category": "Sensing",
-    "kind": "Team project",
-    "institution": "IAAC · MRAC Applied Theory I",
-    "summary": "A research map linking scanning, fabrication and data optimisation.",
-    "brief": "Where can 3D scanning change the way buildings are understood and made?",
-    "method": "The team organised scanning research by process stage, data type, application and the relationships between fabrication and data optimisation.",
-    "role": "IAAC MRAC team project. The methods and outcomes described here belong to the team; individual responsibilities are not separately documented.",
-    "limits": "Research mapping rather than a newly deployed scanning system.",
-    "team": "Elizabeth Frias · Chi Lee. Tutors: Mathilde Marengo and Yara Tayoun.",
-    "tools": [
-      "Research mapping",
-      "3D scanning",
-      "Process analysis"
-    ],
-    "images": [
-      {
-        "file": "assets/sbi_01.jpg",
-        "caption": "Map of scanning research and applications."
-      },
-      {
-        "file": "assets/sbi_00.jpg",
-        "caption": "Framework for comparing scanning precedents by process, data type and use."
-      },
-      {
-        "file": "assets/sbi_02.jpg",
-        "caption": "Research-map relationships among existing scanning approaches; not systems built by the student team."
-      }
-    ],
-    "source": "https://blog.iaac.net/scanning-for-building-innovation/",
-    "pages": "15",
-    "caseStudy": {
-      "context": "Scanning for Building Innovation is a team research map of scanning applications, not evidence that the students personally constructed every case study shown. It organizes the field around fabrication optimization and data optimization, asking how captured geometry becomes useful information across construction and environmental applications.",
-      "decisions": [
-        {
-          "title": "Classify by use rather than sensor alone",
-          "text": "The mapping framework groups projects by operation, fabrication stage, scanning purpose, data type, and application market. Point clouds and thermal maps are examples of the data categories; pre-, in-, and post-fabrication distinguish when scanning contributes."
-        },
-        {
-          "title": "Separate making from information management",
-          "text": "Fabrication optimization covers material efficiency, timber assembly, modular systems, and feedback during printing. Data optimization covers urban planning, heritage preservation, monitoring, visualization, and data management."
-        }
-      ],
-      "workflow": [
-        {
-          "title": "Build the comparative framework",
-          "text": "The team first established two main research topics, then mapped projects through operations such as 3D printing, monitoring, and mapping. This creates a common structure for comparing otherwise different applications."
-        },
-        {
-          "title": "Map fabrication precedents",
-          "text": "The source discusses On-Site Robotics in relation to thermal analysis, Drawing a Blank for scanning timber irregularities, Feedback for modular pre-fabrication and assembly, and Q3D for monitoring extrusion with dynamic feedback. These are mapped references, not four newly built student systems.",
-          "image": "assets/sbi_01.jpg"
-        },
-        {
-          "title": "Map data-oriented precedents",
-          "text": "Museum Made Digital addresses heritage records; BCN Mapping and Civita di Bagnoregio address spatial and urban information; Dimension Remota concerns remote capture and monitoring in inaccessible environments."
-        },
-        {
-          "title": "Define a later research direction",
-          "text": "The next-semester plan proposes closer investigation of scanning with 3D printing, including real-time monitoring, precision, material use, and adaptive workflows. These are future research intentions in this article."
-        }
-      ],
-      "findings": [
-        {
-          "title": "Scanning has different roles across a process",
-          "text": "The map distinguishes geometry capture before fabrication, feedback during making, and documentation afterward. Its outcome is a comparative framework for understanding when data is useful, rather than a single universal scanning workflow."
-        },
-        {
-          "title": "Keep claimed benefits at the right level",
-          "text": "Efficiency, reduced waste, and preservation are discussed as applications and motivations. The page does not report controlled measurements demonstrating these benefits in a new student-built platform."
-        }
-      ],
-      "unknowns": [
-        "No new scanning system performance benchmark or independently quantified efficiency improvement is reported.",
-        "Individual case-study ownership should not be assigned to Chi Lee or the student team.",
-        "No individual contribution breakdown is provided."
-      ],
-      "sourceUrl": "https://blog.iaac.net/scanning-for-building-innovation/",
-      "sourceEvidence": [
-        {
-          "url": "https://blog.iaac.net/scanning-for-building-innovation/",
-          "note": "Full official original: two-topic research taxonomy, fabrication/data case studies and future 3D-printing investigation. Precedents must not be recast as student-built projects."
-        }
-      ],
-      "teamIfExplicit": [
-        "Elizabeth Frias",
-        "Chi Lee"
-      ],
-      "extraImages": [
-        {
-          "url": "https://blog.iaac.net/wp-content/uploads/2024/12/scanning_fabrication-1024x576.png",
-          "caption": "Fabrication-optimization research map."
-        },
-        {
-          "url": "https://blog.iaac.net/wp-content/uploads/2024/12/scanning_data-1024x576.png",
-          "caption": "Data-optimization research map."
-        }
-      ],
-      "videoLinks": [],
-      "application": "Organise existing scanning approaches by where they could contribute to a construction workflow.",
-      "outcomeSummary": "Research map and precedent analysis, not a new scanner"
-    },
-    "videoLinks": [],
-    "verifiedTeam": [
-      "Elizabeth Frias",
-      "Chi Lee"
-    ],
-    "videos": []
-  },
-  {
-    "id": "earth-injection-vision",
-    "title": "Seeing the weave",
-    "subtitle": "AI-optimised earth injection deposits.",
-    "year": "2025",
-    "category": "Sensing",
-    "kind": "Team project",
-    "institution": "IAAC · MRAC Software III",
-    "summary": "Detected rods become candidate injection points in woven modules.",
-    "brief": "How can image-based geometry inform injection locations in an irregular scaffold?",
-    "method": "The team explored computer-vision detection of woven rods and generated triangle-based candidate injection locations. This software study connects to the Terraweave project family.",
-    "role": "IAAC MRAC team project. The methods and outcomes described here belong to the team; individual responsibilities are not separately documented.",
-    "limits": "Image-based detection and candidate locations only. Real-time robot communication, depth sensing and calibrated 3D centroids are described as next steps, not completed autonomous injection.",
-    "team": "Krystyne Kontos · Elizabeth Frias · Chi Lee",
-    "tools": [
-      "Computer vision",
-      "Image geometry",
-      "Injection planning"
-    ],
-    "images": [
-      {
-        "file": "assets/tw_cv.jpg",
-        "caption": "Detected rod positions and candidate injection geometry."
-      }
-    ],
-    "source": "https://blog.iaac.net/software-iii-ai-optimized-earth-injection-deposits/",
-    "pages": "7",
-    "caseStudy": {
-      "context": "Hand-woven modules deform through material behavior and manual variation. This software exercise replaces repeated manual injection-point selection with stick detection and geometric analysis. Its documented output is an image-analysis pipeline; live robotic execution remains a subsequent integration task.",
-      "decisions": [
-        {
-          "title": "Learn perception, calculate geometry",
-          "text": "YOLOv8 detects sticks; Python connects their centers into triangles and selects the smallest-area triangle’s centroid. This is a geometric heuristic, not validated structural optimization."
-        },
-        {
-          "title": "Adapt connectivity",
-          "text": "An adaptive distance threshold based on average detected-center spacing addresses sparse layouts where triangles otherwise fail."
-        },
-        {
-          "title": "Test marker detection",
-          "text": "OpenCV trials compare red and blue markers and expose background-contrast and illumination sensitivity."
-        }
-      ],
-      "workflow": [
-        {
-          "title": "Collect and label",
-          "text": "Approximately 50–100 images of varied layouts, lighting and distortion are annotated in Roboflow."
-        },
-        {
-          "title": "Train and infer",
-          "text": "Export YOLOv8 data and use Ultralytics with locally trained weights."
-        },
-        {
-          "title": "Build triangle meshes",
-          "text": "Calculate Euclidean distances, valid edges and triangular combinations.",
-          "image": "assets/tw_cv.jpg"
-        },
-        {
-          "title": "Choose and export",
-          "text": "Compute areas and centroids, select a candidate and export annotated images and CSV data."
-        },
-        {
-          "title": "Inspect failures",
-          "text": "Compare regular and sparse layouts; visualize positions and spacing using pandas in Colab."
-        }
-      ],
-      "findings": [
-        {
-          "title": "Lighting remained a failure mode",
-          "text": "Red markers lacked background contrast. Blue stickers initially improved detection but failed on another model under changed lighting."
-        },
-        {
-          "title": "Regularity affected stability",
-          "text": "Moderately spaced regular layouts yielded consistent triangles and centroids; irregular spacing required the adaptive threshold."
-        },
-        {
-          "title": "The physical loop remains future work",
-          "text": "The article discusses ROS, serial and JSON conceptually but lists real-time robot communication, depth sensing and true xyz centroids as next steps. Do not claim autonomous physical injection from these software outputs."
-        }
-      ],
-      "sourceUrl": "https://blog.iaac.net/software-iii-ai-optimized-earth-injection-deposits/",
-      "sourceEvidence": [
-        {
-          "url": "https://blog.iaac.net/software-iii-ai-optimized-earth-injection-deposits/",
-          "note": "Original article documents dataset range, algorithm, failures and explicit future-work boundary."
-        },
-        {
-          "url": "https://github.com/Adronegenius/Software-III-AI-Optimized-Earth-Injection-Deposits",
-          "note": "Repository linked by the IAAC article; code not independently audited."
-        }
-      ],
-      "extraImages": [
-        {
-          "url": "https://blog.iaac.net/wp-content/uploads/2025/04/Screenshot-2025-04-20-at-5.01.02%E2%80%AFPM-1024x574.png",
-          "caption": "Training-data slide showing Roboflow annotations, detector training and local inference."
-        },
-        {
-          "url": "https://blog.iaac.net/wp-content/uploads/2025/04/Screenshot-2025-04-20-at-5.01.49%E2%80%AFPM-1024x572.png",
-          "caption": "OpenCV red/blue marker trials, measured distances and lighting-sensitive failure."
-        }
-      ],
-      "videoLinks": [],
-      "teamIfExplicit": {
-        "students": [
-          "Krystyne Kontos",
-          "Elizabeth Frias",
-          "Chi Lee"
-        ],
-        "tutors": [
-          "Marita Georganta",
-          "Nestor Beguin"
-        ],
-        "course": "MRAC01 24/25 Software III: Machine Learning for Robotic Fabrication"
-      },
-      "unknowns": [
-        "No accuracy, precision/recall or timing benchmark is provided.",
-        "No calibrated 3D localization or closed-loop physical injection is demonstrated.",
-        "Individual task ownership is unspecified."
-      ],
-      "application": "Turn an image of a woven scaffold into candidate deposition locations; physical closed-loop injection remains a next step.",
-      "outcomeSummary": "Detection and candidate-point generation experiments"
-    },
-    "videoLinks": [],
-    "videos": []
+    "hidden": true,
+    "featured": false
   },
   {
     "id": "terraweave-studio-ii",
@@ -2635,7 +2798,9 @@ window.PORTFOLIO_PROJECTS = [
         "remote": false,
         "source": "https://blog.iaac.net/terraweave-innovative-structures-for-a-changing-world/"
       }
-    ]
+    ],
+    "hidden": true,
+    "featured": false
   },
   {
     "id": "multi-agent",
@@ -2797,7 +2962,9 @@ window.PORTFOLIO_PROJECTS = [
         "remote": false,
         "source": "https://blog.iaac.net/terraweave-multi-agent-system/"
       }
-    ]
+    ],
+    "hidden": true,
+    "featured": false
   },
   {
     "id": "startup-pitch",
@@ -2938,7 +3105,9 @@ window.PORTFOLIO_PROJECTS = [
         "remote": false,
         "source": "https://blog.iaac.net/terraweave-startup-pitch/"
       }
-    ]
+    ],
+    "hidden": true,
+    "featured": false
   },
   {
     "id": "resilience-haiti",
@@ -3046,7 +3215,9 @@ window.PORTFOLIO_PROJECTS = [
         }
       ]
     },
-    "videos": []
+    "videos": [],
+    "hidden": true,
+    "featured": false
   },
   {
     "id": "berlin-canopy",
@@ -3142,7 +3313,9 @@ window.PORTFOLIO_PROJECTS = [
         }
       ]
     },
-    "videos": []
+    "videos": [],
+    "hidden": true,
+    "featured": false
   },
   {
     "id": "earthquake-shelter",
@@ -3232,98 +3405,9 @@ window.PORTFOLIO_PROJECTS = [
         }
       ]
     },
-    "videos": []
-  },
-  {
-    "id": "madrid-castle",
-    "title": "Reviving the castle",
-    "subtitle": "New interventions in an existing structure.",
-    "year": "2020",
-    "category": "Architecture",
-    "kind": "Studio project",
-    "institution": "ETSAM–UPM · Remote studio",
-    "summary": "A conservation-minded proposal communicated through video and VR.",
-    "brief": "How can new architecture inhabit an existing building without erasing its character?",
-    "method": "The studio analysed the existing façade, interior elements and structural logic, then developed additions and communicated the proposal through video and a VR walkthrough.",
-    "role": "Academic architectural-design study; studio context is preserved.",
-    "limits": "An unbuilt design proposal, not completed conservation work.",
-    "team": "Studio project",
-    "tools": [
-      "Adaptive reuse",
-      "Architectural analysis",
-      "VR communication"
-    ],
-    "images": [
-      {
-        "file": "assets/m_madrid_facade.jpg",
-        "caption": "Existing and proposed façade · design study."
-      },
-      {
-        "file": "assets/m_madrid_axo.jpg",
-        "caption": "Existing structure and new interventions."
-      },
-      {
-        "file": "assets/m_madrid_struct.jpg",
-        "caption": "Structural reading of the building."
-      }
-    ],
-    "pages": "21",
-    "caseStudy": {
-      "context": "A semester-long remote studio with ETSAM–UPM examined an abandoned castle/palace as an existing architectural system. The proposal starts by reading the building: its façade, yard, mouldings, hall, staircase, carpentry and structural organisation. New interventions are developed in relation to that reading rather than presented as a replacement for the historic fabric.",
-      "application": "An adaptive-reuse proposal connecting existing-building analysis with a legible new intervention.",
-      "outcomeSummary": "Building analysis + intervention drawings + remote presentation",
-      "decisions": [
-        {
-          "title": "Distinguish what exists from what is added",
-          "text": "The portfolio explicitly compares original and proposed façades and separates original elements from new ones. This makes the intervention easier to evaluate than a final render alone."
-        },
-        {
-          "title": "Read structure and spatial use together",
-          "text": "Interior elements are examined alongside load-bearing walls and internal structure, so the design proposal responds to both character and organisation."
-        }
-      ],
-      "workflow": [
-        {
-          "title": "Analyse the site and existing building",
-          "text": "The studio establishes the abandoned building as the starting condition and identifies the architectural qualities the proposal intends to preserve."
-        },
-        {
-          "title": "Decompose the interior",
-          "text": "The study isolates the yard, mouldings, hall, staircase and carpentry to understand their roles and relationships.",
-          "image": "assets/m_madrid_axo.jpg"
-        },
-        {
-          "title": "Map the structural organisation",
-          "text": "The drawings distinguish partitions, load-bearing walls, external walls and internal structure. They record an analytical reading, not an engineering assessment.",
-          "image": "assets/m_madrid_struct.jpg"
-        },
-        {
-          "title": "Communicate the intervention",
-          "text": "Before/after façade drawings, video and a VR walkthrough support remote review of how the new work sits within the old.",
-          "image": "assets/m_madrid_facade.jpg"
-        }
-      ],
-      "findings": [
-        {
-          "title": "Analysis becomes part of the design argument",
-          "text": "The existing-element and structural drawings explain why the intervention takes its form instead of leaving the project dependent on a single visualisation."
-        },
-        {
-          "title": "The proposal remains unbuilt",
-          "text": "The portfolio does not establish conservation approval, structural verification or completed work on site."
-        }
-      ],
-      "nextSteps": [
-        "Provide the video/VR link and clearer existing-versus-added drawings if available.",
-        "Confirm the exact site identity and any survey basis before expanding the historical account."
-      ],
-      "sourceEvidence": [
-        {
-          "note": "Original Portfolio 2025, pp. 10–12; expanded portfolio, p. 21."
-        }
-      ]
-    },
-    "videos": []
+    "videos": [],
+    "hidden": true,
+    "featured": false
   },
   {
     "id": "enveloping",
@@ -3408,7 +3492,9 @@ window.PORTFOLIO_PROJECTS = [
         }
       ]
     },
-    "videos": []
+    "videos": [],
+    "hidden": true,
+    "featured": false
   },
   {
     "id": "changzhou",
@@ -3503,7 +3589,9 @@ window.PORTFOLIO_PROJECTS = [
         }
       ]
     },
-    "videos": []
+    "videos": [],
+    "hidden": true,
+    "featured": false
   },
   {
     "id": "so101",
@@ -3629,7 +3717,9 @@ window.PORTFOLIO_PROJECTS = [
         }
       ]
     },
-    "videos": []
+    "videos": [],
+    "hidden": true,
+    "featured": false
   },
   {
     "id": "so101-workspace-study",
@@ -3639,7 +3729,7 @@ window.PORTFOLIO_PROJECTS = [
     "category": "Robotics",
     "kind": "Personal simulation + communication",
     "institution": "UN/BUILT · AI-assisted learning project",
-    "featured": true,
+    "featured": false,
     "summary": "A sampled workspace, a reachable witness and a target proven outside a conservative kinematic bound.",
     "brief": "How can a workspace image distinguish sampled positions, an actual reachable pose and a mathematically excluded target?",
     "method": "The study uses 20,000 deterministic Halton samples within five URDF arm-joint limits, with the gripper fixed at 0.6 rad. The 15,043 above-base samples are displayed, not an exact workspace boundary. A triangle-inequality calculation gives a conservative base-origin distance bound of 0.551443 m, not an exact maximum reach. The selected outside target is 0.668671 m from the base origin, 117.23 mm beyond that bound. A reachable witness is documented with joint angles shoulder_pan 0, shoulder_lift −0.4, elbow_flex 0.6, wrist_flex −0.6, wrist_roll 0 and gripper 0.6 rad; its TCP is approximately (0.334166, −0.000009674, 0.264213) m. Across 100 FK poses, an independent Three.js transform comparison agreed to 3.25 × 10⁻¹⁶ m. This is numerical implementation agreement, not physical robot accuracy. The study was communicated in a 38-second Reel published on 7 November 2026 and an accompanying technical supplement.",
@@ -3765,6 +3855,7 @@ window.PORTFOLIO_PROJECTS = [
         "remote": false,
         "source": "https://www.instagram.com/un.built______/reel/DfdNdWeAOtz/"
       }
-    ]
+    ],
+    "hidden": true
   }
 ];
