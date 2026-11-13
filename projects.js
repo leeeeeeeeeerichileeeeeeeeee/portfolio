@@ -231,6 +231,15 @@ window.PORTFOLIO_PROJECTS = [
     "videoLinks": [],
     "videos": [
       {
+        "src": "media/terraweave-film-hd.mp4",
+        "poster": "media/terraweave-film-hd.jpg",
+        "label": "Terraweave film / Innovative structures for a changing world",
+        "caption": "The team film: weaving, earth mixing, robotic injection and the woven-earth modules, with IAAC credits (Elizabeth Frias, Krystyne Kontos, Chi Lee; faculty Edouard Cabay, Pit Siebenaler).",
+        "credits": "Team film from the IAAC project page; video production by Chi Lee (per CV/LinkedIn).",
+        "remote": false,
+        "source": "https://blog.iaac.net/terraweave-innovative-structures-for-a-changing-world/"
+      },
+      {
         "src": "media/ig/DfQtnP0DvtD_07.mp4",
         "poster": "media/ig/DfQtnP0DvtD_07.jpg",
         "label": "Final prototype / robotic injection",
