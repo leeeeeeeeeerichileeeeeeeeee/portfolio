@@ -1346,116 +1346,6 @@ window.PORTFOLIO_PROJECTS = [
     "featured": false
   },
   {
-    "id": "stroke",
-    "title": "Stroke",
-    "subtitle": "Anatomy of a machine.",
-    "year": "2025",
-    "category": "Robotics",
-    "kind": "Team project",
-    "institution": "IAAC · MRAC Studio I",
-    "summary": "Manual brush experiments translated into robotic movement.",
-    "brief": "What changes when a robot becomes the tool behind a brushstroke?",
-    "method": "The team used manual brush tests to study the components of a stroke and translated those observations into robotic movements.",
-    "role": "IAAC MRAC team project. The methods and outcomes described here belong to the team; individual responsibilities are not separately documented.",
-    "limits": "Artistic and fabrication exploration; individual algorithm authorship is not claimed.",
-    "team": "Elizabeth Frias · Chi Lee. Tutors: Edouard Cabay and Pit Siebenaler.",
-    "tools": [
-      "Robotic painting",
-      "Brush tests",
-      "Toolpaths"
-    ],
-    "images": [
-      {
-        "file": "assets/stroke_00.jpg",
-        "caption": "Robotic painting setup · team work."
-      },
-      {
-        "file": "assets/stroke_01.jpg",
-        "caption": "Additional brush/stroke study from the team project."
-      }
-    ],
-    "source": "https://blog.iaac.net/anatomy-of-a-machine-stroke/",
-    "pages": "15",
-    "caseStudy": {
-      "context": "Anatomy of a Machine: Stroke is a three-week team exercise in translating manual brush gestures into robotic painting. Its subject is the relationship between brush flexibility, paint behavior, human motion, and the articulation of an ABB arm. The final outputs connect a physical painting with a vectorial description of its path.",
-      "decisions": [
-        {
-          "title": "Learn the brush before programming it",
-          "text": "The team began with manual experiments rather than treating a brush as a fixed-width digital pen. Pressure, hand motion, flexibility, and viscosity were studied together because each influenced the resulting stroke."
-        },
-        {
-          "title": "Make the robot’s anatomy part of the design",
-          "text": "The final vector path was conceived to highlight rotational axes, articulation, and reach. The aim was not simply to reproduce hand painting, but to explore the distinct marks enabled by the machine’s movement."
-        }
-      ],
-      "workflow": [
-        {
-          "title": "Run six manual tests",
-          "text": "Test 1 explored fluid gestures and flowing patterns. Test 2 varied pressure for tapering. Test 3 investigated repetitive forms such as dots and elongated shapes. Tests 4–6 expanded into complex patterns, layered marks, and directional changes.",
-          "image": "assets/stroke_01.jpg"
-        },
-        {
-          "title": "Translate simple trajectories",
-          "text": "The next stage introduced ABB programming. Grasshopper mapped basic movements into robot-drawn lines, and early experiments attempted to reproduce hand gestures while examining articulation and consistency."
-        },
-        {
-          "title": "Compose a vectorial path",
-          "text": "Manual observations and initial robotic tests informed the final artistic concept. The team modeled a vector path in Grasshopper rather than skipping directly from the first hand study to a complete robotic composition.",
-          "image": "assets/stroke_00.jpg"
-        },
-        {
-          "title": "Execute the final painting",
-          "text": "The design moved to the larger white ABB robots for final tests. A brush mounted on a custom holder followed the vectorial path on canvas, linking digital drawing and physical paint application."
-        }
-      ],
-      "findings": [
-        {
-          "title": "Material behavior remained central",
-          "text": "The exercise connected paint viscosity and brush compliance to robotic trajectory design. It demonstrates a progression from tactile experiments to programmable motion, not a claim that robotic painting eliminates material variation."
-        },
-        {
-          "title": "A foundational fabrication study",
-          "text": "The source reports increased understanding of how robot anatomy can augment creative work. Its documented outcomes are the painting and vector drawing; no precision benchmark or controlled aesthetic comparison is provided."
-        }
-      ],
-      "unknowns": [
-        "No numerical speed, pressure, viscosity, stroke-error, or reproducibility data is stated.",
-        "No individual contribution division is provided."
-      ],
-      "sourceUrl": "https://blog.iaac.net/anatomy-of-a-machine-stroke/",
-      "sourceEvidence": [
-        {
-          "url": "https://blog.iaac.net/anatomy-of-a-machine-stroke/",
-          "note": "Full official original: six manual tests, ABB/Grasshopper introduction, vector path, custom brush holder and final canvas execution."
-        }
-      ],
-      "teamIfExplicit": [
-        "Elizabeth Frias",
-        "Chi Lee"
-      ],
-      "extraImages": [
-        {
-          "url": "https://blog.iaac.net/wp-content/uploads/2025/01/final1-1024x576.jpg",
-          "caption": "Official project documentation, source image 1."
-        },
-        {
-          "url": "https://blog.iaac.net/wp-content/uploads/2025/01/VECTORIAL_DRAWING-1-724x1024.jpg",
-          "caption": "Vectorial drawing of the painting path from the official project."
-        }
-      ],
-      "videoLinks": [],
-      "application": "Connect manual brush observations to a robotic tool-and-motion study.",
-      "outcomeSummary": "Manual and robot brushstroke experiments"
-    },
-    "videoLinks": [],
-    "verifiedTeam": [
-      "Elizabeth Frias",
-      "Chi Lee"
-    ],
-    "videos": [],
-    "featured": false
-  },
-  {
     "id": "dynamic-forms",
     "title": "Dynamic Forms",
     "subtitle": "Geometry organised for fabrication.",
@@ -2524,6 +2414,117 @@ window.PORTFOLIO_PROJECTS = [
       }
     ],
     "featured": false
+  },
+  {
+    "id": "stroke",
+    "title": "Stroke",
+    "subtitle": "Anatomy of a machine.",
+    "year": "2025",
+    "category": "Robotics",
+    "kind": "Team project",
+    "institution": "IAAC · MRAC Studio I",
+    "summary": "Manual brush experiments translated into robotic movement.",
+    "brief": "What changes when a robot becomes the tool behind a brushstroke?",
+    "method": "The team used manual brush tests to study the components of a stroke and translated those observations into robotic movements.",
+    "role": "IAAC MRAC team project. The methods and outcomes described here belong to the team; individual responsibilities are not separately documented.",
+    "limits": "Artistic and fabrication exploration; individual algorithm authorship is not claimed.",
+    "team": "Elizabeth Frias · Chi Lee. Tutors: Edouard Cabay and Pit Siebenaler.",
+    "tools": [
+      "Robotic painting",
+      "Brush tests",
+      "Toolpaths"
+    ],
+    "images": [
+      {
+        "file": "assets/stroke_00.jpg",
+        "caption": "Robotic painting setup · team work."
+      },
+      {
+        "file": "assets/stroke_01.jpg",
+        "caption": "Additional brush/stroke study from the team project."
+      }
+    ],
+    "source": "https://blog.iaac.net/anatomy-of-a-machine-stroke/",
+    "pages": "15",
+    "caseStudy": {
+      "context": "Anatomy of a Machine: Stroke is a three-week team exercise in translating manual brush gestures into robotic painting. Its subject is the relationship between brush flexibility, paint behavior, human motion, and the articulation of an ABB arm. The final outputs connect a physical painting with a vectorial description of its path.",
+      "decisions": [
+        {
+          "title": "Learn the brush before programming it",
+          "text": "The team began with manual experiments rather than treating a brush as a fixed-width digital pen. Pressure, hand motion, flexibility, and viscosity were studied together because each influenced the resulting stroke."
+        },
+        {
+          "title": "Make the robot’s anatomy part of the design",
+          "text": "The final vector path was conceived to highlight rotational axes, articulation, and reach. The aim was not simply to reproduce hand painting, but to explore the distinct marks enabled by the machine’s movement."
+        }
+      ],
+      "workflow": [
+        {
+          "title": "Run six manual tests",
+          "text": "Test 1 explored fluid gestures and flowing patterns. Test 2 varied pressure for tapering. Test 3 investigated repetitive forms such as dots and elongated shapes. Tests 4–6 expanded into complex patterns, layered marks, and directional changes.",
+          "image": "assets/stroke_01.jpg"
+        },
+        {
+          "title": "Translate simple trajectories",
+          "text": "The next stage introduced ABB programming. Grasshopper mapped basic movements into robot-drawn lines, and early experiments attempted to reproduce hand gestures while examining articulation and consistency."
+        },
+        {
+          "title": "Compose a vectorial path",
+          "text": "Manual observations and initial robotic tests informed the final artistic concept. The team modeled a vector path in Grasshopper rather than skipping directly from the first hand study to a complete robotic composition.",
+          "image": "assets/stroke_00.jpg"
+        },
+        {
+          "title": "Execute the final painting",
+          "text": "The design moved to the larger white ABB robots for final tests. A brush mounted on a custom holder followed the vectorial path on canvas, linking digital drawing and physical paint application."
+        }
+      ],
+      "findings": [
+        {
+          "title": "Material behavior remained central",
+          "text": "The exercise connected paint viscosity and brush compliance to robotic trajectory design. It demonstrates a progression from tactile experiments to programmable motion, not a claim that robotic painting eliminates material variation."
+        },
+        {
+          "title": "A foundational fabrication study",
+          "text": "The source reports increased understanding of how robot anatomy can augment creative work. Its documented outcomes are the painting and vector drawing; no precision benchmark or controlled aesthetic comparison is provided."
+        }
+      ],
+      "unknowns": [
+        "No numerical speed, pressure, viscosity, stroke-error, or reproducibility data is stated.",
+        "No individual contribution division is provided."
+      ],
+      "sourceUrl": "https://blog.iaac.net/anatomy-of-a-machine-stroke/",
+      "sourceEvidence": [
+        {
+          "url": "https://blog.iaac.net/anatomy-of-a-machine-stroke/",
+          "note": "Full official original: six manual tests, ABB/Grasshopper introduction, vector path, custom brush holder and final canvas execution."
+        }
+      ],
+      "teamIfExplicit": [
+        "Elizabeth Frias",
+        "Chi Lee"
+      ],
+      "extraImages": [
+        {
+          "url": "https://blog.iaac.net/wp-content/uploads/2025/01/final1-1024x576.jpg",
+          "caption": "Official project documentation, source image 1."
+        },
+        {
+          "url": "https://blog.iaac.net/wp-content/uploads/2025/01/VECTORIAL_DRAWING-1-724x1024.jpg",
+          "caption": "Vectorial drawing of the painting path from the official project."
+        }
+      ],
+      "videoLinks": [],
+      "application": "Connect manual brush observations to a robotic tool-and-motion study.",
+      "outcomeSummary": "Manual and robot brushstroke experiments"
+    },
+    "videoLinks": [],
+    "verifiedTeam": [
+      "Elizabeth Frias",
+      "Chi Lee"
+    ],
+    "videos": [],
+    "featured": false,
+    "hidden": true
   },
   {
     "id": "spill",
