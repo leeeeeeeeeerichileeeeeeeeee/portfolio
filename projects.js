@@ -2396,7 +2396,7 @@ window.PORTFOLIO_PROJECTS = [
     "category": "Architecture",
     "kind": "Studio project",
     "institution": "ETSAM–UPM · Remote studio",
-    "summary": "A conservation-minded proposal communicated through video and VR.",
+    "summary": "A collaboration studio with ETSAM–UPM on Quinta de Torre Arias, communicated through film and a VR walkthrough.",
     "brief": "How can new architecture inhabit an existing building without erasing its character?",
     "method": "The studio analysed the existing façade, interior elements and structural logic, then developed additions and communicated the proposal through video and a VR walkthrough.",
     "role": "Academic architectural-design study; studio context is preserved.",
@@ -2408,6 +2408,10 @@ window.PORTFOLIO_PROJECTS = [
       "VR communication"
     ],
     "images": [
+      {
+        "file": "media/etsam-torre-arias-film.jpg",
+        "caption": "Film still · scaffold-and-screen elevation of the proposal (design study, unbuilt)."
+      },
       {
         "file": "assets/m_madrid_facade.jpg",
         "caption": "Existing and proposed façade · design study."
@@ -2423,7 +2427,7 @@ window.PORTFOLIO_PROJECTS = [
     ],
     "pages": "21",
     "caseStudy": {
-      "context": "A semester-long remote studio with ETSAM–UPM examined an abandoned castle/palace as an existing architectural system. The proposal starts by reading the building: its façade, yard, mouldings, hall, staircase, carpentry and structural organisation. New interventions are developed in relation to that reading rather than presented as a replacement for the historic fabric.",
+      "context": "A semester-long remote studio with ETSAM–UPM examined an abandoned castle/palace as an existing architectural system. The proposal starts by reading the building: its façade, yard, mouldings, hall, staircase, carpentry and structural organisation. New interventions are developed in relation to that reading rather than presented as a replacement for the historic fabric. The studio was run with ETSAM–UPM on the Quinta de Torre Arias site in Madrid.",
       "application": "An adaptive-reuse proposal connecting existing-building analysis with a legible new intervention.",
       "outcomeSummary": "Building analysis + intervention drawings + remote presentation",
       "decisions": [
@@ -2477,7 +2481,17 @@ window.PORTFOLIO_PROJECTS = [
         }
       ]
     },
-    "videos": [],
+    "videos": [
+      {
+        "src": "media/etsam-torre-arias-film.mp4",
+        "poster": "media/etsam-torre-arias-film.jpg",
+        "label": "Studio film / Quinta de Torre Arias, Madrid",
+        "caption": "Mid-review film from the ETSAM–UPM collaboration studio: a scaffold-and-screen elevation, wireframe walkthroughs with an embedded web interface, and the façade study of the existing building.",
+        "credits": "Studio work shared in Chi Lee’s Facebook archive; academic design proposal, not built.",
+        "remote": false,
+        "source": ""
+      }
+    ],
     "featured": false
   },
   {
